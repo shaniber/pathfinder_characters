@@ -1,4 +1,5 @@
 Lighthouse Kid 
+
 	4th Level Neutral-Good Gnome Sorcerer
 
 COMBAT
