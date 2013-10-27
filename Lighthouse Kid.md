@@ -1,14 +1,15 @@
-=Lighthouse Kid 
+Lighthouse Kid 
+==============
 4th Level Neutral-Good Gnome Sorcerer
 
 COMBAT
-======
+------
     Total / Touch / Flat Footed
 AC: 11    / 11    / 11
 
 Hit Points: 	30		
 
-Elemental Ray:	8 		x
+Elemental Ray:	8 		xx
 Level 0:		.		∞
 Level 1:		8 		
 Level 2:		4		
