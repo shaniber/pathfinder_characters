@@ -4,32 +4,32 @@ Lighthouse Kid
 
 COMBAT
 ------
-    Total / Touch / Flat Footed
-AC: 11    / 11    / 11
+	    Total / Touch / Flat Footed
+	AC: 11    / 11    / 11
 
-Hit Points: 	30		
+	Hit Points: 	30		
 
-Elemental Ray:	8 		xx
-Level 0:		.		∞
-Level 1:		8 		
-Level 2:		4		
+	Elemental Ray:	8 		xx
+	Level 0:		.		∞
+	Level 1:		8 		
+	Level 2:		4		
 
-Touch Attack (Ray)
-	to hit:       +1
-	damage:       as spell
-	critical:     20/x2
-Unarmed attack:
-	to hit:       +2
-	damage:       1d2-1
-	critical:     20/x2
+	Touch Attack (Ray)
+		to hit:       +1
+		damage:       as spell
+		critical:     20/x2
+	Unarmed attack:
+		to hit:       +2
+		damage:       1d2-1
+		critical:     20/x2
 
-Initiative:   +3
-BAB:          +2
-Melee tohit:  +2
-Ranged tohit: +2
-Fortitude:    +4
-Reflex:       +1
-Will:         +5
+	Initiative:   +3
+	BAB:          +2
+	Melee tohit:  +2
+	Ranged tohit: +2
+	Fortitude:    +4
+	Reflex:       +1
+	Will:         +5
 
 
 -=-=-=-=-=- STATS -=-=-=-=-=-
