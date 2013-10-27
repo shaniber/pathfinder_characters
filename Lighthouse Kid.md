@@ -80,6 +80,7 @@ FEATS
 
  
 EQUIPMENT
+---------
 	1	Ring of Protection +1
 	1	Cloak of Resistance +1
 	1	Wand of Magic Missile (34)
@@ -89,6 +90,7 @@ EQUIPMENT
 	300 gp
 
 MAGIC
+-----
 	Elemental Ray (Sp)  - 8 per day
 	Saves: None
 	DC:
@@ -98,6 +100,7 @@ MAGIC
 	Effect: You can unleash an elemental ray as a standard action, targeting any foe within 30 feet as a ranged touch attack. This ray deals 1d6+2 points of fire damage You can use this ability 8 times per day. 
 
 	Innate Spells
+	-------------
 	Dancing Lights (Evocation) - 1 per day
 	Saves: None
 	DC: 
