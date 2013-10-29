@@ -9,9 +9,9 @@ COMBAT
 
 	Hit Points: 	30		
 
-	Elemental Ray:	8 		xx
+	Elemental Ray:	8 		xxxx
 	Level 0:		.		∞
-	Level 1:		8 		
+	Level 1:		8 		x
 	Level 2:		4		
 
 	Touch Attack (Ray)
@@ -225,6 +225,7 @@ DESCRIPTION
 	Speed:      Walk 20 ft.
 	Languages:  Common, Dwarven, Gnome, Orc, Sylvan
 	Levels:		Sorcerer 4
+	XP:			/15000
 
 	Height: 3' 5"             Weight: 37 lbs.                 Gender: Male	
 	Eyes:   Blue             Hair: Blue,Shaggy              Skin: Orange
