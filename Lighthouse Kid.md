@@ -11,11 +11,10 @@ COMBAT
 
 	Elemental Ray:	8 		
 	Level 0:		.		∞
-	Level 1:		8 		
+	Level 1:		8 		x
 	Level 2:		5		
 
-	Conditions
-
+	Conditions:
 
 	Touch Attack (Ray)
 		to hit:       +1
@@ -103,59 +102,61 @@ EQUIPMENT
 
 MAGIC
 -----
-	Elemental Ray (Sp)  - 8 per day
-	Saves: None
-	DC:
-	Casting: 1 standard action
-	Duration: immediate
-	Range: Close (30 ft.)
-	Effect: You can unleash an elemental ray as a standard action, targeting any foe within 30 feet as a ranged touch attack. This ray deals 1d6+2 points of fire damage You can use this ability 8 times per day. 
+	Special
+	-------
+		Elemental Ray (Sp)  - 8 per day
+			Saves: None
+			DC:
+			Casting: 1 standard action
+			Duration: immediate
+			Range: Close (30 ft.)
+			Effect: You can unleash an elemental ray as a standard action, targeting any foe within 30 feet as a ranged touch attack. This ray deals 1d6+2 points of fire damage You can use this ability 8 times per day. 
 
 	Innate Spells
 	-------------
 		Dancing Lights (Evocation) - 1 per day
-		Saves: None
-		DC: 
-		Casting: 1 standard action
-		Duration: 1 minute [D]
-		Range: Medium (140 ft.)
-		Components: V, S
-		SR: No
-		Effect: You create up to four lights that resemble lanterns or torches.
-		Target:	Up to four lights, all within a 10-ft.-radius area
+			Saves: None
+			DC: 
+			Casting: 1 standard action
+			Duration: 1 minute [D]
+			Range: Medium (140 ft.)
+			Components: V, S
+			SR: No
+			Effect: You create up to four lights that resemble lanterns or torches.
+			Target:	Up to four lights, all within a 10-ft.-radius area
 
 		Ghost Sound (Illusion) - 1 per day
-		Saves: Will disbelief
-		DC: 15
-		Casting: 1 standard action
-		Duration: 4 rounds [D]
-		Range: Close (35 ft.)
-		Components: V, S, M
-		SR: No
-		Effect: Ghost sound allows you to create a volume of sound that rises, recedes, approaches, or remains at a fixed place.
-		Target:	Illusory sounds
+			Saves: Will disbelief
+			DC: 15
+			Casting: 1 standard action
+			Duration: 4 rounds [D]
+			Range: Close (35 ft.)
+			Components: V, S, M
+			SR: No
+			Effect: Ghost sound allows you to create a volume of sound that rises, recedes, approaches, or remains at a fixed place.
+			Target:	Illusory sounds
 
 		Prestidigitation (Universal) - 1 per day
-		Saves: See text
-		DC: 15
-		Casting: 1 standard action
-		Duration: 1 hour
-		Range: 10 ft.
-		Components: V, S
-		SR: No
-		Effect: Prestidigitations are minor tricks that novice spellcasters use for practice.
-		Target:	See text
+			Saves: See text
+			DC: 15
+			Casting: 1 standard action
+			Duration: 1 hour
+			Range: 10 ft.
+			Components: V, S
+			SR: No
+			Effect: Prestidigitations are minor tricks that novice spellcasters use for practice.
+			Target:	See text
 
 		Speak with Animals (Divination) - 1 per day
-		Saves: 
-		DC: 
-		Casting: 1 standard action
-		Duration: 4 minutes
-		Range: Personal
-		Components: V, S
-		SR: 
-		Effect: You can ask questions of and receive answers from animals, but the spell doesn't make them any more friendly than normal.
-		Target:	You
+			Saves: 
+			DC: 
+			Casting: 1 standard action
+			Duration: 4 minutes
+			Range: Personal
+			Components: V, S
+			SR: 
+			Effect: You can ask questions of and receive answers from animals, but the spell doesn't make them any more friendly than normal.
+			Target:	You
 
 	Sorcerer Spells
 	---------------
@@ -325,12 +326,12 @@ DESCRIPTION
 	Vision:     Low-Light
 	Speed:      Walk 20 ft.
 	Languages:  Common, Dwarven, Gnome, Orc, Sylvan
-	Levels:		Sorcerer 4
-	XP:			/15000
+	Levels:		Sorcerer 5
+	XP:			/23000
 
 	Height: 3' 5"             Weight: 37 lbs.                 Gender: Male	
 	Eyes:   Blue             Hair: Blue,Shaggy              Skin: Orange
-	Dominant Hand: Right      Quirks: , 	
+	Dominant Hand: Right      Quirks: 	
 	Speech style:        Quotable: 
 	Full Description
 
