@@ -158,167 +158,166 @@ MAGIC
 			Effect: You can ask questions of and receive answers from animals, but the spell doesn't make them any more friendly than normal.
 			Target:	You
 
-	Sorcerer Spells
+	Sorcerer Spells - Level 0
 	---------------
-		Level 0
-			Acid Splash (Conjuration)
-				Saves: None	DC: 	
-				Casting: 1 standard action
-				Duration: Instantaneous	
-				Range: Close (35 ft.)	
-				Components: V, S
-				SR: No	
-				Effect: You fire a small orb of acid at the target dealing 1d3 points of acid damage.	
-				Target: One missile of acid
-				DESC: You fire a small orb of acid at the target dealing 1d3 points of acid damage.
+		Acid Splash (Conjuration)
+			Saves: None	DC: 	
+			Casting: 1 standard action
+			Duration: Instantaneous	
+			Range: Close (35 ft.)	
+			Components: V, S
+			SR: No	
+			Effect: You fire a small orb of acid at the target dealing 1d3 points of acid damage.	
+			Target: One missile of acid
+			DESC: You fire a small orb of acid at the target dealing 1d3 points of acid damage.
 
-			Arcane Mark (Universal)
-				Saves: None	
-				DC: 	
-				Casting: 1 standard action
-				Duration: Permanent	
-				Range: Touch	
-				Components: V, S
-				SR: No	
-				Effect: This spell allows you to inscribe your personal rune or mark.	
-				Target: One personal rune or mark, all of which must fit within 1 sq. ft.
-				DESC:  This spell allows you to inscribe your personal rune or mark.
-
+		Arcane Mark (Universal)
+			Saves: None	
+			DC: 	
+			Casting: 1 standard action
+			Duration: Permanent	
+			Range: Touch	
+			Components: V, S
+			SR: No	
+			Effect: This spell allows you to inscribe your personal rune or mark.	
+			Target: One personal rune or mark, all of which must fit within 1 sq. ft.
+			DESC:  This spell allows you to inscribe your personal rune or mark.
 			Detect Magic (Divination)
-				Saves: None	DC: 	
-				Casting: 1 standard action
-				Duration: Concentration, up to 4 minutes [D]	
-				Range: 60 ft.	
-				Components: V, S
-				SR: No	Effect: You detect magical auras.	
-				Target: Cone-shaped emanation
-				DESC: You detect magical auras.
+			Saves: None	DC: 	
+			Casting: 1 standard action
+			Duration: Concentration, up to 4 minutes [D]	
+			Range: 60 ft.	
+			Components: V, S
+			SR: No	Effect: You detect magical auras.	
+			Target: Cone-shaped emanation
+			DESC: You detect magical auras.
 
-			Detect Poison (Divination)
-				Saves: None	
-				DC: 	
-				Casting: 1 standard action
-				Duration: Instantaneous	
-				Range: Close (35 ft.)	
-				Components: V, S
-				SR: No	Effect: You determine whether a creature, object, or area has been poisoned or is poisonous.	
+		Detect Poison (Divination)
+			Saves: None	
+			DC: 	
+			Casting: 1 standard action
+			Duration: Instantaneous	
+			Range: Close (35 ft.)	
+			Components: V, S
+			SR: No	Effect: You determine whether a creature, object, or area has been poisoned or is poisonous.	
 			Target: Or Area one creature, one object, or a 5-ft. cube
-				DESC: You determine whether a creature, object, or area has been poisoned or is poisonous.
+			DESC: You determine whether a creature, object, or area has been poisoned or is poisonous.
 
-			Mage Hand (Transmutation)
-				Saves: None	
-				DC: 	
-				Casting: 1 standard action
-				Duration: Concentration	
-				Range: Close (35 ft.)	
-				Components: V, S
-				SR: No	
-				Effect: You point your finger at an object and can lift it and move it at will from a distance.	
-				Target: One nonmagical, unattended object weighing up to 5 lbs.
-				DESC: You point your finger at an object and can lift it and move it at will from a distance.
+		Mage Hand (Transmutation)
+			Saves: None	
+			DC: 	
+			Casting: 1 standard action
+			Duration: Concentration	
+			Range: Close (35 ft.)	
+			Components: V, S
+			SR: No	
+			Effect: You point your finger at an object and can lift it and move it at will from a distance.	
+			Target: One nonmagical, unattended object weighing up to 5 lbs.
+			DESC: You point your finger at an object and can lift it and move it at will from a distance.
 
-			Read Magic (Divination)
-				Saves: 	
-				DC: 	
-				Casting: 1 standard action
-				Duration: 40 minutes	
-				Range: Personal	
-				Components: V, S, F
-				SR: 	
-				Effect: You can decipher magical inscriptions on objects--books, scrolls, weapons, and the like--that would otherwise be unintelligible.	Target: You
-				DESC: You can decipher magical inscriptions on objects--books, scrolls, weapons, and the like--that would otherwise be unintelligible.
+		Read Magic (Divination)
+			Saves: 	
+			DC: 	
+			Casting: 1 standard action
+			Duration: 40 minutes	
+			Range: Personal	
+			Components: V, S, F
+			SR: 	
+			Effect: You can decipher magical inscriptions on objects--books, scrolls, weapons, and the like--that would otherwise be unintelligible.	Target: You
+			DESC: You can decipher magical inscriptions on objects--books, scrolls, weapons, and the like--that would otherwise be unintelligible.
 
-		Level 1
-			Magic Missile (Evocation)
-				Saves: None	
-				DC: 	
-				Casting: 1 standard action
-				Duration: Instantaneous	
-				Range: Medium (140 ft.)	
-				Components: V, S
-				SR: Yes	
-				Effect: 2 missiles that do 1d4+1 damage each.	
-				Target: Up to five creatures, no two of which can be more than 15 ft. apart
-				DESC 2:  2 missiles that do 1d4+1 damage each.
+	Sorcerer Spells - Level 1
+	-------------------------
+		Magic Missile (Evocation)
+			Saves: None	
+			DC: 	
+			Casting: 1 standard action
+			Duration: Instantaneous	
+			Range: Medium (140 ft.)	
+			Components: V, S
+			SR: Yes	
+			Effect: 2 missiles that do 1d4+1 damage each.	
+			Target: Up to five creatures, no two of which can be more than 15 ft. apart
+			DESC 2:  2 missiles that do 1d4+1 damage each.
 
-			Obscuring Mist (Conjuration)
-				Saves: None	
-				DC:		
-				Casting: 1 standard action
-				Duration: 5 minutes	
-				Range: 20ft					
-				Components: V, S
-				SR: no
-				DESC: A misty, stationary vapour arises around you obscuring all sight, including darkvision, beyond 5 feet.
-
+		Obscuring Mist (Conjuration)
+			Saves: None	
+			DC:		
+			Casting: 1 standard action
+			Duration: 5 minutes	
+			Range: 20ft					
+			Components: V, S
+			SR: no
+			DESC: A misty, stationary vapour arises around you obscuring all sight, including darkvision, beyond 5 feet.
 			Protection from Evil (Abjuration)
-				Saves: Will negates (harmless)	
-				DC: 16	
-				Casting: 1 standard action
-				Duration: 4 minutes [D]
-				Range: Touch	
-				Components: V, S, M/DF
-				SR: No; see text	
-				Effect: This spell wards a creature from attacks by evil creatures, from mental control, and from summoned creatures.	
-				Target: Creature touched
-				DESC: This spell wards a creature from attacks by evil creatures, from mental control, and from summoned creatures.
+			Saves: Will negates (harmless)	
+			DC: 16	
+			Casting: 1 standard action
+			Duration: 4 minutes [D]
+			Range: Touch	
+			Components: V, S, M/DF
+			SR: No; see text	
+			Effect: This spell wards a creature from attacks by evil creatures, from mental control, and from summoned creatures.	
+			Target: Creature touched
+			DESC: This spell wards a creature from attacks by evil creatures, from mental control, and from summoned creatures.
 
-			Shield (Abjuration)
-				Saves: 	
-				DC: 	
-				Casting: 1 standard action
-				Duration: 4 minutes [D]	
-				Range: Personal	
-				Components: V, S
-				SR: 	
-				Effect: Shield creates an invisible shield of force that hovers in front of you.	
-				Target: You
-				DESC: Shield creates an invisible shield of force that hovers in front of you.
+		Shield (Abjuration)
+			Saves: 	
+			DC: 	
+			Casting: 1 standard action
+			Duration: 4 minutes [D]	
+			Range: Personal	
+			Components: V, S
+			SR: 	
+			Effect: Shield creates an invisible shield of force that hovers in front of you.	
+			Target: You
+			DESC: Shield creates an invisible shield of force that hovers in front of you.
 
-			Burning Hands (Evocation)
-				Saves: Reflex half	
-				DC: 16	
-				Casting: 1 standard action
-				Duration: Instantaneous	
-				Range: 15 ft.	
-				Components: V, S
-				SR: Yes	
-				Effect: A cone of searing flame shoots from your fingertips dealing 4d4 points of fire damage to any creature in the effect area.	
-				Target: Cone-shaped burst
-				DESC 2:  A cone of searing flame shoots from your fingertips dealing 4d4 points of fire damage to any creature in the effect area.
+		Burning Hands (Evocation)
+			Saves: Reflex half	
+			DC: 16	
+			Casting: 1 standard action
+			Duration: Instantaneous	
+			Range: 15 ft.	
+			Components: V, S
+			SR: Yes	
+			Effect: A cone of searing flame shoots from your fingertips dealing 4d4 points of fire damage to any creature in the effect area.	
+			Target: Cone-shaped burst
+			DESC 2:  A cone of searing flame shoots from your fingertips dealing 4d4 points of fire damage to any creature in the effect area.
   
-		Level 2
-			Continual Flame (Evocation)
-				Saves: none	
-				DC: 		
-				Casting: 1 standard action
-				Duration: Permanent	
-				Range: Object Touched	
-				Components: V, S, M
-				SR: no
-				DESC: A flame, equivalent in brightness to a torch, springs forth from an object that you touch.
+	Sorcerer Spells - Level 2
+	-------------------------
+		Continual Flame (Evocation)
+			Saves: none	
+			DC: 		
+			Casting: 1 standard action
+			Duration: Permanent	
+			Range: Object Touched	
+			Components: V, S, M
+			SR: no
+			DESC: A flame, equivalent in brightness to a torch, springs forth from an object that you touch.
 
-			Flaming Sphere (Evocation)
-				Saves: Reflex negates	
-				DC: 	
-				Casting: 1 standard action
-				Duration: 1/lvl	
-				Range: Med (150')	
-				Components: V, S, M
-				SR: no
-				Desc: A burning globe of fire rolls in which
+		Flaming Sphere (Evocation)
+			Saves: Reflex negates	
+			DC: 	
+			Casting: 1 standard action
+			Duration: 1/lvl	
+			Range: Med (150')	
+			Components: V, S, M
+			SR: no
+			Desc: A burning globe of fire rolls in which
 
-			Scorching Ray (Evocation)
-				Saves: None	
-				DC: 	
-				Casting: 1 standard action
-				Duration: Instantaneous	
-				Range: Close (35 ft.)	
-				Components: V, S
-				SR: Yes	
-				Effect: You blast your enemies with up to 1 searing beams of fire dealing 4d6 points of fire damage.	
-				Target: One or more rays
-				DESC 2:  You blast your enemies with up to 1 searing beams of fire dealing 4d6 points of fire damage.
+		Scorching Ray (Evocation)
+			Saves: None	
+			DC: 	
+			Casting: 1 standard action
+			Duration: Instantaneous	
+			Range: Close (35 ft.)	
+			Components: V, S
+			SR: Yes	
+			Effect: You blast your enemies with up to 1 searing beams of fire dealing 4d6 points of fire damage.	
+			Target: One or more rays
+			DESC 2:  You blast your enemies with up to 1 searing beams of fire dealing 4d6 points of fire damage.
  
 
 DESCRIPTION
