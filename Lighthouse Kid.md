@@ -1,18 +1,21 @@
 Lighthouse Kid 
 ==============
-4th Level Neutral-Good Gnome Sorcerer
+5th Level Neutral-Good Gnome Sorcerer
 
 COMBAT
 ------
-	    Total / Touch / Flat Footed
-	AC: 11    / 11    / 11
+    AC: Total / Touch / Flat Footed
+	    11    / 11    / 11
 
-	Hit Points: 	30		
+	Hit Points: 	38		
 
-	Elemental Ray:	8 		xxxx
+	Elemental Ray:	8 		
 	Level 0:		.		∞
-	Level 1:		8 		x
-	Level 2:		4		
+	Level 1:		8 		
+	Level 2:		5		
+
+	Conditions
+
 
 	Touch Attack (Ray)
 		to hit:       +1
@@ -42,9 +45,10 @@ STATS
 	WIS      10      (+0)
 	CHA      20      (+5)
 
+
 SKILLS
 ------
-	Skill                   Total   Rnk     Stat    Msc
+	Skill                   Total     Rnk      Stat     Msc
 	Acrobatics               -1       0.0      -1       0
 	Acrobatics (Jump)        -5       0.0      -1       -4
 	Appraise                 6        1.0      2        3
@@ -57,16 +61,16 @@ SKILLS
 	Fly                      1        0.0      -1       2
 	Heal                     0        0.0      0        0
 	Intimidate               9        1.0      5        3
-	Knowledge (Arcana)       8        3.0      2        3
+	Knowledge (Arcana)       10       5.0      2        3
 	Perception               6        4.0      0        2
 	Perform (Untrained)      5        0.0      5        0
 	Ride                     -1       0.0      -1       0
 	Sense Motive             1        1.0      0        0
-	Spellcraft               9        4.0      2        3
+	Spellcraft               9        5.0      2        3
 	Stealth                  3        0.0      -1       4
 	Survival                 5        1.0      0        4
 	Swim                     -1       0.0      -1       0
-	Use Magic Device         12       3.0      5        4
+	Use Magic Device         12       4.0      5        4
 
 
 FEATS
@@ -77,17 +81,25 @@ FEATS
 	Improved Initiative
 	Simple Weapon Proficiency
 	Eschew Materials
+	Spell Focus (Evocation)
 
- 
+
 EQUIPMENT
 ---------
 	1	Ring of Protection +1
 	1	Cloak of Resistance +1
 	1	Wand of Magic Missile (34)
-	1	Wand of Produce Flame (33)
+	1	Wand of Produce Flame (32)
+	1	Wand of Knock (15)
 	2	Flask of Holy Water
+	3	Potion of Cure Light Wounds
+	1	Potion of Cure Moderate Wounds
+		Monkey Head door ringer
+		book on Varisan history
+		fine looking scarf
 
-	300 gp
+	290 gp
+
 
 MAGIC
 -----
@@ -101,122 +113,211 @@ MAGIC
 
 	Innate Spells
 	-------------
-	Dancing Lights (Evocation) - 1 per day
-	Saves: None
-	DC: 
-	Casting: 1 standard action
-	Duration: 1 minute [D]
-	Range: Medium (140 ft.)
-	Components: V, S
-	SR: No
-	Effect: You create up to four lights that resemble lanterns or torches.
-	Target:	Up to four lights, all within a 10-ft.-radius area
+		Dancing Lights (Evocation) - 1 per day
+		Saves: None
+		DC: 
+		Casting: 1 standard action
+		Duration: 1 minute [D]
+		Range: Medium (140 ft.)
+		Components: V, S
+		SR: No
+		Effect: You create up to four lights that resemble lanterns or torches.
+		Target:	Up to four lights, all within a 10-ft.-radius area
 
-	Ghost Sound (Illusion) - 1 per day
-	Saves: Will disbelief
-	DC: 15
-	Casting: 1 standard action
-	Duration: 4 rounds [D]
-	Range: Close (35 ft.)
-	Components: V, S, M
-	SR: No
-	Effect: Ghost sound allows you to create a volume of sound that rises, recedes, approaches, or remains at a fixed place.
-	Target:	Illusory sounds
+		Ghost Sound (Illusion) - 1 per day
+		Saves: Will disbelief
+		DC: 15
+		Casting: 1 standard action
+		Duration: 4 rounds [D]
+		Range: Close (35 ft.)
+		Components: V, S, M
+		SR: No
+		Effect: Ghost sound allows you to create a volume of sound that rises, recedes, approaches, or remains at a fixed place.
+		Target:	Illusory sounds
 
-	Prestidigitation (Universal) - 1 per day
-	Saves: See text
-	DC: 15
-	Casting: 1 standard action
-	Duration: 1 hour
-	Range: 10 ft.
-	Components: V, S
-	SR: No
-	Effect: Prestidigitations are minor tricks that novice spellcasters use for practice.
-	Target:	See text
+		Prestidigitation (Universal) - 1 per day
+		Saves: See text
+		DC: 15
+		Casting: 1 standard action
+		Duration: 1 hour
+		Range: 10 ft.
+		Components: V, S
+		SR: No
+		Effect: Prestidigitations are minor tricks that novice spellcasters use for practice.
+		Target:	See text
 
-	Speak with Animals (Divination) - 1 per day
-	Saves: 
-	DC: 
-	Casting: 1 standard action
-	Duration: 4 minutes
-	Range: Personal
-	Components: V, S
-	SR: 
-	Effect: You can ask questions of and receive answers from animals, but the spell doesn't make them any more friendly than normal.
-	Target:	You
+		Speak with Animals (Divination) - 1 per day
+		Saves: 
+		DC: 
+		Casting: 1 standard action
+		Duration: 4 minutes
+		Range: Personal
+		Components: V, S
+		SR: 
+		Effect: You can ask questions of and receive answers from animals, but the spell doesn't make them any more friendly than normal.
+		Target:	You
 
 	Sorcerer Spells
 	---------------
-	Level 0
-	Acid Splash (Conjuration)
-	Saves: None	DC: 	Casting: 1 standard action
-	Duration: Instantaneous	Range: Close (35 ft.)	Components: V, S
-	SR: No	Effect: You fire a small orb of acid at the target dealing 1d3 points of acid damage.	Target: One missile of acid
-	DESC: You fire a small orb of acid at the target dealing 1d3 points of acid damage.
+		Level 0
+			Acid Splash (Conjuration)
+				Saves: None	DC: 	
+				Casting: 1 standard action
+				Duration: Instantaneous	
+				Range: Close (35 ft.)	
+				Components: V, S
+				SR: No	
+				Effect: You fire a small orb of acid at the target dealing 1d3 points of acid damage.	
+				Target: One missile of acid
+				DESC: You fire a small orb of acid at the target dealing 1d3 points of acid damage.
 
-	Arcane Mark (Universal)
-	Saves: None	DC: 	Casting: 1 standard action
-	Duration: Permanent	Range: Touch	Components: V, S
-	SR: No	Effect: This spell allows you to inscribe your personal rune or mark.	Target: One personal rune or mark, all of which must fit within 1 sq. ft.
-	DESC:  This spell allows you to inscribe your personal rune or mark.
+			Arcane Mark (Universal)
+				Saves: None	
+				DC: 	
+				Casting: 1 standard action
+				Duration: Permanent	
+				Range: Touch	
+				Components: V, S
+				SR: No	
+				Effect: This spell allows you to inscribe your personal rune or mark.	
+				Target: One personal rune or mark, all of which must fit within 1 sq. ft.
+				DESC:  This spell allows you to inscribe your personal rune or mark.
 
-	Detect Magic (Divination)
-	Saves: None	DC: 	Casting: 1 standard action
-	Duration: Concentration, up to 4 minutes [D]	Range: 60 ft.	Components: V, S
-	SR: No	Effect: You detect magical auras.	Target: Cone-shaped emanation
-	DESC: You detect magical auras.
+			Detect Magic (Divination)
+				Saves: None	DC: 	
+				Casting: 1 standard action
+				Duration: Concentration, up to 4 minutes [D]	
+				Range: 60 ft.	
+				Components: V, S
+				SR: No	Effect: You detect magical auras.	
+				Target: Cone-shaped emanation
+				DESC: You detect magical auras.
 
-	Detect Poison (Divination)
-	Saves: None	DC: 	Casting: 1 standard action
-	Duration: Instantaneous	Range: Close (35 ft.)	Components: V, S
-	SR: No	Effect: You determine whether a creature, object, or area has been poisoned or is poisonous.	Target: Or Area one creature, one object, or a 5-ft. cube
-	DESC: You determine whether a creature, object, or area has been poisoned or is poisonous.
+			Detect Poison (Divination)
+				Saves: None	
+				DC: 	
+				Casting: 1 standard action
+				Duration: Instantaneous	
+				Range: Close (35 ft.)	
+				Components: V, S
+				SR: No	Effect: You determine whether a creature, object, or area has been poisoned or is poisonous.	
+			Target: Or Area one creature, one object, or a 5-ft. cube
+				DESC: You determine whether a creature, object, or area has been poisoned or is poisonous.
 
-	Mage Hand (Transmutation)
-	Saves: None	DC: 	Casting: 1 standard action
-	Duration: Concentration	Range: Close (35 ft.)	Components: V, S
-	SR: No	Effect: You point your finger at an object and can lift it and move it at will from a distance.	Target: One nonmagical, unattended object weighing up to 5 lbs.
-	DESC: You point your finger at an object and can lift it and move it at will from a distance.
+			Mage Hand (Transmutation)
+				Saves: None	
+				DC: 	
+				Casting: 1 standard action
+				Duration: Concentration	
+				Range: Close (35 ft.)	
+				Components: V, S
+				SR: No	
+				Effect: You point your finger at an object and can lift it and move it at will from a distance.	
+				Target: One nonmagical, unattended object weighing up to 5 lbs.
+				DESC: You point your finger at an object and can lift it and move it at will from a distance.
 
-	Read Magic (Divination)
-	Saves: 	DC: 	Casting: 1 standard action
-	Duration: 40 minutes	Range: Personal	Components: V, S, F
-	SR: 	Effect: You can decipher magical inscriptions on objects--books, scrolls, weapons, and the like--that would otherwise be unintelligible.	Target: You
-	DESC: You can decipher magical inscriptions on objects--books, scrolls, weapons, and the like--that would otherwise be unintelligible.
- 
- 
-	Level 1
-	Magic Missile (Evocation)
-	Saves: None	DC: 	Casting: 1 standard action
-	Duration: Instantaneous	Range: Medium (140 ft.)	Components: V, S
-	SR: Yes	Effect: 2 missiles that do 1d4+1 damage each.	Target: Up to five creatures, no two of which can be more than 15 ft. apart
-	DESC 2:  2 missiles that do 1d4+1 damage each.
+			Read Magic (Divination)
+				Saves: 	
+				DC: 	
+				Casting: 1 standard action
+				Duration: 40 minutes	
+				Range: Personal	
+				Components: V, S, F
+				SR: 	
+				Effect: You can decipher magical inscriptions on objects--books, scrolls, weapons, and the like--that would otherwise be unintelligible.	Target: You
+				DESC: You can decipher magical inscriptions on objects--books, scrolls, weapons, and the like--that would otherwise be unintelligible.
 
-	Protection from Evil (Abjuration)
-	Saves: Will negates (harmless)	DC: 16	Casting: 1 standard action
-	Duration: 4 minutes [D]	Range: Touch	Components: V, S, M/DF
-	SR: No; see text	Effect: This spell wards a creature from attacks by evil creatures, from mental control, and from summoned creatures.	Target: Creature touched
-	DESC: This spell wards a creature from attacks by evil creatures, from mental control, and from summoned creatures.
+		Level 1
+			Magic Missile (Evocation)
+				Saves: None	
+				DC: 	
+				Casting: 1 standard action
+				Duration: Instantaneous	
+				Range: Medium (140 ft.)	
+				Components: V, S
+				SR: Yes	
+				Effect: 2 missiles that do 1d4+1 damage each.	
+				Target: Up to five creatures, no two of which can be more than 15 ft. apart
+				DESC 2:  2 missiles that do 1d4+1 damage each.
 
-	Shield (Abjuration)
-	Saves: 	DC: 	Casting: 1 standard action
-	Duration: 4 minutes [D]	Range: Personal	Components: V, S
-	SR: 	Effect: Shield creates an invisible shield of force that hovers in front of you.	Target: You
-	DESC: Shield creates an invisible shield of force that hovers in front of you.
+			Obscuring Mist (Conjuration)
+				Saves: None	
+				DC:		
+				Casting: 1 standard action
+				Duration: 5 minutes	
+				Range: 20ft					
+				Components: V, S
+				SR: no
+				DESC: A misty, stationary vapour arises around you obscuring all sight, including darkvision, beyond 5 feet.
 
-	Burning Hands (Evocation)
-	Saves: Reflex half	DC: 16	Casting: 1 standard action
-	Duration: Instantaneous	Range: 15 ft.	Components: V, S
-	SR: Yes	Effect: A cone of searing flame shoots from your fingertips dealing 4d4 points of fire damage to any creature in the effect area.	Target: Cone-shaped burst
-	DESC 2:  A cone of searing flame shoots from your fingertips dealing 4d4 points of fire damage to any creature in the effect area.
- 
- 
-	Level 2
-	Scorching Ray (Evocation)
-	Saves: None	DC: 	Casting: 1 standard action
-	Duration: Instantaneous	Range: Close (35 ft.)	Components: V, S
-	SR: Yes	Effect: You blast your enemies with up to 1 searing beams of fire dealing 4d6 points of fire damage.	Target: One or more rays
-	DESC 2:  You blast your enemies with up to 1 searing beams of fire dealing 4d6 points of fire damage.
+			Protection from Evil (Abjuration)
+				Saves: Will negates (harmless)	
+				DC: 16	
+				Casting: 1 standard action
+				Duration: 4 minutes [D]
+				Range: Touch	
+				Components: V, S, M/DF
+				SR: No; see text	
+				Effect: This spell wards a creature from attacks by evil creatures, from mental control, and from summoned creatures.	
+				Target: Creature touched
+				DESC: This spell wards a creature from attacks by evil creatures, from mental control, and from summoned creatures.
+
+			Shield (Abjuration)
+				Saves: 	
+				DC: 	
+				Casting: 1 standard action
+				Duration: 4 minutes [D]	
+				Range: Personal	
+				Components: V, S
+				SR: 	
+				Effect: Shield creates an invisible shield of force that hovers in front of you.	
+				Target: You
+				DESC: Shield creates an invisible shield of force that hovers in front of you.
+
+			Burning Hands (Evocation)
+				Saves: Reflex half	
+				DC: 16	
+				Casting: 1 standard action
+				Duration: Instantaneous	
+				Range: 15 ft.	
+				Components: V, S
+				SR: Yes	
+				Effect: A cone of searing flame shoots from your fingertips dealing 4d4 points of fire damage to any creature in the effect area.	
+				Target: Cone-shaped burst
+				DESC 2:  A cone of searing flame shoots from your fingertips dealing 4d4 points of fire damage to any creature in the effect area.
+  
+		Level 2
+			Continual Flame (Evocation)
+				Saves: none	
+				DC: 		
+				Casting: 1 standard action
+				Duration: Permanent	
+				Range: Object Touched	
+				Components: V, S, M
+				SR: no
+				DESC: A flame, equivalent in brightness to a torch, springs forth from an object that you touch.
+
+			Flaming Sphere (Evocation)
+				Saves: Reflex negates	
+				DC: 	
+				Casting: 1 standard action
+				Duration: 1/lvl	
+				Range: Med (150')	
+				Components: V, S, M
+				SR: no
+				Desc: A burning globe of fire rolls in which
+
+			Scorching Ray (Evocation)
+				Saves: None	
+				DC: 	
+				Casting: 1 standard action
+				Duration: Instantaneous	
+				Range: Close (35 ft.)	
+				Components: V, S
+				SR: Yes	
+				Effect: You blast your enemies with up to 1 searing beams of fire dealing 4d6 points of fire damage.	
+				Target: One or more rays
+				DESC 2:  You blast your enemies with up to 1 searing beams of fire dealing 4d6 points of fire damage.
  
 
 DESCRIPTION
