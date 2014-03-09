@@ -1,0 +1,170 @@
+PCGVERSION:2.0
+
+# System Information
+CAMPAIGN:Paizo - Pathfinder Roleplaying Game Core Rulebook|CAMPAIGN:Paizo - Pathfinder Roleplaying Game Character Traits Web Enhancement
+VERSION:6.00.01
+ROLLMETHOD:3|EXPRESSION:3d6
+PURCHASEPOINTS:N
+CHARACTERTYPE:NPC
+POOLPOINTS:0
+POOLPOINTSAVAIL:-1
+GAMEMODE:Pathfinder_RPG
+TABLABEL:0
+AUTOSPELLS:Y
+USEHIGHERKNOWN:N
+USEHIGHERPREPPED:N
+LOADCOMPANIONS:N
+USETEMPMODS:Y
+AUTOSORTGEAR:Y
+SKILLSOUTPUTORDER:0
+IGNORECOST:N
+ALLOWDEBT:N
+AUTORESIZEGEAR:Y
+
+# Character Bio
+CHARACTERNAME:Thug
+TABNAME:
+PLAYERNAME:shane
+HEIGHT:69
+WEIGHT:227
+AGE:20
+GENDER:Female
+HANDED:Right
+SKINCOLOR:
+EYECOLOR:
+HAIRCOLOR:
+HAIRSTYLE:
+LOCATION:
+CITY:
+BIRTHDAY:
+BIRTHPLACE:
+PERSONALITYTRAIT1:
+PERSONALITYTRAIT2:
+SPEECHPATTERN:
+PHOBIAS:
+INTERESTS:
+CATCHPHRASE:
+PORTRAIT:
+
+# Character Attributes
+STAT:STR|SCORE:20
+STAT:DEX|SCORE:16
+STAT:CON|SCORE:14
+STAT:INT|SCORE:5
+STAT:WIS|SCORE:13
+STAT:CHA|SCORE:4
+ALIGN:CG
+RACE:Half-Orc
+
+# Character Class(es)
+CLASS:Ranger|LEVEL:6|SKILLPOOL:6|SPELLBASE:WIS|CANCASTPERDAY:0,1
+CLASSABILITIESLEVEL:Ranger=1|HITPOINTS:10|SKILLSGAINED:3|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Ranger=2|HITPOINTS:1|SKILLSGAINED:3|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Ranger=3|HITPOINTS:1|SKILLSGAINED:3|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Ranger=4|HITPOINTS:8|PRESTAT:INT=1|SKILLSGAINED:3|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Ranger=5|HITPOINTS:2|SKILLSGAINED:3|SKILLSREMAINING:3
+CLASSABILITIESLEVEL:Ranger=6|HITPOINTS:5|SKILLSGAINED:3|SKILLSREMAINING:3
+
+# Character Experience
+EXPERIENCE:23000
+EXPERIENCETABLE:Medium
+
+# Character Templates
+TEMPLATESAPPLIED:[NAME:Creature with Class Levels]
+
+# Character Region
+REGION:None
+
+# Character Skills
+SKILL:Acrobatics|OUTPUTORDER:1|
+SKILL:Appraise|OUTPUTORDER:2|
+SKILL:Bluff|OUTPUTORDER:3|
+SKILL:Climb|OUTPUTORDER:4|
+SKILL:Craft (Untrained)|OUTPUTORDER:5|
+SKILL:Diplomacy|OUTPUTORDER:6|
+SKILL:Disguise|OUTPUTORDER:7|
+SKILL:Escape Artist|OUTPUTORDER:8|
+SKILL:Fly|OUTPUTORDER:9|
+SKILL:Heal|OUTPUTORDER:11|
+SKILL:Intimidate|OUTPUTORDER:12|CLASSBOUGHT:[CLASS:Ranger|RANKS:3.0|COST:1|CLASSSKILL:Y]
+SKILL:Perception|OUTPUTORDER:14|
+SKILL:Perform (Untrained)|OUTPUTORDER:15|
+SKILL:Ride|OUTPUTORDER:16|CLASSBOUGHT:[CLASS:Ranger|RANKS:4.0|COST:1|CLASSSKILL:Y]
+SKILL:Sense Motive|OUTPUTORDER:17|
+SKILL:Stealth|OUTPUTORDER:18|
+SKILL:Survival|OUTPUTORDER:19|CLASSBOUGHT:[CLASS:Ranger|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Swim|OUTPUTORDER:21|
+SKILL:Handle Animal|OUTPUTORDER:10|CLASSBOUGHT:[CLASS:Ranger|RANKS:3.0|COST:1|CLASSSKILL:Y]
+SKILL:Knowledge (Nature)|OUTPUTORDER:13|CLASSBOUGHT:[CLASS:Ranger|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Survival (Follow or identify tracks)|OUTPUTORDER:20|
+
+# Character Languages
+LANGUAGE:Orc|LANGUAGE:Common
+
+# Character Feats
+FEATPOOL:-2.0
+
+# Character Abilities
+ABILITY:Ability Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:+2 Strength|TYPE:AbilityBonus
+USERPOOL:Ability Bonus|POOLPOINTS:0.0
+ABILITY:Favored Class|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Ranger|TYPE:FavoredClass
+USERPOOL:Favored Class|POOLPOINTS:0.0
+ABILITY:Favored Class Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Bonus Hit Point|APPLIEDTO:,,,|TYPE:FavoredClassBonus
+USERPOOL:Favored Class Bonus|POOLPOINTS:0.0
+ABILITY:Favored Enemy|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Favored Enemy (Humanoid (Giant))|TYPE:FavoredEnemy.SpecialAttack.Extraordinary.AttackOption|DESC:You gain a +%1 bonus on Attack rolls, Damage roll and skill checks against giants.&pipe;FavoredHumanoidGiant
+USERPOOL:Favored Enemy|POOLPOINTS:0.0
+ABILITY:Favored Terrain|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Favored Terrain (Urban)|TYPE:SpecialQuality.Extraordinary.FavoredTerrain|DESC:You gain a +%1 bonus on Knowledge (Geography), Perception, Stealth, and Survival checks, Initiative checks and cannot be tracked in urban terrain&pipe;FavoredTerrainUrban
+USERPOOL:Favored Terrain|POOLPOINTS:0.0
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Great Fortitude|TYPE:General.AbyssalBloodline.DraconicBloodline.ElementalBloodline|DESC:You are resistant to poisons, diseases, and other deadly maladies.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Mounted Combat|TYPE:Combat.CelestialBloodline|DESC:You are adept at guiding your mount through combat.
+USERPOOL:FEAT|POOLPOINTS:0.0
+ABILITY:Hunter's Bond|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Hunting Companions|TYPE:SpecialQuality.Extraordinary.HuntersBond|DESC:You form a powerful band with your companions.
+USERPOOL:Hunter's Bond|POOLPOINTS:0.0
+ABILITY:*LANGBONUS|TYPE:VIRTUAL|CATEGORY:*LANGBONUS|KEY:*LANGBONUS|APPLIEDTO:|TYPE:
+USERPOOL:*LANGBONUS|POOLPOINTS:0.0
+
+# Character Weapon proficiencies
+WEAPONPROF:[WEAPON:Axe (Orc Double)|WEAPON:Axe (Throwing)|WEAPON:Battleaxe|WEAPON:Blowgun|WEAPON:Club|WEAPON:Crossbow (Heavy)|WEAPON:Crossbow (Light)|WEAPON:Dagger|WEAPON:Dagger (Punching)|WEAPON:Dart]
+WEAPONPROF:[WEAPON:Falchion|WEAPON:Flail|WEAPON:Flail (Heavy)|WEAPON:Gauntlet|WEAPON:Gauntlet (Spiked)|WEAPON:Glaive|WEAPON:Grapple|WEAPON:Greataxe|WEAPON:Greatclub|WEAPON:Greatsword]
+WEAPONPROF:[WEAPON:Guisarme|WEAPON:Halberd|WEAPON:Hammer (Light)|WEAPON:Handaxe|WEAPON:Javelin|WEAPON:Kukri|WEAPON:Lance|WEAPON:Longbow|WEAPON:Longspear|WEAPON:Longsword]
+WEAPONPROF:[WEAPON:Mace (Heavy)|WEAPON:Mace (Light)|WEAPON:Morningstar|WEAPON:Pick (Heavy)|WEAPON:Pick (Light)|WEAPON:Quarterstaff|WEAPON:Ranseur|WEAPON:Rapier|WEAPON:Rock|WEAPON:Sap]
+WEAPONPROF:[WEAPON:Scimitar|WEAPON:Scythe|WEAPON:Shieldbash|WEAPON:Shortbow|WEAPON:Shortspear|WEAPON:Sickle|WEAPON:Sling|WEAPON:Spear|WEAPON:Spells (Ray)|WEAPON:Spells (Touch)]
+WEAPONPROF:[WEAPON:Spiked Armor|WEAPON:Starknife|WEAPON:Sword (Bastard)|WEAPON:Sword (Short)|WEAPON:Trident|WEAPON:Unarmed Strike|WEAPON:Waraxe (Dwarven)|WEAPON:Warhammer]
+
+# Character Equipment
+MONEY:0
+EQUIPNAME:Gauntlet (Spiked)|OUTPUTORDER:0|COST:5.0|WT:1.0|QUANTITY:1.0|CUSTOMIZATION:[BASEITEM:Gauntlet (Spiked)|DATA:NAME=Gauntlet (Spiked)$EQMOD=STEEL]
+EQUIPNAME:Outfit (Peasant's)|OUTPUTORDER:0|COST:0.0|WT:2.0|QUANTITY:1.0|CUSTOMIZATION:[BASEITEM:Outfit (Peasant's)|DATA:NAME=Outfit (Peasant's)$COSTMOD=-0.1]
+EQUIPSET:Default Set|ID:0.1|USETEMPMODS:Y
+CALCEQUIPSET:0.1
+
+# Temporary Bonuses
+
+# EquipSet Temp Bonuses
+
+# Character Deity/Domain
+
+# Character Spells Information
+
+# Character Description/Bio/History
+CHARACTERBIO:
+CHARACTERDESC:
+CHARACTERCOMP:
+CHARACTERASSET:
+CHARACTERMAGIC:
+CHARACTERDMNOTES:
+
+# Kits
+
+# Character Master/Follower
+
+# Character Notes Tab
+
+# Age Set Selections
+AGESET:1:1:0:0:0:0:0:0:0:0
+
+# Campaign History
+
+# Suppressed Biography Fields
+SUPPRESSBIOFIELDS:
+
