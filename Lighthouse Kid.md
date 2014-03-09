@@ -7,31 +7,32 @@ COMBAT
     AC: Total / Touch / Flat Footed
 	    11    / 11    / 11
 
-	Hit Points: 	38		
+	Hit Points: 	46		 
 
 	Elemental Ray:	8 		
 	Level 0:		.		∞
-	Level 1:		8 		x
-	Level 2:		5		
+	Level 1:		8 		 
+	Level 2:		6		
+	Level 3:		4
 
 	Conditions:
 
 	Touch Attack (Ray)
-		to hit:       +1
+		to hit:       +2
 		damage:       as spell
 		critical:     20/x2
 	Unarmed attack:
-		to hit:       +2
+		to hit:       +3
 		damage:       1d2-1
 		critical:     20/x2
 
 	Initiative:   +3
-	BAB:          +2
-	Melee tohit:  +2
-	Ranged tohit: +2
-	Fortitude:    +4
-	Reflex:       +1
-	Will:         +5
+	BAB:          +3
+	Melee tohit:  +3
+	Ranged tohit: +3
+	Fortitude:    +5
+	Reflex:       +2
+	Will:         +6
 
 
 STATS
@@ -60,16 +61,18 @@ SKILLS
 	Fly                      1        0.0      -1       2
 	Heal                     0        0.0      0        0
 	Intimidate               9        1.0      5        3
-	Knowledge (Arcana)       10       5.0      2        3
-	Perception               6        4.0      0        2
+	Knowledge (Arcana)       11       5.0      2        3
+	Knowledge (Dungeonring)  3        1.0      3        2
+	Knowledge (Local)        3
+	Perception               7        4.0      0        2
 	Perform (Untrained)      5        0.0      5        0
 	Ride                     -1       0.0      -1       0
 	Sense Motive             1        1.0      0        0
-	Spellcraft               9        5.0      2        3
+	Spellcraft               11        5.0      2        3
 	Stealth                  3        0.0      -1       4
 	Survival                 5        1.0      0        4
 	Swim                     -1       0.0      -1       0
-	Use Magic Device         12       4.0      5        4
+	Use Magic Device         13       4.0      5        4
 
 
 FEATS
@@ -81,23 +84,6 @@ FEATS
 	Simple Weapon Proficiency
 	Eschew Materials
 	Spell Focus (Evocation)
-
-
-EQUIPMENT
----------
-	1	Ring of Protection +1
-	1	Cloak of Resistance +1
-	1	Wand of Magic Missile (34)
-	1	Wand of Produce Flame (32)
-	1	Wand of Knock (15)
-	2	Flask of Holy Water
-	3	Potion of Cure Light Wounds
-	1	Potion of Cure Moderate Wounds
-		Monkey Head door ringer
-		book on Varisan history
-		fine looking scarf
-
-	290 gp
 
 
 MAGIC
@@ -136,6 +122,16 @@ MAGIC
 			Effect: Ghost sound allows you to create a volume of sound that rises, recedes, approaches, or remains at a fixed place.
 			Target:	Illusory sounds
 
+		Message (Transmutation [Language-Dependent])
+			Components: V, S, F 
+			Cast Time: 1 standard action 
+			Duration: 60 minutes 
+			Range: Medium (160 ft.)   
+			Target: 6 creatures 
+			Saving Throw: None   
+			Spell Resistance: No  
+			Description: You can whisper messages and receive whispered replies.
+
 		Prestidigitation (Universal) - 1 per day
 			Saves: See text
 			DC: 15
@@ -159,7 +155,7 @@ MAGIC
 			Target:	You
 
 	Sorcerer Spells - Level 0
-	---------------
+	-------------------------
 		Acid Splash (Conjuration)
 			Saves: None	DC: 	
 			Casting: 1 standard action
@@ -182,7 +178,8 @@ MAGIC
 			Effect: This spell allows you to inscribe your personal rune or mark.	
 			Target: One personal rune or mark, all of which must fit within 1 sq. ft.
 			DESC:  This spell allows you to inscribe your personal rune or mark.
-			Detect Magic (Divination)
+			
+		Detect Magic (Divination)
 			Saves: None	DC: 	
 			Casting: 1 standard action
 			Duration: Concentration, up to 4 minutes [D]	
@@ -249,7 +246,8 @@ MAGIC
 			Components: V, S
 			SR: no
 			DESC: A misty, stationary vapour arises around you obscuring all sight, including darkvision, beyond 5 feet.
-			Protection from Evil (Abjuration)
+		
+		Protection from Evil (Abjuration)
 			Saves: Will negates (harmless)	
 			DC: 16	
 			Casting: 1 standard action
@@ -299,7 +297,7 @@ MAGIC
 
 		Flaming Sphere (Evocation)
 			Saves: Reflex negates	
-			DC: 	
+			DC: 18
 			Casting: 1 standard action
 			Duration: 1/lvl	
 			Range: Med (150')	
@@ -318,7 +316,40 @@ MAGIC
 			Effect: You blast your enemies with up to 1 searing beams of fire dealing 4d6 points of fire damage.	
 			Target: One or more rays
 			DESC 2:  You blast your enemies with up to 1 searing beams of fire dealing 4d6 points of fire damage.
- 
+
+	Sorcerer Spells - Level 3
+	-------------------------
+		Fireball (Evocation [Fire])
+			Saving Throw: Reflex half
+			DC: 19
+			Cast Time: 1 standard action
+			Duration: Instantaneous
+			Range: Long (640 ft.) 
+			Components: V, S, M     
+			Target: 20-ft.-radius spread    
+			Spell Resistance: Yes  
+			Description: A fireball spell generates a searing explosion of flame that 
+				detonates with a low roar and deals 6d6 points of fire damage to every 
+				creature within the area.
+
+EQUIPMENT
+---------
+	1	Ring of Protection +1
+	1	Cloak of Resistance +1
+	1	Wand of Magic Missile (34)
+	1	Wand of Produce Flame (32)
+	1	Wand of Knock (15)
+	2	Flask of Holy Water
+	3	Potion of Cure Light Wounds
+	1	Potion of Cure Moderate Wounds
+	1	fine looking scarf
+
+	At Home:
+	1	Monkey Head door ringer
+	1	book on Varisan history	
+
+	290 gp
+
 
 DESCRIPTION
 -----------
@@ -328,10 +359,12 @@ DESCRIPTION
 	Levels:		Sorcerer 5
 	XP:			/23000
 
-	Height: 3' 5"             Weight: 37 lbs.                 Gender: Male	
-	Eyes:   Blue             Hair: Blue,Shaggy              Skin: Orange
-	Dominant Hand: Right      Quirks: 	
-	Speech style:        Quotable: 
+	Height:			3' 5"		Weight:	37 lbs.				Gender: Male	
+	Eyes:			Blue		Hair:	Blue,Shaggy			Skin: Orange
+	Dominant Hand:	Right		
+	Quirks: 	
+	Speech style:
+	Quotable: 
 	Full Description
 
 	Background
