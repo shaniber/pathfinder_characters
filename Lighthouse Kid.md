@@ -5,15 +5,15 @@ Lighthouse Kid
 COMBAT
 ------
     AC: Total / Touch / Flat Footed
-	    11    / 11    / 11
+	    11    / 11    / 11			
 
-	Hit Points: 	46		 
+	Hit Points: 	46		STONE
 
-	Elemental Ray:	8 		
+	Elemental Ray:	8 		x 
 	Level 0:		.		∞
-	Level 1:		8 		 
-	Level 2:		6		
-	Level 3:		4
+	Level 1:		8 		xxxxx ...
+	Level 2:		6		x.... .
+	Level 3:		4		x...
 
 	Conditions:
 
@@ -96,7 +96,7 @@ MAGIC
 			Casting: 1 standard action
 			Duration: immediate
 			Range: Close (30 ft.)
-			Effect: You can unleash an elemental ray as a standard action, targeting any foe within 30 feet as a ranged touch attack. This ray deals 1d6+2 points of fire damage You can use this ability 8 times per day. 
+			Effect: You can unleash an elemental ray as a standard action, targeting any foe within 30 feet as a ranged touch attack. This ray deals 1d6+3 points of fire damage You can use this ability 8 times per day. 
 
 	Innate Spells
 	-------------
@@ -127,10 +127,10 @@ MAGIC
 			Cast Time: 1 standard action 
 			Duration: 60 minutes 
 			Range: Medium (160 ft.)   
-			Target: 6 creatures 
 			Saving Throw: None   
 			Spell Resistance: No  
 			Description: You can whisper messages and receive whispered replies.
+			Target: 6 creatures 
 
 		Prestidigitation (Universal) - 1 per day
 			Saves: See text
@@ -140,7 +140,8 @@ MAGIC
 			Range: 10 ft.
 			Components: V, S
 			SR: No
-			Effect: Prestidigitations are minor tricks that novice spellcasters use for practice.
+			Effect: Prestidigitations are minor tricks that novice spellcasters use for 
+				practice.
 			Target:	See text
 
 		Speak with Animals (Divination) - 1 per day
@@ -151,7 +152,8 @@ MAGIC
 			Range: Personal
 			Components: V, S
 			SR: 
-			Effect: You can ask questions of and receive answers from animals, but the spell doesn't make them any more friendly than normal.
+			Effect: You can ask questions of and receive answers from animals, but the 
+				spell doesn't make them any more friendly than normal.
 			Target:	You
 
 	Sorcerer Spells - Level 0
@@ -163,9 +165,9 @@ MAGIC
 			Range: Close (35 ft.)	
 			Components: V, S
 			SR: No	
-			Effect: You fire a small orb of acid at the target dealing 1d3 points of acid damage.	
+			Effect: You fire a small orb of acid at the target dealing 1d3 points of acid 
+				damage.	
 			Target: One missile of acid
-			DESC: You fire a small orb of acid at the target dealing 1d3 points of acid damage.
 
 		Arcane Mark (Universal)
 			Saves: None	
@@ -177,7 +179,6 @@ MAGIC
 			SR: No	
 			Effect: This spell allows you to inscribe your personal rune or mark.	
 			Target: One personal rune or mark, all of which must fit within 1 sq. ft.
-			DESC:  This spell allows you to inscribe your personal rune or mark.
 			
 		Detect Magic (Divination)
 			Saves: None	DC: 	
@@ -185,9 +186,9 @@ MAGIC
 			Duration: Concentration, up to 4 minutes [D]	
 			Range: 60 ft.	
 			Components: V, S
-			SR: No	Effect: You detect magical auras.	
+			SR: No	
+			Effect: You detect magical auras.	
 			Target: Cone-shaped emanation
-			DESC: You detect magical auras.
 
 		Detect Poison (Divination)
 			Saves: None	
@@ -196,9 +197,10 @@ MAGIC
 			Duration: Instantaneous	
 			Range: Close (35 ft.)	
 			Components: V, S
-			SR: No	Effect: You determine whether a creature, object, or area has been poisoned or is poisonous.	
+			SR: No	
+			Effect: You determine whether a creature, object, or area has been 
+				poisoned or is poisonous.	
 			Target: Or Area one creature, one object, or a 5-ft. cube
-			DESC: You determine whether a creature, object, or area has been poisoned or is poisonous.
 
 		Mage Hand (Transmutation)
 			Saves: None	
@@ -208,9 +210,10 @@ MAGIC
 			Range: Close (35 ft.)	
 			Components: V, S
 			SR: No	
-			Effect: You point your finger at an object and can lift it and move it at will from a distance.	
+			Effect: You point your finger at an object and can lift it and move it at 
+				will from a distance.	
 			Target: One nonmagical, unattended object weighing up to 5 lbs.
-			DESC: You point your finger at an object and can lift it and move it at will from a distance.
+
 
 		Read Magic (Divination)
 			Saves: 	
@@ -220,9 +223,10 @@ MAGIC
 			Range: Personal	
 			Components: V, S, F
 			SR: 	
-			Effect: You can decipher magical inscriptions on objects--books, scrolls, weapons, and the like--that would otherwise be unintelligible.	Target: You
-			DESC: You can decipher magical inscriptions on objects--books, scrolls, weapons, and the like--that would otherwise be unintelligible.
-
+			Effect: You can decipher magical inscriptions on objects--books, scrolls,
+				weapons, and the like--that would otherwise be unintelligible.	
+			Target: You
+			
 	Sorcerer Spells - Level 1
 	-------------------------
 		Magic Missile (Evocation)
@@ -235,7 +239,6 @@ MAGIC
 			SR: Yes	
 			Effect: 2 missiles that do 1d4+1 damage each.	
 			Target: Up to five creatures, no two of which can be more than 15 ft. apart
-			DESC 2:  2 missiles that do 1d4+1 damage each.
 
 		Obscuring Mist (Conjuration)
 			Saves: None	
@@ -245,7 +248,9 @@ MAGIC
 			Range: 20ft					
 			Components: V, S
 			SR: no
-			DESC: A misty, stationary vapour arises around you obscuring all sight, including darkvision, beyond 5 feet.
+			Effect: A misty, stationary vapour arises around you obscuring all sight, 
+				including darkvision, beyond 5 feet.
+			Target: None
 		
 		Protection from Evil (Abjuration)
 			Saves: Will negates (harmless)	
@@ -255,9 +260,15 @@ MAGIC
 			Range: Touch	
 			Components: V, S, M/DF
 			SR: No; see text	
-			Effect: This spell wards a creature from attacks by evil creatures, from mental control, and from summoned creatures.	
+			Effect: This spell wards a creature from attacks by evil creatures, from
+				mental control, and from summoned creatures.	It creates a magical barrier around the subject at a distance of 1 foot. The barrier moves with the subject and has three major effects.
+
+				First, the subject gains a +2 deflection bonus to AC and a +2 resistance bonus on saves. Both these bonuses apply against attacks made or effects created by evil creatures.
+
+				Second, the subject immediately receives another saving throw (if one was allowed to begin with) against any spells or effects that possess or exercise mental control over the creature (including enchantment [charm] effects and enchantment [compulsion] effects, such as charm person, command, and dominate person. This saving throw is made with a +2 morale bonus, using the same DC as the original effect. If successful, such effects are suppressed for the duration of this spell. The effects resume when the duration of this spell expires. While under the effects of this spell, the target is immune to any new attempts to possess or exercise mental control over the target. This spell does not expel a controlling life force (such as a ghost or spellcaster using magic jar), but it does prevent them from controlling the target. This second effect only functions against spells and effects created by evil creatures or objects, subject to GM discretion.
+
+				Third, the spell prevents bodily contact by evil summoned creatures. This causes the natural weapon attacks of such creatures to fail and the creatures to recoil if such attacks require touching the warded creature. Summoned creatures that are not evil are immune to this effect. The protection against contact by summoned creatures ends if the warded creature makes an attack against or tries to force the barrier against the blocked creature. Spell resistance can allow a creature to overcome this protection and touch the warded creature.
 			Target: Creature touched
-			DESC: This spell wards a creature from attacks by evil creatures, from mental control, and from summoned creatures.
 
 		Shield (Abjuration)
 			Saves: 	
@@ -267,9 +278,12 @@ MAGIC
 			Range: Personal	
 			Components: V, S
 			SR: 	
-			Effect: Shield creates an invisible shield of force that hovers in front of you.	
+			Effect: Shield creates an invisible shield of force that hovers in front 
+				of you. It negates magic missile attacks directed at you. The disk also
+				provides a +4 shield bonus to AC. This bonus applies against incorporeal
+				ouch attacks, since it is a force effect. The shield has no armor
+				check penalty or arcane spell failure chance.
 			Target: You
-			DESC: Shield creates an invisible shield of force that hovers in front of you.
 
 		Burning Hands (Evocation)
 			Saves: Reflex half	
@@ -279,9 +293,10 @@ MAGIC
 			Range: 15 ft.	
 			Components: V, S
 			SR: Yes	
-			Effect: A cone of searing flame shoots from your fingertips dealing 4d4 points of fire damage to any creature in the effect area.	
+			Effect: A cone of searing flame shoots from your fingertips dealing 4d4 
+				points of fire damage to any creature in the effect area.	
 			Target: Cone-shaped burst
-			DESC 2:  A cone of searing flame shoots from your fingertips dealing 4d4 points of fire damage to any creature in the effect area.
+
   
 	Sorcerer Spells - Level 2
 	-------------------------
@@ -293,7 +308,8 @@ MAGIC
 			Range: Object Touched	
 			Components: V, S, M
 			SR: no
-			DESC: A flame, equivalent in brightness to a torch, springs forth from an object that you touch.
+			Effect: A flame, equivalent in brightness to a torch, springs forth from an 
+				object that you touch.
 
 		Flaming Sphere (Evocation)
 			Saves: Reflex negates	
@@ -303,7 +319,22 @@ MAGIC
 			Range: Med (150')	
 			Components: V, S, M
 			SR: no
-			Desc: A burning globe of fire rolls in which
+			Effect: A burning globe of fire rolls in whichever direction you point and
+				burns those it strikes. It moves 30 feet per round. As part of this
+				movement, it can ascend or jump up to 30 feet to strike a target. If it
+				enters a space with a creature, it stops moving for the round and deals 
+				3d6 points of fire damage to that creature, though a successful Reflex 
+				save negates that damage. A flaming sphere rolls over barriers less than 
+				4 feet tall. It ignites flammable substances it touches and illuminates 
+				the same area as a torch would.
+
+				The sphere moves as long as you actively direct it (a move action for 
+				you); otherwise, it merely stays at rest and burns. It can be 
+				extinguished by any means that would put out a normal fire of its size. 
+				The surface of the sphere has a spongy, yielding consistency and so does
+				not cause damage except by its flame. It cannot push aside unwilling 
+				creatures or batter down large obstacles. A flaming sphere winks out if 
+				it exceeds the spell's range.
 
 		Scorching Ray (Evocation)
 			Saves: None	
@@ -313,9 +344,9 @@ MAGIC
 			Range: Close (35 ft.)	
 			Components: V, S
 			SR: Yes	
-			Effect: You blast your enemies with up to 1 searing beams of fire dealing 4d6 points of fire damage.	
+			Effect: You blast your enemies with up to 1 searing beams of fire dealing 4d6
+				points of fire damage.	
 			Target: One or more rays
-			DESC 2:  You blast your enemies with up to 1 searing beams of fire dealing 4d6 points of fire damage.
 
 	Sorcerer Spells - Level 3
 	-------------------------
@@ -328,7 +359,7 @@ MAGIC
 			Components: V, S, M     
 			Target: 20-ft.-radius spread    
 			Spell Resistance: Yes  
-			Description: A fireball spell generates a searing explosion of flame that 
+			Effect: A fireball spell generates a searing explosion of flame that 
 				detonates with a low roar and deals 6d6 points of fire damage to every 
 				creature within the area.
 
