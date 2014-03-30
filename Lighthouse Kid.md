@@ -5,15 +5,15 @@ Lighthouse Kid
 COMBAT
 ------
     AC: Total / Touch / Flat Footed
-	    11    / 11    / 11			
+	    14    / 12    / 14			
 
-	Hit Points: 	46		STONE
+	Hit Points: 	51		STONE
 
 	Elemental Ray:	8 		x 
 	Level 0:		.		∞
-	Level 1:		8 		xxxxx ...
-	Level 2:		6		x.... .
-	Level 3:		4		x...
+	Level 1:		8 		..... ...
+	Level 2:		8		xx... ...
+	Level 3:		5		.....
 
 	Conditions:
 
@@ -26,53 +26,55 @@ COMBAT
 		damage:       1d2-1
 		critical:     20/x2
 
-	Initiative:   +3
+	Initiative:   +4
 	BAB:          +3
 	Melee tohit:  +3
-	Ranged tohit: +3
+	Ranged tohit: +4
 	Fortitude:    +5
-	Reflex:       +2
+	Reflex:       +3
 	Will:         +6
 
 
 STATS
 -----
-	Stat    Score   Mod
-	STR      8       (-1)
-	DEX      8       (-1)
-	CON      14      (+2)
-	INT      14      (+2)
-	WIS      10      (+0)
-	CHA      20      (+5)
+	Stat    Score   Mod		Curr	
+	STR      8       (-1)	 8		-1
+	DEX      8       (-1)	 10		+0
+	CON      14      (+2)	 14		+2
+	INT      14      (+2)	 14		+2
+	WIS      10      (+0)	 10		+0
+	CHA      20      (+5)	 22		+6
 
 
 SKILLS
 ------
-	Skill                   Total     Rnk      Stat     Msc
-	Acrobatics               -1       0.0      -1       0
-	Acrobatics (Jump)        -5       0.0      -1       -4
+
+	Skill                   Total   Rnk     Stat    Msc
+	Acrobatics               0        0.0      0        0
+	Acrobatics (Jump)        -4       0.0      0        -4
 	Appraise                 6        1.0      2        3
-	Bluff                    5        0.0      5        0
+	Bluff                    6        0.0      6        0
 	Climb                    -1       0.0      -1       0
 	Craft (Untrained)        2        0.0      2        0
-	Diplomacy                5        0.0      5        0
-	Disguise                 5        0.0      5        0
-	Escape Artist            -1       0.0      -1       0
-	Fly                      1        0.0      -1       2
+	Diplomacy                6        0.0      6        0
+	Disguise                 6        0.0      6        0
+	Escape Artist            0        0.0      0        0
+	Fly                      2        0.0      0        2
 	Heal                     0        0.0      0        0
-	Intimidate               9        1.0      5        3
-	Knowledge (Arcana)       11       5.0      2        3
-	Knowledge (Dungeonring)  3        1.0      3        2
-	Knowledge (Local)        3
-	Perception               7        4.0      0        2
-	Perform (Untrained)      5        0.0      5        0
-	Ride                     -1       0.0      -1       0
+	Intimidate               10       1.0      6        3
+	Knowledge (Arcana)       12       7.0      2        3
+	Knowledge (Dungeoneering)  3        1.0      2        0
+	Knowledge (Local)        3        1.0      2        0
+	Perception               8        6.0      0        2
+	Perform (Untrained)      6        0.0      6        0
+	Ride                     0        0.0      0        0
 	Sense Motive             1        1.0      0        0
-	Spellcraft               11        5.0      2        3
-	Stealth                  3        0.0      -1       4
+	Spellcraft               15       7.0      2        6
+	Stealth                  4        0.0      0        4
 	Survival                 5        1.0      0        4
 	Swim                     -1       0.0      -1       0
-	Use Magic Device         13       4.0      5        4
+	Use Magic Device         15       5.0      6        4
+                                                    
 
 
 FEATS
@@ -80,10 +82,19 @@ FEATS
 	Combat Casting
 	  You get a +4 bonus on concentration checks made to cast a spell or use a spell-like ability when casting on the defensive or while grappled.
   
+	Craft Magic Arms and Armor
+	  You can create magic weapons, armor, or shields. Enhancing a weapon, suit of armor, or shield takes 1 day for each 1,000 gp in the price of its magical features. To enhance a weapon, suit of armor, or shield, you must use up raw materials costing half of this total price. See the magic item creation rules in Chapter 15 for more information. The weapon, armor, or shield to be enhanced must be a masterwork item that you provide. Its cost is not included in the above cost. You can also mend a broken magic weapon, suit of armor, or shield if it is one that you could make. Doing so costs half the raw materials and half the time it would take to craft that item in the first place.
+  
+	Empower Spell
+	  All variable, numeric effects of an empowered spell are increased by half including bonuses to those dice rolls. Saving throws and opposed rolls are not affected, nor are spells without random variables. An empowered spell uses up a spell slot two levels higher than the spell's actual level.
+  
 	Improved Initiative
+	  You get a +4 bonus on initiative checks.
+  
+	Skill Focus (Spellcraft)
 	Simple Weapon Proficiency
 	Eschew Materials
-	Spell Focus (Evocation)
+
 
 
 MAGIC
@@ -214,6 +225,16 @@ MAGIC
 				will from a distance.	
 			Target: One nonmagical, unattended object weighing up to 5 lbs.
 
+		Message (Transmutation)
+			Saves: None	
+			DC: 	
+			Casting: 1 standard action
+			Duration: 70 minutes	
+			Range: Medium (170 ft.)	
+			Components: V, S, F
+			SR: No	
+			Effect: You can whisper messages and receive whispered replies.	
+			Target: 7 creatures
 
 		Read Magic (Divination)
 			Saves: 	
@@ -229,6 +250,18 @@ MAGIC
 			
 	Sorcerer Spells - Level 1
 	-------------------------
+		Feather Fall (Transmutation)
+			Saves: Will negates (harmless) or Will negates (object);	
+			DC: 17	
+			Casting: 1 immediate action
+			Duration: Until landing or 7 rounds	Range: 
+			Close (40 ft.)	
+			Components: V
+			SR: Yes (object)	
+			Effect: The affected creatures or objects fall slowly.	
+			Target: 7 Medium or smaller freefalling objects or creatures, no two of which 
+				may be more than 20 ft. apart
+
 		Magic Missile (Evocation)
 			Saves: None	
 			DC: 	
@@ -311,6 +344,18 @@ MAGIC
 			Effect: A flame, equivalent in brightness to a torch, springs forth from an 
 				object that you touch.
 
+		False Life (Necromancy)
+			Saves: 	DC: 	
+			Casting: 1 standard action
+			Duration: 7 hours or until discharged; see text	
+			Range: Personal	
+			Components: V, S, M
+			SR: 	
+			Effect: You harness the power of unlife to grant yourself a limited ability to 
+				avoid death. While this spell is in effect, you gain temporary hit points equal 
+				to 1d10 + 1 per caster level (maximum +10).
+			Target: You
+
 		Flaming Sphere (Evocation)
 			Saves: Reflex negates	
 			DC: 18
@@ -363,10 +408,37 @@ MAGIC
 				detonates with a low roar and deals 6d6 points of fire damage to every 
 				creature within the area.
 
+		Slow (Transmutation)
+			Saves: Will negates	
+			DC: 19	
+			Casting: 1 standard action
+			Duration: 7 rounds	
+			Range: Close (40 ft.)	
+			Components: V, S, M
+			SR: Yes	
+			Effect: An affected creature moves and attacks at a drastically slowed rate.	
+			Target: 7 creatures, no two of which can be more than 30 ft. apart
+
+		Protection from Energy (Abjuration)
+			Saves: Fortitude negates (harmless)	
+			DC: 19	
+			Casting: 1 standard action
+			Duration: 70 minutes or until discharged	
+			Range: Touch	
+			Components: V, S, DF
+			SR: Yes (harmless)	
+			Effect: Protection from energy grants temporary immunity to the type of energy you 
+				specify when you cast it.	
+			Target: Creature touched
+
+
 EQUIPMENT
 ---------
 	1	Ring of Protection +1
 	1	Cloak of Resistance +1
+	1	Headband of Alluring Charisma +2
+	1	Snakeskin Tunic
+	1	Amulet of Natural Armor +1
 	1	Wand of Magic Missile (34)
 	1	Wand of Produce Flame (32)
 	1	Wand of Knock (15)
@@ -379,7 +451,7 @@ EQUIPMENT
 	1	Monkey Head door ringer
 	1	book on Varisan history	
 
-	290 gp
+	1965 gp
 
 
 DESCRIPTION
@@ -387,8 +459,8 @@ DESCRIPTION
 	Vision:     Low-Light
 	Speed:      Walk 20 ft.
 	Languages:  Common, Dwarven, Gnome, Orc, Sylvan
-	Levels:		Sorcerer 5
-	XP:			/23000
+	Levels:		Sorcerer 7
+	XP:			/35000
 
 	Height:			3' 5"		Weight:	37 lbs.				Gender: Male	
 	Eyes:			Blue		Hair:	Blue,Shaggy			Skin: Orange
