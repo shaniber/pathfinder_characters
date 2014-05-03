@@ -1,19 +1,19 @@
 Lighthouse Kid 
 ==============
-5th Level Neutral-Good Gnome Sorcerer
+7th Level Neutral-Good Gnome Sorcerer
 
 COMBAT
 ------
     AC: Total / Touch / Flat Footed
 	    14    / 12    / 14			
 
-	Hit Points: 	51		STONE
+	Hit Points: 	51		xxxxx xxx
 
-	Elemental Ray:	8 		x 
+	Elemental Ray:	8 		xxxx. ...
 	Level 0:		.		∞
-	Level 1:		8 		..... ...
-	Level 2:		8		xx... ...
-	Level 3:		5		.....
+	Level 1:		8 		xxxxx x..
+	Level 2:		8		xxxx. ...
+	Level 3:		5		xxx..
 
 	Conditions:
 
@@ -26,13 +26,13 @@ COMBAT
 		damage:       1d2-1
 		critical:     20/x2
 
-	Initiative:   +4
-	BAB:          +3
-	Melee tohit:  +3
-	Ranged tohit: +4
-	Fortitude:    +5
-	Reflex:       +3
-	Will:         +6
+	Initiative:       +4
+	BAB:              +3
+	Melee tohit:      +3
+	Ranged tohit:     +4
+	Fortitude:        +5
+	Reflex:           +3
+	Will:             +6
 
 
 STATS
@@ -49,31 +49,31 @@ STATS
 SKILLS
 ------
 
-	Skill                   Total   Rnk     Stat    Msc
-	Acrobatics               0        0.0      0        0
-	Acrobatics (Jump)        -4       0.0      0        -4
-	Appraise                 6        1.0      2        3
-	Bluff                    6        0.0      6        0
-	Climb                    -1       0.0      -1       0
-	Craft (Untrained)        2        0.0      2        0
-	Diplomacy                6        0.0      6        0
-	Disguise                 6        0.0      6        0
-	Escape Artist            0        0.0      0        0
-	Fly                      2        0.0      0        2
-	Heal                     0        0.0      0        0
-	Intimidate               10       1.0      6        3
-	Knowledge (Arcana)       12       7.0      2        3
-	Knowledge (Dungeoneering)  3        1.0      2        0
-	Knowledge (Local)        3        1.0      2        0
-	Perception               8        6.0      0        2
-	Perform (Untrained)      6        0.0      6        0
-	Ride                     0        0.0      0        0
-	Sense Motive             1        1.0      0        0
-	Spellcraft               15       7.0      2        6
-	Stealth                  4        0.0      0        4
-	Survival                 5        1.0      0        4
-	Swim                     -1       0.0      -1       0
-	Use Magic Device         15       5.0      6        4
+	Skill                       Total    Rnk      Stat     Msc
+	Acrobatics                   0        0.0      0        0
+	Acrobatics (Jump)            -4       0.0      0        -4
+	Appraise                     6        1.0      2        3
+	Bluff                        6        0.0      6        0
+	Climb                        -1       0.0      -1       0
+	Craft (Untrained)            2        0.0      2        0
+	Diplomacy                    6        0.0      6        0
+	Disguise                     6        0.0      6        0
+	Escape Artist                0        0.0      0        0
+	Fly                          2        0.0      0        2
+	Heal                         0        0.0      0        0
+	Intimidate                   10       1.0      6        3
+	Knowledge (Arcana)           12       7.0      2        3
+	Knowledge (Dungeoneering)    3        1.0      2        0
+	Knowledge (Local)            3        1.0      2        0
+	Perception                   8        6.0      0        2
+	Perform (Untrained)          6        0.0      6        0
+	Ride                         0        0.0      0        0
+	Sense Motive                 1        1.0      0        0
+	Spellcraft                   15       7.0      2        6
+	Stealth                      4        0.0      0        4
+	Survival                     5        1.0      0        4
+	Swim                         -1       0.0      -1       0
+	Use Magic Device             15       5.0      6        4
                                                     
 
 
@@ -141,7 +141,7 @@ MAGIC
 			Saving Throw: None   
 			Spell Resistance: No  
 			Description: You can whisper messages and receive whispered replies.
-			Target: 6 creatures 
+			Target: 7 creatures 
 
 		Prestidigitation (Universal) - 1 per day
 			Saves: See text
@@ -270,14 +270,14 @@ MAGIC
 			Range: Medium (140 ft.)	
 			Components: V, S
 			SR: Yes	
-			Effect: 2 missiles that do 1d4+1 damage each.	
+			Effect: 4 missiles that do 1d4+1 damage each.	
 			Target: Up to five creatures, no two of which can be more than 15 ft. apart
 
 		Obscuring Mist (Conjuration)
 			Saves: None	
 			DC:		
 			Casting: 1 standard action
-			Duration: 5 minutes	
+			Duration: 7 minutes	
 			Range: 20ft					
 			Components: V, S
 			SR: no
@@ -289,7 +289,7 @@ MAGIC
 			Saves: Will negates (harmless)	
 			DC: 16	
 			Casting: 1 standard action
-			Duration: 4 minutes [D]
+			Duration: 7 minutes [D]
 			Range: Touch	
 			Components: V, S, M/DF
 			SR: No; see text	
@@ -307,7 +307,7 @@ MAGIC
 			Saves: 	
 			DC: 	
 			Casting: 1 standard action
-			Duration: 4 minutes [D]	
+			Duration: 7 minutes [D]	
 			Range: Personal	
 			Components: V, S
 			SR: 	
@@ -326,7 +326,7 @@ MAGIC
 			Range: 15 ft.	
 			Components: V, S
 			SR: Yes	
-			Effect: A cone of searing flame shoots from your fingertips dealing 4d4 
+			Effect: A cone of searing flame shoots from your fingertips dealing 5d4 
 				points of fire damage to any creature in the effect area.	
 			Target: Cone-shaped burst
 
@@ -389,7 +389,7 @@ MAGIC
 			Range: Close (35 ft.)	
 			Components: V, S
 			SR: Yes	
-			Effect: You blast your enemies with up to 1 searing beams of fire dealing 4d6
+			Effect: You blast your enemies with up to 2 searing beams of fire dealing 4d6
 				points of fire damage.	
 			Target: One or more rays
 
@@ -405,7 +405,7 @@ MAGIC
 			Target: 20-ft.-radius spread    
 			Spell Resistance: Yes  
 			Effect: A fireball spell generates a searing explosion of flame that 
-				detonates with a low roar and deals 6d6 points of fire damage to every 
+				detonates with a low roar and deals 7d6 points of fire damage to every 
 				creature within the area.
 
 		Slow (Transmutation)
