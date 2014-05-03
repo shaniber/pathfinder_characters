@@ -1,11 +1,12 @@
 PCGVERSION:2.0
 
 # System Information
-CAMPAIGN:Paizo - Pathfinder Roleplaying Game Core Rulebook|CAMPAIGN:Paizo - Pathfinder Roleplaying Game Character Traits Web Enhancement
-VERSION:6.00.01
-ROLLMETHOD:3|EXPRESSION:3d6
+CAMPAIGN:Core Rulebook|CAMPAIGN:Advanced Player's Guide
+VERSION:6.02.1
+ROLLMETHOD:0|EXPRESSION:0
 PURCHASEPOINTS:N
 CHARACTERTYPE:PC
+PREVIEWSHEET:Standard.htm
 POOLPOINTS:0
 POOLPOINTSAVAIL:-1
 GAMEMODE:Pathfinder_RPG
@@ -17,6 +18,7 @@ LOADCOMPANIONS:N
 USETEMPMODS:Y
 AUTOSORTGEAR:Y
 SKILLSOUTPUTORDER:0
+SKILLFILTER:2
 IGNORECOST:N
 ALLOWDEBT:N
 AUTORESIZEGEAR:Y
@@ -79,6 +81,7 @@ REGION:None
 
 # Character Skills
 SKILL:Acrobatics|OUTPUTORDER:1|
+SKILL:Acrobatics (Jump)|OUTPUTORDER:2|
 SKILL:Appraise|OUTPUTORDER:3|CLASSBOUGHT:[CLASS:Sorcerer|RANKS:1.0|COST:1|CLASSSKILL:Y]
 SKILL:Bluff|OUTPUTORDER:4|
 SKILL:Climb|OUTPUTORDER:5|
@@ -96,7 +99,6 @@ SKILL:Sense Motive|OUTPUTORDER:19|CLASSBOUGHT:[CLASS:Sorcerer|RANKS:1.0|COST:1|C
 SKILL:Stealth|OUTPUTORDER:21|
 SKILL:Survival|OUTPUTORDER:22|CLASSBOUGHT:[CLASS:Sorcerer|RANKS:1.0|COST:1|CLASSSKILL:Y]
 SKILL:Swim|OUTPUTORDER:23|
-SKILL:Acrobatics (Jump)|OUTPUTORDER:2|
 SKILL:Spellcraft|OUTPUTORDER:20|CLASSBOUGHT:[CLASS:Sorcerer|RANKS:7.0|COST:1|CLASSSKILL:Y]
 SKILL:Use Magic Device|OUTPUTORDER:24|CLASSBOUGHT:[CLASS:Sorcerer|RANKS:5.0|COST:1|CLASSSKILL:Y]
 SKILL:Knowledge (Arcana)|OUTPUTORDER:13|CLASSBOUGHT:[CLASS:Sorcerer|RANKS:7.0|COST:1|CLASSSKILL:Y]
@@ -104,66 +106,66 @@ SKILL:Knowledge (Local)|OUTPUTORDER:15|CLASSBOUGHT:[CLASS:Sorcerer|RANKS:1.0|COS
 SKILL:Knowledge (Dungeoneering)|OUTPUTORDER:14|CLASSBOUGHT:[CLASS:Sorcerer|RANKS:1.0|COST:1|CLASSSKILL:N]
 
 # Character Languages
-LANGUAGE:Dwarven|LANGUAGE:Sylvan|LANGUAGE:Common|LANGUAGE:Orc|LANGUAGE:Gnome
+LANGUAGE:Dwarven|LANGUAGE:Gnome|LANGUAGE:Sylvan|LANGUAGE:Orc|LANGUAGE:Common
 
 # Character Feats
 FEATPOOL:-4.0
 
 # Character Abilities
-ABILITY:Elemental Bloodline Feat|TYPE:NORMAL|CATEGORY:FEAT|KEY:Empower Spell|TYPE:Metamagic.AbyssalBloodline.ElementalBloodline|DESC:You can increase the power of your spells, causing them to deal more damage.
+ABILITY:Elemental Bloodline Feat|TYPE:NORMAL|CATEGORY:FEAT|KEY:Empower Spell|TYPE:Metamagic.AbyssalBloodline.ElementalBloodline.BorealBloodline|DESC:You can increase the power of your spells, causing them to deal more damage.
 USERPOOL:Elemental Bloodline Feat|POOLPOINTS:0.0
 ABILITY:Favored Class|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Sorcerer|TYPE:FavoredClass
 USERPOOL:Favored Class|POOLPOINTS:0.0
-ABILITY:Favored Class Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Bonus Hit Point|APPLIEDTO:,,|TYPE:FavoredClassBonus
-ABILITY:Favored Class Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Bonus Skill Point|APPLIEDTO:Perception,Perception,Perception,Spellcraft|TYPE:FavoredClassBonus
+ABILITY:Favored Class Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Favored Class Bonus ~ Skill Rank|APPLIEDTO:Perception,Perception,Perception,Spellcraft|TYPE:FavoredClassBonus
+ABILITY:Favored Class Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Favored Class Bonus ~ Hit Point|APPLIEDTO:,,|TYPE:FavoredClassBonus
 USERPOOL:Favored Class Bonus|POOLPOINTS:0.0
-ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Combat Casting|TYPE:General.AberrantBloodline.ArcaneBloodline.UndeadBloodline|DESC:You are adept at spellcasting when threatened or distracted.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Combat Casting|TYPE:General.AberrantBloodline.ArcaneBloodline.UndeadBloodline.SerpentineBloodline|DESC:You are adept at spellcasting when threatened or distracted.
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Craft Magic Arms and Armor|TYPE:ItemCreation|DESC:You can create magic armor, shields, or weapons.
-ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Skill Focus|APPLIEDTO:Spellcraft|TYPE:General.SkillFocus|DESC:You are particularly adept at your chosen skill.
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Improved Initiative|TYPE:Combat.AberrantBloodline.ArcaneBloodline.DraconicBloodline.ElementalBloodline.FeyBloodline|DESC:Your quick reflexes allow you to react quickly to danger.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Skill Focus|APPLIEDTO:Spellcraft|TYPE:General.SkillFocus|DESC:You are particularly adept at your chosen skill.
 USERPOOL:FEAT|POOLPOINTS:1.0
-ABILITY:Obsessive Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Obsessive Craft Bonus|APPLIEDTO:Craft (Alchemy)|TYPE:Internal.ObsessiveBonus
+ABILITY:Obsessive Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Obsessive Craft Bonus|APPLIEDTO:Craft (Alchemy)|TYPE:Internal.ObsessiveBonus|DESC:Gnomes receive a +2 racial bonus on a Craft skill of their choice.
 USERPOOL:Obsessive Bonus|POOLPOINTS:0.0
-ABILITY:Sorcerer Bloodline|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Elemental Bloodline|APPLIEDTO:Fire|TYPE:SpecialQuality.ClassSpecialization.SorcererBloodline|DESC:The power of the elements resides in you, and at times you can hardly control its fury.
+ABILITY:Sorcerer Bloodline|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Elemental Bloodline|APPLIEDTO:Fire|TYPE:SorcererClassAbility.SpecialQuality.ClassSpecialization.SorcererBloodline|DESC:The power of the elements resides in you, and at times you can hardly control its fury.
 USERPOOL:Sorcerer Bloodline|POOLPOINTS:0.0
-ABILITY:Traits|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Poverty-Stricken_Trait|TYPE:Trait.BasicTrait.SocialTrait|DESC:Your childhood was tough, and your parents had to make every copper piece count. Hunger was your constant companion, and you often had to live off the land or sleep in the wild.
-ABILITY:Traits|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Dangerously Curious_Trait|TYPE:Trait.BasicTrait.MagicTrait|DESC:You have always been intrigued by magic, possibly because you were the child of a magician or priest. You often snuck into your parent's laboratory or shrine to tinker with spell components and magic devices, and often caused quite a bit of damage and headaches for your parent as a result.
+ABILITY:Traits|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Dangerously Curious ~ Trait|TYPE:Trait.BasicTrait.MagicTrait|DESC:You have always been intrigued by magic, possibly because you were the child of a magician or priest. You often snuck into your parent's laboratory or shrine to tinker with spell components and magic devices, and often caused quite a bit of damage and headaches for your parent as a result.
+ABILITY:Traits|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Poverty-Stricken ~ Trait|TYPE:Trait.BasicTrait.SocialTrait|DESC:Your childhood was tough, and your parents had to make every copper piece count. Hunger was your constant companion, and you often had to live off the land or sleep in the wild.
 USERPOOL:Traits|POOLPOINTS:0.0
-ABILITY:*LANGBONUS|TYPE:VIRTUAL|CATEGORY:*LANGBONUS|KEY:*LANGBONUS|APPLIEDTO:|TYPE:
+ABILITY:*LANGBONUS|TYPE:VIRTUAL|CATEGORY:*LANGBONUS|KEY:*LANGBONUS|APPLIEDTO:Orc,Dwarven|TYPE:
 USERPOOL:*LANGBONUS|POOLPOINTS:0.0
 
 # Character Weapon proficiencies
-WEAPONPROF:[WEAPON:Blowgun|WEAPON:Club|WEAPON:Crossbow (Heavy)|WEAPON:Crossbow (Light)|WEAPON:Dagger|WEAPON:Dagger (Punching)|WEAPON:Dart|WEAPON:Gauntlet|WEAPON:Gauntlet (Spiked)|WEAPON:Grapple]
-WEAPONPROF:[WEAPON:Javelin|WEAPON:Longspear|WEAPON:Mace (Heavy)|WEAPON:Mace (Light)|WEAPON:Morningstar|WEAPON:Quarterstaff|WEAPON:Rock|WEAPON:Shortspear|WEAPON:Sickle|WEAPON:Sling]
-WEAPONPROF:[WEAPON:Spear|WEAPON:Spells (Ray)|WEAPON:Spells (Touch)|WEAPON:Unarmed Strike]
+WEAPONPROF:[WEAPON:Bayonet|WEAPON:Blowgun|WEAPON:Cestus|WEAPON:Club|WEAPON:Crossbow (Heavy)|WEAPON:Crossbow (Light)|WEAPON:Dagger|WEAPON:Dagger (Punching)|WEAPON:Dart|WEAPON:Gauntlet]
+WEAPONPROF:[WEAPON:Gauntlet (Spiked)|WEAPON:Grapple|WEAPON:Javelin|WEAPON:Longspear|WEAPON:Mace (Heavy)|WEAPON:Mace (Light)|WEAPON:Mere Club|WEAPON:Morningstar|WEAPON:Quarterstaff|WEAPON:Rock]
+WEAPONPROF:[WEAPON:Shortspear|WEAPON:Sickle|WEAPON:Sling|WEAPON:Spear|WEAPON:Spear (Boar)|WEAPON:Spells (Ray)|WEAPON:Spells (Touch)|WEAPON:Splash Weapon|WEAPON:Stake|WEAPON:Unarmed Strike]
 
 # Character Equipment
 MONEY:1965.00
+EQUIPNAME:Headband of Alluring Charisma +2|OUTPUTORDER:2|COST:4000|WT:1.0|QUANTITY:1.0
+EQUIPNAME:Cloak of Resistance +1|OUTPUTORDER:4|COST:1000|WT:1.0|QUANTITY:1.0
 EQUIPNAME:Wand of Magic Missile|OUTPUTORDER:7|COST:750.0|WT:0.0625|QUANTITY:1.0|CUSTOMIZATION:[BASEITEM:Wand|DATA:NAME=Wand of Magic Missile$EQMOD=SPL_CHRG&pipe;SPELLNAME&lbracket;Magic Missile&rbracket;SPELLLEVEL&lbracket;1&rbracket;CASTERLEVEL&lbracket;1&rbracket;CHARGES&lbracket;50&rbracket;]
-EQUIPNAME:Holy Water (Flask)|OUTPUTORDER:0|COST:25|WT:1.0|QUANTITY:2.0
+EQUIPNAME:Rations (Trail/Per Day) (Small)|OUTPUTORDER:0|COST:0.5|WT:0.25|QUANTITY:4.0|CUSTOMIZATION:[BASEITEM:Rations (Trail/Per Day)|DATA:NAME=Rations (Trail/Per Day) (Small)$KEY=AUTOSIZESRations (Trail/Per Day)$SIZE=S]
+EQUIPNAME:Horse (Heavy)|OUTPUTORDER:6|COST:200|WT:0.0|QUANTITY:1.0
 EQUIPNAME:Quarterstaff (Small)|OUTPUTORDER:1|COST:0.0|WT:2.0|QUANTITY:1.0|CUSTOMIZATION:[BASEITEM:Quarterstaff|DATA:NAME=Quarterstaff (Small)$KEY=AUTOSIZESQuarterstaff$SIZE=S$EQMOD=WOOD$ALTEQMOD=WOOD]
 EQUIPNAME:Potion of Cure Moderate Wounds|OUTPUTORDER:9|COST:300|WT:0.0|QUANTITY:1.0
-EQUIPNAME:Potion of Cure Light Wounds|OUTPUTORDER:8|COST:50|WT:0.0|QUANTITY:3.0
-EQUIPNAME:Outfit (Peasant's/Small)|OUTPUTORDER:0|COST:0.0|WT:0.5|QUANTITY:1.0|CUSTOMIZATION:[BASEITEM:Outfit (Peasant's)|DATA:NAME=Outfit (Peasant's/Small)$SIZE=S$COSTMOD=-0.1]
-EQUIPNAME:Cloak of Resistance +1|OUTPUTORDER:4|COST:1000|WT:1.0|QUANTITY:1.0
-EQUIPNAME:Wand of Knock|OUTPUTORDER:0|COST:4500.0|WT:0.0625|QUANTITY:1.0|CUSTOMIZATION:[BASEITEM:Wand|DATA:NAME=Wand of Knock$EQMOD=SPL_CHRG&pipe;SPELLNAME&lbracket;Knock&rbracket;SPELLLEVEL&lbracket;2&rbracket;CASTERLEVEL&lbracket;3&rbracket;CHARGES&lbracket;50&rbracket;]
-EQUIPNAME:Rations (Trail/Per Day) (Small)|OUTPUTORDER:0|COST:0.5|WT:0.25|QUANTITY:4.0|CUSTOMIZATION:[BASEITEM:Rations (Trail/Per Day)|DATA:NAME=Rations (Trail/Per Day) (Small)$KEY=AUTOSIZESRations (Trail/Per Day)$SIZE=S]
-EQUIPNAME:Headband of Alluring Charisma +2|OUTPUTORDER:2|COST:4000|WT:1.0|QUANTITY:1.0
-EQUIPNAME:Snakeskin Tunic|OUTPUTORDER:5|COST:8000.0|WT:0.0|QUANTITY:1.0|CUSTOMIZATION:[BASEITEM:Shirt|DATA:NAME=Snakeskin Tunic$EQMOD=BNS_ENHC_AC&pipe;+1.BNS_ENHC_AB&pipe;DEX=+2$SPROP=(Shirt ( Ability Bonus (Enhancement)DEX +2/ Armor Bonus (Enhancement) (+1)))$COSTMOD=2000.0]
-EQUIPNAME:Horse (Heavy)|OUTPUTORDER:6|COST:200|WT:0.0|QUANTITY:1.0
 EQUIPNAME:Amulet of Natural Armor +1|OUTPUTORDER:1|COST:2000|WT:0.02|QUANTITY:1.0
+EQUIPNAME:Potion of Cure Light Wounds|OUTPUTORDER:8|COST:50|WT:0.0|QUANTITY:3.0
 EQUIPNAME:Ring of Protection +1|OUTPUTORDER:3|COST:2000|WT:0.0|QUANTITY:1.0
+EQUIPNAME:Holy Water (Flask)|OUTPUTORDER:0|COST:25|WT:1.0|QUANTITY:2.0
+EQUIPNAME:Outfit (Peasant's/Small)|OUTPUTORDER:0|COST:0.0|WT:0.5|QUANTITY:1.0|CUSTOMIZATION:[BASEITEM:Outfit (Peasant's)|DATA:NAME=Outfit (Peasant's/Small)$SIZE=S$COSTMOD=-0.1]
+EQUIPNAME:Snakeskin Tunic|OUTPUTORDER:5|COST:8000.0|WT:0.0|QUANTITY:1.0|CUSTOMIZATION:[BASEITEM:Shirt|DATA:NAME=Snakeskin Tunic$EQMOD=BNS_ENHC_AC&pipe;+1.BNS_ENHC_AB&pipe;DEX=+2$SPROP=(Shirt ( Ability Bonus (Enhancement)DEX +2/ Armor Bonus (Enhancement) (+1)))$COSTMOD=2000.0]
+EQUIPNAME:Wand of Knock|OUTPUTORDER:0|COST:4500.0|WT:0.0625|QUANTITY:1.0|CUSTOMIZATION:[BASEITEM:Wand|DATA:NAME=Wand of Knock$EQMOD=SPL_CHRG&pipe;SPELLNAME&lbracket;Knock&rbracket;SPELLLEVEL&lbracket;2&rbracket;CASTERLEVEL&lbracket;3&rbracket;CHARGES&lbracket;50&rbracket;]
 EQUIPNAME:Wand of Produce Flame|OUTPUTORDER:0|COST:750.0|WT:0.0625|QUANTITY:1.0|CUSTOMIZATION:[BASEITEM:Wand|DATA:NAME=Wand of Produce Flame$EQMOD=SPL_CHRG&pipe;SPELLNAME&lbracket;Produce Flame&rbracket;SPELLLEVEL&lbracket;1&rbracket;CASTERLEVEL&lbracket;1&rbracket;CHARGES&lbracket;50&rbracket;]
 EQUIPSET:Default Set|ID:0.1|USETEMPMODS:Y
-EQUIPSET:Ring|ID:0.1.1|VALUE:Ring of Protection +1|QUANTITY:1.0|USETEMPMODS:Y
-EQUIPSET:Shoulders|ID:0.1.2|VALUE:Cloak of Resistance +1|QUANTITY:1.0|USETEMPMODS:Y
-EQUIPSET:Carried|ID:0.1.3|VALUE:Wand of Magic Missile|QUANTITY:1.0|USETEMPMODS:Y
-EQUIPSET:Not Carried|ID:0.1.4|VALUE:Potion of Cure Light Wounds|QUANTITY:3.0|USETEMPMODS:Y
-EQUIPSET:Not Carried|ID:0.1.5|VALUE:Potion of Cure Moderate Wounds|QUANTITY:1.0|USETEMPMODS:Y
-EQUIPSET:Chest|ID:0.1.6|VALUE:Snakeskin Tunic|QUANTITY:1.0|USETEMPMODS:Y
-EQUIPSET:Headband|ID:0.1.7|VALUE:Headband of Alluring Charisma +2|QUANTITY:1.0|USETEMPMODS:Y
-EQUIPSET:Neck|ID:0.1.8|VALUE:Amulet of Natural Armor +1|QUANTITY:1.0|USETEMPMODS:Y
-EQUIPSET:Equipped|ID:0.1.9|VALUE:Horse (Heavy)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Neck|ID:0.1.01|VALUE:Amulet of Natural Armor +1|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Headband|ID:0.1.02|VALUE:Headband of Alluring Charisma +2|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Ring|ID:0.1.03|VALUE:Ring of Protection +1|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Shoulders|ID:0.1.04|VALUE:Cloak of Resistance +1|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Chest|ID:0.1.05|VALUE:Snakeskin Tunic|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.06|VALUE:Horse (Heavy)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.07|VALUE:Wand of Magic Missile|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Not Carried|ID:0.1.08|VALUE:Potion of Cure Light Wounds|QUANTITY:3.0|USETEMPMODS:Y
+EQUIPSET:Not Carried|ID:0.1.09|VALUE:Potion of Cure Moderate Wounds|QUANTITY:1.0|USETEMPMODS:Y
 CALCEQUIPSET:0.1
 
 # Temporary Bonuses

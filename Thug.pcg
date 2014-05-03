@@ -1,11 +1,12 @@
 PCGVERSION:2.0
 
 # System Information
-CAMPAIGN:Paizo - Pathfinder Roleplaying Game Core Rulebook|CAMPAIGN:Paizo - Pathfinder Roleplaying Game Character Traits Web Enhancement
-VERSION:6.00.01
-ROLLMETHOD:3|EXPRESSION:3d6
+CAMPAIGN:Core Rulebook|CAMPAIGN:Advanced Player's Guide
+VERSION:6.02.1
+ROLLMETHOD:0|EXPRESSION:0
 PURCHASEPOINTS:N
 CHARACTERTYPE:NPC
+PREVIEWSHEET:Standard.htm
 POOLPOINTS:0
 POOLPOINTSAVAIL:-1
 GAMEMODE:Pathfinder_RPG
@@ -17,6 +18,7 @@ LOADCOMPANIONS:N
 USETEMPMODS:Y
 AUTOSORTGEAR:Y
 SKILLSOUTPUTORDER:0
+SKILLFILTER:2
 IGNORECOST:N
 ALLOWDEBT:N
 AUTORESIZEGEAR:Y
@@ -57,7 +59,7 @@ ALIGN:CG
 RACE:Half-Orc
 
 # Character Class(es)
-CLASS:Ranger|LEVEL:6|SKILLPOOL:6|SPELLBASE:WIS|CANCASTPERDAY:0,1
+CLASS:Ranger|LEVEL:6|SKILLPOOL:6
 CLASSABILITIESLEVEL:Ranger=1|HITPOINTS:10|SKILLSGAINED:3|SKILLSREMAINING:0
 CLASSABILITIESLEVEL:Ranger=2|HITPOINTS:1|SKILLSGAINED:3|SKILLSREMAINING:0
 CLASSABILITIESLEVEL:Ranger=3|HITPOINTS:1|SKILLSGAINED:3|SKILLSREMAINING:0
@@ -109,27 +111,31 @@ ABILITY:Ability Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:+2 Strength|TYPE:
 USERPOOL:Ability Bonus|POOLPOINTS:0.0
 ABILITY:Favored Class|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Ranger|TYPE:FavoredClass
 USERPOOL:Favored Class|POOLPOINTS:0.0
-ABILITY:Favored Class Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Bonus Hit Point|APPLIEDTO:,,,|TYPE:FavoredClassBonus
+ABILITY:Favored Class Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Favored Class Bonus ~ Hit Point|APPLIEDTO:,,,|TYPE:FavoredClassBonus
 USERPOOL:Favored Class Bonus|POOLPOINTS:0.0
-ABILITY:Favored Enemy|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Favored Enemy (Humanoid (Giant))|TYPE:FavoredEnemy.SpecialAttack.Extraordinary.AttackOption|DESC:You gain a +%1 bonus on Attack rolls, Damage roll and skill checks against giants.&pipe;FavoredHumanoidGiant
+ABILITY:Favored Enemy|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Favored Enemy (Humanoid (Giant))|TYPE:RangerClassAbility.FavoredEnemy.SpecialAttack.Extraordinary.AttackOption|DESC:You gain a +%1 bonus on Attack rolls, Damage roll and skill checks against giants.&pipe;FavoredHumanoidGiant
 USERPOOL:Favored Enemy|POOLPOINTS:0.0
-ABILITY:Favored Terrain|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Favored Terrain (Urban)|TYPE:SpecialQuality.Extraordinary.FavoredTerrain|DESC:You gain a +%1 bonus on Knowledge (Geography), Perception, Stealth, and Survival checks, Initiative checks and cannot be tracked in urban terrain&pipe;FavoredTerrainUrban
+ABILITY:Favored Terrain|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Favored Terrain (Urban)|TYPE:RangerClassAbility.SpecialQuality.Extraordinary.FavoredTerrain|DESC:You gain a +%1 bonus on Knowledge (Geography), Perception, Stealth, and Survival checks, Initiative checks and cannot be tracked in urban terrain&pipe;FavoredTerrainUrban
 USERPOOL:Favored Terrain|POOLPOINTS:0.0
-ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Great Fortitude|TYPE:General.AbyssalBloodline.DraconicBloodline.ElementalBloodline|DESC:You are resistant to poisons, diseases, and other deadly maladies.
-ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Mounted Combat|TYPE:Combat.CelestialBloodline|DESC:You are adept at guiding your mount through combat.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Great Fortitude|TYPE:General.AbyssalBloodline.DraconicBloodline.ElementalBloodline.ProteanBloodline.StormbornBloodline.DruidShamanBear|DESC:You are resistant to poisons, diseases, and other deadly maladies.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Mounted Combat|TYPE:Combat.CelestialBloodline.MountedMastery|DESC:You are adept at guiding your mount through combat.
 USERPOOL:FEAT|POOLPOINTS:0.0
-ABILITY:Hunter's Bond|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Hunting Companions|TYPE:SpecialQuality.Extraordinary.HuntersBond|DESC:You form a powerful band with your companions.
+ABILITY:Hunter's Bond|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Hunting Companions|TYPE:RangerClassAbility.SpecialQuality.Extraordinary.HuntersBond|DESC:You form a powerful band with your companions.
 USERPOOL:Hunter's Bond|POOLPOINTS:0.0
 ABILITY:*LANGBONUS|TYPE:VIRTUAL|CATEGORY:*LANGBONUS|KEY:*LANGBONUS|APPLIEDTO:|TYPE:
 USERPOOL:*LANGBONUS|POOLPOINTS:0.0
 
 # Character Weapon proficiencies
-WEAPONPROF:[WEAPON:Axe (Orc Double)|WEAPON:Axe (Throwing)|WEAPON:Battleaxe|WEAPON:Blowgun|WEAPON:Club|WEAPON:Crossbow (Heavy)|WEAPON:Crossbow (Light)|WEAPON:Dagger|WEAPON:Dagger (Punching)|WEAPON:Dart]
-WEAPONPROF:[WEAPON:Falchion|WEAPON:Flail|WEAPON:Flail (Heavy)|WEAPON:Gauntlet|WEAPON:Gauntlet (Spiked)|WEAPON:Glaive|WEAPON:Grapple|WEAPON:Greataxe|WEAPON:Greatclub|WEAPON:Greatsword]
-WEAPONPROF:[WEAPON:Guisarme|WEAPON:Halberd|WEAPON:Hammer (Light)|WEAPON:Handaxe|WEAPON:Javelin|WEAPON:Kukri|WEAPON:Lance|WEAPON:Longbow|WEAPON:Longspear|WEAPON:Longsword]
-WEAPONPROF:[WEAPON:Mace (Heavy)|WEAPON:Mace (Light)|WEAPON:Morningstar|WEAPON:Pick (Heavy)|WEAPON:Pick (Light)|WEAPON:Quarterstaff|WEAPON:Ranseur|WEAPON:Rapier|WEAPON:Rock|WEAPON:Sap]
-WEAPONPROF:[WEAPON:Scimitar|WEAPON:Scythe|WEAPON:Shieldbash|WEAPON:Shortbow|WEAPON:Shortspear|WEAPON:Sickle|WEAPON:Sling|WEAPON:Spear|WEAPON:Spells (Ray)|WEAPON:Spells (Touch)]
-WEAPONPROF:[WEAPON:Spiked Armor|WEAPON:Starknife|WEAPON:Sword (Bastard)|WEAPON:Sword (Short)|WEAPON:Trident|WEAPON:Unarmed Strike|WEAPON:Waraxe (Dwarven)|WEAPON:Warhammer]
+WEAPONPROF:[WEAPON:Atlatl|WEAPON:Axe (Orc Double)|WEAPON:Axe (Throwing)|WEAPON:Bardiche|WEAPON:Battleaxe|WEAPON:Bayonet|WEAPON:Bec de Corbin|WEAPON:Bill|WEAPON:Blowgun|WEAPON:Broadsword (Nine Ring)]
+WEAPONPROF:[WEAPON:Butterfly Sword|WEAPON:Cestus|WEAPON:Chakram|WEAPON:Club|WEAPON:Crossbow (Heavy)|WEAPON:Crossbow (Light)|WEAPON:Dagger|WEAPON:Dagger (Punching)|WEAPON:Dart|WEAPON:Double Chicken Saber]
+WEAPONPROF:[WEAPON:Falchion|WEAPON:Flail|WEAPON:Flail (Heavy)|WEAPON:Gauntlet|WEAPON:Gauntlet (Spiked)|WEAPON:Glaive|WEAPON:Glaive-Guisarme|WEAPON:Grapple|WEAPON:Greataxe|WEAPON:Greatclub]
+WEAPONPROF:[WEAPON:Greatsword|WEAPON:Guisarme|WEAPON:Halberd|WEAPON:Hammer (Light)|WEAPON:Handaxe|WEAPON:Hooked Lance|WEAPON:Iron Brush|WEAPON:Javelin|WEAPON:Jutte|WEAPON:Katana]
+WEAPONPROF:[WEAPON:Kerambit|WEAPON:Kukri|WEAPON:Lance|WEAPON:Longbow|WEAPON:Longspear|WEAPON:Longsword|WEAPON:Lucern Hammer|WEAPON:Lungchuan Tamo|WEAPON:Mace (Heavy)|WEAPON:Mace (Light)]
+WEAPONPROF:[WEAPON:Mattock|WEAPON:Mere Club|WEAPON:Monk's Spade|WEAPON:Morningstar|WEAPON:Naginata|WEAPON:Nodachi|WEAPON:Pick (Heavy)|WEAPON:Pick (Light)|WEAPON:Pilum|WEAPON:Poisoned Sand Tube]
+WEAPONPROF:[WEAPON:Quarterstaff|WEAPON:Ranseur|WEAPON:Rapier|WEAPON:Rhomphaia|WEAPON:Rock|WEAPON:Sansetsukon|WEAPON:Sap|WEAPON:Scimitar|WEAPON:Scizore|WEAPON:Scythe]
+WEAPONPROF:[WEAPON:Shang Gou|WEAPON:Shieldbash|WEAPON:Shortbow|WEAPON:Shortspear|WEAPON:Sibat|WEAPON:Sickle|WEAPON:Sling|WEAPON:Spear|WEAPON:Spear (Boar)|WEAPON:Spells (Ray)]
+WEAPONPROF:[WEAPON:Spells (Touch)|WEAPON:Spiked Armor|WEAPON:Splash Weapon|WEAPON:Stake|WEAPON:Starknife|WEAPON:Sword (Bastard)|WEAPON:Sword (Short)|WEAPON:Sword (Tri-Point Double-Edged)|WEAPON:Sword Cane|WEAPON:Tepoztopilli]
+WEAPONPROF:[WEAPON:Terbutje|WEAPON:Tiger Fork|WEAPON:Tonfa|WEAPON:Trident|WEAPON:Tube Arrow Shooter|WEAPON:Unarmed Strike|WEAPON:Waraxe (Dwarven)|WEAPON:Warhammer|WEAPON:Wushu Dart]
 
 # Character Equipment
 MONEY:0
