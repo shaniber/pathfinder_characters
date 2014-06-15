@@ -7,13 +7,15 @@ COMBAT
     AC: Total / Touch / Flat Footed
 	    14    / 12    / 14			
 
-	Hit Points: 	51		xxxxx xxx
+	Hit Points: 	51		..... ..... ..... ..... 
+	                        ..... ..... ..... .....
+	                        ..... ..... .
 
-	Elemental Ray:	8 		xxxx. ...
+	Elemental Ray:	8 		..... ...
 	Level 0:		.		∞
-	Level 1:		8 		xxxxx x..
-	Level 2:		8		xxxx. ...
-	Level 3:		5		xxx..
+	Level 1:		8 		..... ...
+	Level 2:		8		..... ...
+	Level 3:		5		.....
 
 	Conditions:
 
@@ -25,6 +27,8 @@ COMBAT
 		to hit:       +3
 		damage:       1d2-1
 		critical:     20/x2
+
+	CMD:
 
 	Initiative:       +4
 	BAB:              +3
@@ -83,13 +87,13 @@ FEATS
 	  You get a +4 bonus on concentration checks made to cast a spell or use a spell-like ability when casting on the defensive or while grappled.
   
 	Craft Magic Arms and Armor
-	  You can create magic weapons, armor, or shields. Enhancing a weapon, suit of armor, or shield takes 1 day for each 1,000 gp in the price of its magical features. To enhance a weapon, suit of armor, or shield, you must use up raw materials costing half of this total price. See the magic item creation rules in Chapter 15 for more information. The weapon, armor, or shield to be enhanced must be a masterwork item that you provide. Its cost is not included in the above cost. You can also mend a broken magic weapon, suit of armor, or shield if it is one that you could make. Doing so costs half the raw materials and half the time it would take to craft that item in the first place.
+		You can create magic weapons, armor, or shields. Enhancing a weapon, suit of armor, or shield takes 1 day for each 1,000 gp in the price of its magical features. To enhance a weapon, suit of armor, or shield, you must use up raw materials costing half of this total price. See the magic item creation rules in Chapter 15 for more information. The weapon, armor, or shield to be enhanced must be a masterwork item that you provide. Its cost is not included in the above cost. You can also mend a broken magic weapon, suit of armor, or shield if it is one that you could make. Doing so costs half the raw materials and half the time it would take to craft that item in the first place.
   
 	Empower Spell
-	  All variable, numeric effects of an empowered spell are increased by half including bonuses to those dice rolls. Saving throws and opposed rolls are not affected, nor are spells without random variables. An empowered spell uses up a spell slot two levels higher than the spell's actual level.
+		All variable, numeric effects of an empowered spell are increased by half including bonuses to those dice rolls. Saving throws and opposed rolls are not affected, nor are spells without random variables. An empowered spell uses up a spell slot two levels higher than the spell's actual level.
   
 	Improved Initiative
-	  You get a +4 bonus on initiative checks.
+		You get a +4 bonus on initiative checks.
   
 	Skill Focus (Spellcraft)
 	Simple Weapon Proficiency
@@ -389,8 +393,8 @@ MAGIC
 			Range: Close (35 ft.)	
 			Components: V, S
 			SR: Yes	
-			Effect: You blast your enemies with up to 2 searing beams of fire dealing 4d6
-				points of fire damage.	
+			Effect: You blast your enemies with up to 2 searing beams of fire each dealing 
+				4d6	points of fire damage.	
 			Target: One or more rays
 
 	Sorcerer Spells - Level 3
@@ -439,13 +443,14 @@ EQUIPMENT
 	1	Headband of Alluring Charisma +2
 	1	Snakeskin Tunic
 	1	Amulet of Natural Armor +1
-	1	Wand of Magic Missile (34)
+	1	Wand of Magic Missile L3 (44)
 	1	Wand of Produce Flame (32)
-	1	Wand of Knock (15)
+	1	Wand of Knock (14)
 	2	Flask of Holy Water
 	3	Potion of Cure Light Wounds
 	1	Potion of Cure Moderate Wounds
 	1	fine looking scarf
+	1   ruby inlaid red dragon scale cloak clasp (600gp)
 
 	At Home:
 	1	Monkey Head door ringer
@@ -460,7 +465,7 @@ DESCRIPTION
 	Speed:      Walk 20 ft.
 	Languages:  Common, Dwarven, Gnome, Orc, Sylvan
 	Levels:		Sorcerer 7
-	XP:			/35000
+	XP:			41890 / 51000
 
 	Height:			3' 5"		Weight:	37 lbs.				Gender: Male	
 	Eyes:			Blue		Hair:	Blue,Shaggy			Skin: Orange
