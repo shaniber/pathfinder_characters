@@ -7,15 +7,18 @@ COMBAT
     AC: Total / Touch / Flat Footed
 	    14    / 12    / 14			
 
-	Hit Points: 	51		..... ..... ..... ..... 
-	                        ..... ..... ..... .....
+	Hit Points: 	51		xxxxx xxxxx xxxxx xxxxx 
+	                        xxxxx xxxxx x.... .....
 	                        ..... ..... .
+
+
+
 
 	Elemental Ray:	8 		..... ...
 	Level 0:		.		∞
 	Level 1:		8 		..... ...
-	Level 2:		8		..... ...
-	Level 3:		5		.....
+	Level 2:		8		x.... ...
+	Level 3:		5		xxxx.
 
 	Conditions:
 
@@ -444,6 +447,7 @@ EQUIPMENT
 	1	Snakeskin Tunic
 	1	Amulet of Natural Armor +1
 	1	Wand of Magic Missile L3 (44)
+	1   Wand of Scorching Ray L3 (22)
 	1	Wand of Produce Flame (32)
 	1	Wand of Knock (14)
 	2	Flask of Holy Water
@@ -451,6 +455,7 @@ EQUIPMENT
 	1	Potion of Cure Moderate Wounds
 	1	fine looking scarf
 	1   ruby inlaid red dragon scale cloak clasp (600gp)
+	1   masterwork dagger
 
 	At Home:
 	1	Monkey Head door ringer
