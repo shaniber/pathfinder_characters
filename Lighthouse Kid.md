@@ -2,20 +2,22 @@ Lighthouse Kid
 ==============
 8th Level Neutral-Good Gnome Sorcerer
 
+ONE NEGATIVE LEVEL
+
 COMBAT
 ------
     AC: Total / Touch / Flat Footed
 	    14    / 12    / 14			
 
-	Hit Points: 	59		xxxxx xxxxx xxxxx xxx..
+	Hit Points: 	59		xxxxx xx... ..... .....
 	                        ..... ..... ..... .....
 	                        ..... ..... ..... ....
 
-	Elemental Ray:	9 		..... ....
+	Elemental Ray:	9 		xx... ....
 	Level 0:		.		∞
-	Level 1:		8 		xx... ...
-	Level 2:		8		x... ...
-	Level 3:		6		.....
+	Level 1:		8 		xxxx. ...
+	Level 2:		8		xxxxx ...
+	Level 3:		6		x.... .
 	Level 4:        4       ....
 
 	Conditions:
@@ -538,12 +540,13 @@ EQUIPMENT
 	1	Wand of Magic Missile L3 (44)
 	1   Wand of Scorching Ray L3 (22)
 	1	Wand of Produce Flame (32)
-	1	Wand of Knock (14)
+	1	Wand of Knock (12)
 	2	Flask of Holy Water
 	3	Potion of Cure Light Wounds
 	1	Potion of Cure Moderate Wounds
 	1	fine looking scarf
 	1   ruby inlaid red dragon scale cloak clasp (600gp)
+	1	Impaler of Thorns
 	1   masterwork dagger
 
 	At Home:
