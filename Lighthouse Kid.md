@@ -1,24 +1,26 @@
 Lighthouse Kid 
 ==============
-8th Level Neutral-Good Gnome Sorcerer
+9th Level Neutral-Good Gnome Sorcerer
 
 ONE NEGATIVE LEVEL
 
 COMBAT
 ------
     AC: Total / Touch / Flat Footed
-	    14    / 12    / 14			
+	    14    / 13    / 14			
 
-	Hit Points: 	59		xxxxx xx... ..... .....
+	Hit Points: 	64		..... ..... ..... .....
 	                        ..... ..... ..... .....
-	                        ..... ..... ..... ....
+	                        ..... ..... ..... .....
+	                        ....
 
-	Elemental Ray:	9 		xx... ....
+	Elemental Ray:	8 		..... ...
+	Elemental Blast	1		x
 	Level 0:		.		∞
-	Level 1:		8 		xxxx. ...
-	Level 2:		8		xxxxx ...
-	Level 3:		6		x.... .
-	Level 4:        4       ....
+	Level 1:		8 		xx... ...
+	Level 2:		8		x.... ...
+	Level 3:		7		..... ..
+	Level 4:        5       .....
 
 	Conditions:
 
@@ -32,6 +34,11 @@ COMBAT
 		damage:       1d2-1
 		critical:     20/x2
 		reach:        5ft.
+	Impaler of Thorns
+		to hit:		  +3
+		damage:		  1d6
+		critical:     20/x2
+		reach:        5ft.
 
 	                  Gr / Tr / D  / S  / BR / OR
 	CMD:              13 / 13 / 13 / 13 / 13 / 13
@@ -41,9 +48,9 @@ COMBAT
 	BAB:              +4
 	Melee tohit:      +4
 	Ranged tohit:     +5
-	Fortitude:        +5
-	Reflex:           +3
-	Will:             +7
+	Fortitude:        +7
+	Reflex:           +5
+	Will:             +8
 
 
 STATS
@@ -63,8 +70,8 @@ SKILLS
 	Skill                       Total    Rnk      Stat     Msc
 	Acrobatics                   0        0.0      0        0
 	Acrobatics (Jump)            -4       0.0      0        -4
-	Appraise                     6        1.0      2        3
-	Bluff                        6        0.0      6        0
+	Appraise                     7        2.0      2        3
+	Bluff                        10       1.0      6        3
 	Climb                        -1       0.0      -1       0
 	Craft (Untrained)            2        0.0      2        0
 	Diplomacy                    7        0.0      6        0
@@ -73,18 +80,18 @@ SKILLS
 	Fly                          2        0.0      0        2
 	Heal                         0        0.0      0        0
 	Intimidate                   10       1.0      6        3
-	Knowledge (Arcana)           13       7.0      2        3
+	Knowledge (Arcana)           14       9.0      2        3
 	Knowledge (Dungeoneering)    4        1.0      2        0
 	Knowledge (Local)            3        1.0      2        0
-	Perception                   9        6.0      0        2
+	Perception                   10       8.0      0        2
 	Perform (Untrained)          6        0.0      6        0
 	Ride                         0        0.0      0        0
 	Sense Motive                 1        1.0      0        0
-	Spellcraft                   16       7.0      2        6
+	Spellcraft                   19       9.0      2        8
 	Stealth                      4        0.0      0        4
 	Survival                     5        1.0      0        4
 	Swim                         -1       0.0      -1       0
-	Use Magic Device             15       5.0      6        4
+	Use Magic Device             17       5.0      6        6
                                                     
 
 
@@ -101,10 +108,16 @@ FEATS
   
 	Improved Initiative
 		You get a +4 bonus on initiative checks.
+
+	Magical Aptitude
+		You get a +2 bonus on all Spellcraft checks and Use Magic Device checks. If you have 10 or more ranks in one of these skills, the bonus increases to +4 for that skill.
   
 	Skill Focus (Spellcraft)
 	Simple Weapon Proficiency
 	Eschew Materials
+
+	Resistance to Fire
+		You may ignore 20 points of fire damage each time you take fire damage
 
 
 
@@ -119,6 +132,11 @@ MAGIC
 			Duration: immediate
 			Range: Close (30 ft.)
 			Effect: You can unleash an elemental ray as a standard action, targeting any foe within 30 feet as a ranged touch attack. This ray deals 1d6+4 points of fire damage You can use this ability 8 times per day. 
+
+		Elemental Blast (Sp) - 1 per day
+			Saves: Reflex half
+			DC: 20
+			You can unleash a blast of elemental power 1/day. This burst deals 9d6 points of fire damage. Those caught in the area receive a Reflex save for half damage (DC 20). Creatures that fail their save gain Vulnerability to Fire for 1 round. This power has a range of 60 feet. 
 
 	Innate Spells
 	-------------
@@ -181,7 +199,8 @@ MAGIC
 	Sorcerer Spells - Level 0
 	-------------------------
 		Acid Splash (Conjuration)
-			Saves: None	DC: 	
+			Saves: None	
+			DC: 	
 			Casting: 1 standard action
 			Duration: Instantaneous	
 			Range: Close (35 ft.)	
@@ -203,9 +222,10 @@ MAGIC
 			Target: One personal rune or mark, all of which must fit within 1 sq. ft.
 			
 		Detect Magic (Divination)
-			Saves: None	DC: 	
+			Saves: None	
+			DC: 	
 			Casting: 1 standard action
-			Duration: Concentration, up to 4 minutes [D]	
+			Duration: Concentration, up to 9 minutes [D]	
 			Range: 60 ft.	
 			Components: V, S
 			SR: No	
@@ -267,7 +287,7 @@ MAGIC
 			Components: V, S, F
 			SR: No	
 			Effect: You can whisper messages and receive whispered replies.	
-			Target: 7 creatures
+			Target: 9 creatures
 
 		Read Magic (Divination)
 			Saves: 	
@@ -285,7 +305,7 @@ MAGIC
 	-------------------------
 		Burning Hands (Evocation)
 			Saves: Reflex half	
-			DC: 16	
+			DC: 17	
 			Casting: 1 standard action
 			Duration: Instantaneous	
 			Range: 15 ft.	
@@ -299,12 +319,12 @@ MAGIC
 			Saves: Will negates (harmless) or Will negates (object);	
 			DC: 17	
 			Casting: 1 immediate action
-			Duration: Until landing or 7 rounds	Range: 
-			Close (40 ft.)	
+			Duration: Until landing or 9 rounds	
+			Range: Close (40 ft.)	
 			Components: V
 			SR: Yes (object)	
 			Effect: The affected creatures or objects fall slowly.	
-			Target: 8 Medium or smaller freefalling objects or creatures, no two 
+			Target: 9 Medium or smaller freefalling objects or creatures, no two 
 			of which may be more than 20 ft. apart
 
 		Magic Missile (Evocation)
@@ -315,7 +335,7 @@ MAGIC
 			Range: Medium (140 ft.)	
 			Components: V, S
 			SR: Yes	
-			Effect: 4 missiles that do 1d4+1 damage each.	
+			Effect: 5 missiles that do 1d4+1 damage each.	
 			Target: Up to five creatures, no two of which can be more than 15 ft.
 				apart
 
@@ -333,9 +353,9 @@ MAGIC
 		
 		Protection from Evil (Abjuration)
 			Saves: Will negates (harmless)	
-			DC: 16	
+			DC: 17	
 			Casting: 1 standard action
-			Duration: 8 minutes [D]
+			Duration: 9 minutes [D]
 			Range: Touch	
 			Components: V, S, M/DF
 			SR: No; see text	
@@ -409,7 +429,7 @@ MAGIC
 		False Life (Necromancy)
 			Saves: 	DC: 	
 			Casting: 1 standard action
-			Duration: 8 hours or until discharged; see text	
+			Duration: 9 hours or until discharged; see text	
 			Range: Personal	
 			Components: V, S, M
 			SR: 	
@@ -423,8 +443,8 @@ MAGIC
 			Saves: Reflex negates	
 			DC: 18
 			Casting: 1 standard action
-			Duration: 8 rounds	
-			Range: Med (180')	
+			Duration: 9 rounds	
+			Range: Med (190')	
 			Components: V, S, M
 			SR: no
 			Effect: A burning globe of fire rolls in whichever direction you 
@@ -445,6 +465,30 @@ MAGIC
 				flame. It cannot push aside unwilling creatures or batter down 
 				large obstacles. A flaming sphere winks out if it exceeds the 
 				spell's range.
+
+		Pyrotechnics (Transmutation, Fire)
+			Saves: Will negates or Fortitude negates; see text; 
+			DC: 18	
+			Casting: 1 standard action
+			Duration: 1d4+1 rounds, or 1d4+1 rounds after creatures leave the smoke cloud; see text	
+			Range: Long (760 ft.)	
+			Components: V, S, M
+			SR: Yes or No; see text	
+			Effect: Pyrotechnics turns a fire into a burst of blinding fireworks or a thick cloud of 
+				choking smoke, depending on your choice.
+
+				Fireworks: The fireworks are a flashing, fiery, momentary burst of glowing, colored 
+				aerial lights. This effect causes creatures within 120 feet of the fire source to 
+				become blinded for 1d4+1 rounds (Will negates). These creatures must have line of 
+				sight to the fire to be affected. Spell resistance can prevent blindness.
+
+				Smoke Cloud: A stream of smoke billows out from the fire, forming a choking cloud that 
+				spreads 20 feet in all directions and lasts for 1 round per caster level. All sight, 
+				even darkvision, is ineffective in or through the cloud. All within the cloud take –4 
+				penalties to Strength and Dexterity (Fortitude negates). These effects last for 1d4+1 
+				rounds after the cloud dissipates or after the creature leaves the area of the cloud. 
+				Spell resistance does not apply.
+			Target: One fire source, up to a 20-ft. cube
 
 		Scorching Ray (Evocation)
 			Saves: None	
@@ -481,7 +525,8 @@ MAGIC
 			Range: Touch	
 			Components: V, S, DF
 			SR: Yes (harmless)	
-			Effect: Protection from energy grants temporary immunity to the type of energy you specify when you cast it.	
+			Effect: Protection from energy grants temporary immunity to the type of energy 
+				you specify when you cast it.	
 			Target: Creature touched
 
 		Slow (Transmutation)
@@ -495,10 +540,46 @@ MAGIC
 			Effect: An affected creature moves and attacks at a drastically slowed rate.	
 			Target: 8 creatures, no two of which can be more than 30 ft. apart
 
+		Tiny Hut (Evocation)
+			Saves: None	
+			DC: 	
+			Casting: 1 standard action
+			Duration: 18 hours [D]	
+			Range: 20 ft.	
+			Components: V, S, M
+			SR: No	
+			Effect: 
+			You create an unmoving, opaque sphere of force of any color you 	desire around yourself.	
 
+			The temperature inside the hut is 70° F if the exterior temperature is between 0° and 100° F. An exterior temperature below 0° or above 100° lowers or raises the interior temperature on a 1-degree-for-1 basis. 
 
+			The hut also provides protection against the elements, such as rain, dust, and sandstorms. The hut withstands any wind of less than hurricane force, but a hurricane (75+ mph wind speed) or greater force destroys it.
+
+			Target: 20-ft.-radius sphere centered on your location
+			
 	Sorcerer Spells - Level 4
 	-------------------------
+
+		Elemental Body I (Transmutation, Fire, Air, Earth, Water)
+			Saves: 	
+			DC: 	
+			Casting: 1 standard action
+			Duration: 9 minutes [D]	
+			Range: Personal	
+			Components: V, S, M
+			SR: 	
+			Effect: When you cast this spell, you can assume the form of a Small air, earth, fire, or water elemental.	
+
+			Air elemental: If the form you take is that of a Small air elemental, you gain a +2 size bonus to your Dexterity and a +2 natural armor bonus. You also gain fly 60 feet (perfect), darkvision 60 feet, and the ability to create a whirlwind.
+
+			Earth elemental: If the form you take is that of a Small earth elemental, you gain a +2 size bonus to your Strength and a +4 natural armor bonus. You also gain darkvision 60 feet, and the ability to earth glide.
+
+			Fire elemental: If the form you take is that of a Small fire elemental, you gain a +2 size bonus to your Dexterity and a +2 natural armor bonus. You gain darkvision 60 feet, resist fire 20, vulnerability to cold, and the burn ability.
+
+			Water elemental: If the form you take is that of a Small water elemental, you gain a +2 size bonus to your Constitution and a +4 natural armor bonus. You also gain swim 60 feet, darkvision 60 feet, the ability to create a vortex, and the ability to breathe water
+
+			Target: You
+
 		Fire Shield
 			Saves: None
 			DC: 
@@ -528,16 +609,44 @@ MAGIC
 				the warm shield is employed. The special powers of each version 
 				are as follows.
 
+		Wall of Fire (Evocation, Fire)
+			Saves: None	
+			DC: 	
+			Casting: 1 standard action
+			Duration: Concentration + 9 rounds	
+			Range: Medium (190 ft.)	
+			Components: V, S, M/DF
+			SR: Yes	
+			Effect: An immobile, blazing curtain of shimmering violet fire springs into 
+				existence. One side of the wall, selected by you, sends forth waves of heat, 
+				dealing 2d4 points of fire damage to creatures within 10 feet and 1d4 points 
+				of fire damage to those past 10 feet but within 20 feet. The wall deals this 
+				damage when it appears, and to all creatures in the area on your turn each 
+				round. In addition, the wall deals 2d6 points of fire damage + 1 point of 
+				fire damage per caster level (maximum +20) to any creature passing through it.
+				The wall deals double damage to undead creatures.
+
+				If you evoke the wall so that it appears where creatures are, each creature 
+				takes damage as if passing through the wall. If any 5-foot length of wall 
+				takes 20 points or more of cold damage in 1 round, that length goes away. (Do 
+				not divide cold damage by 2, as normal for objects.)
+
+				Wall of fire can be made permanent with a permanency spell. A permanent wall 
+				of fire that is extinguished by cold damage becomes inactive for 10 minutes, 
+				then reforms at normal strength.	
+			
+			Target: Opaque sheet of flame up to 180 ft. long or a ring of fire with a radius of up to 22 ft.; either form 20 ft. high
 
 
 EQUIPMENT
 ---------
 	1	Ring of Protection +1
+	1	Ring of Spell Storing
 	1	Cloak of Resistance +1
 	1	Headband of Alluring Charisma +2
 	1	Snakeskin Tunic
 	1	Amulet of Natural Armor +1
-	1	Wand of Magic Missile L3 (44)
+	1	Wand of Magic Missile L3 (43)
 	1   Wand of Scorching Ray L3 (22)
 	1	Wand of Produce Flame (32)
 	1	Wand of Knock (12)
@@ -547,11 +656,16 @@ EQUIPMENT
 	1	fine looking scarf
 	1   ruby inlaid red dragon scale cloak clasp (600gp)
 	1	Impaler of Thorns
+	1 	Necklace of Fireballs (Type I)
 	1   masterwork dagger
+
+	In Spell Storing Ring
+	5	Endure Elements
 
 	At Home:
 	1	Monkey Head door ringer
 	1	book on Varisan history	
+	1	silver goblet with inlaid opals
 
 	1965 gp
 
@@ -561,8 +675,8 @@ DESCRIPTION
 	Vision:     Low-Light
 	Speed:      Walk 5 ft. (due to injury)
 	Languages:  Common, Dwarven, Gnome, Orc, Sylvan
-	Levels:		Sorcerer (8)
-	XP:			59570 / 75000
+	Levels:		Sorcerer (9)
+	XP:			75000 / 75000
 
 	Height:			3' 5"		Weight:	37 lbs.				Gender: Male	
 	Eyes:			Blue		Hair:	Blue,Shaggy			Skin: Orange
@@ -573,4 +687,34 @@ DESCRIPTION
 	Full Description
 
 	Background
+		Lighthouse is a gnomish sorcerer, about 29 years old. He doesn't remember much before his 
+		21st year, though. His first real memory is of a half-Orc woman hauling him away from the 
+		ruins of the old lighthouse, and pain in his shattered hips.
+
+		He spent the majority of the next year healing, hiding in the same ruins and surviving on the 
+		berries and hunted meat that the half-Orc brought him from the surrounding forest. he 
+		eventually gained some mobility back, and was able to hobble slowly around town leaning 
+		heavily on a walking stick. His magical abilities manifested early, starting with the ability 
+		to set small fires to keep him and the half-Orc warm in the winter.
+
+		The half-Orc became his constant companion. Carting him on her back, she was not only his best 
+		means of transportation, but his protector. When with him, the half-Orc was generally 
+		pacifist, unless the gnome was threatened. Then the spiked gauntlet that she wore would rarely 
+		miss.
+
+		Together, they became known as "the Lighthouse Kid and his Thug". Since he couldn't remember 
+		his name, and she couldn't communicate beyond a handful of grunts and half-words, the names 
+		stuck.
+
+		Lately, Lighthouse has been bitten by a bug to adventure. He's talked with other sorcerers 
+		passing through, when they would give him the time of day, and has given himself a runic 
+		tattoo. With the little bit of coin that they've managed to scrape together, they've purchased 
+		some basic adventuring gear, and they're ready to make a name for themselves.
+
+		Lighthouse currently has been buying up property in towns around the countryside.  He 
+		currently owns a small house in Sandpoint, just by the old lighthouse, and a townhouse, 
+		appropriated from Judge Ironside, in Magnamar.  
+
+		Currently, a lawyer in Magnamar has a 1,000 gp retainer to pay a footman to maintain the 
+		houses, and pay for any repairs.
 
