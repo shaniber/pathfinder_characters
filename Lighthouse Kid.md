@@ -2,52 +2,52 @@ Lighthouse Kid
 ==============
 9th Level Neutral-Good Gnome Sorcerer
 
-ONE NEGATIVE LEVEL
-
 COMBAT
 ------
     AC: Total / Touch / Flat Footed
-	    14    / 13    / 14			
+	    14    / 12    / 14			
 
-	Hit Points: 	64		..... ..... ..... .....
+	Hit Points: 	71		xxxxx xxxxx xxxxx xxxxx
+	                        xxx.. ..... ..... .....
 	                        ..... ..... ..... .....
-	                        ..... ..... ..... .....
-	                        ....
+	                        ..... ..... .
 
-	Elemental Ray:	8 		..... ...
+	Elemental Ray:	9 		..... ....
 	Elemental Blast	1		x
 	Level 0:		.		∞
-	Level 1:		8 		xx... ...
-	Level 2:		8		x.... ...
-	Level 3:		7		..... ..
-	Level 4:        5       .....
+	Level 1:		8 		x.... ...
+	Level 2:		8		..... ...
+	Level 3:		7		xxxxx ..
+	Level 4:        6       ..... .
+	Level 5:		4		xx..
 
 	Conditions:
 
 	Touch Attack (Ray)
-		to hit:       +4
+		to hit:       +5
 		damage:       as spell
 		critical:     20/x2
 		reach:        
 	Unarmed attack:
-		to hit:       +4
+		to hit:       +5
 		damage:       1d2-1
 		critical:     20/x2
 		reach:        5ft.
 	Impaler of Thorns
-		to hit:		  +3
+		to hit:		  +4
 		damage:		  1d6
 		critical:     20/x2
 		reach:        5ft.
 
 	                  Gr / Tr / D  / S  / BR / OR
-	CMD:              13 / 13 / 13 / 13 / 13 / 13
-	CMB:              +2 / +2 / +2 / +2 / +2 / +2
+	CMD:              14 / 14 / 14 / 14 / 14 / 14
+	CMB:              +3 / +3 / +3 / +3 / +3 / +3
 
 	Initiative:       +4
-	BAB:              +4
+	BAB:              +5
 	Melee tohit:      +4
 	Ranged tohit:     +5
+
 	Fortitude:        +7
 	Reflex:           +5
 	Will:             +8
@@ -57,7 +57,7 @@ STATS
 -----
 	Stat    Score   Mod		Curr	
 	STR      8       (-1)	 8		-1
-	DEX      8       (-1)	 10		+0
+	DEX      10      (0)	 10		+0
 	CON      14      (+2)	 14		+2
 	INT      14      (+2)	 14		+2
 	WIS      10      (+0)	 10		+0
@@ -67,31 +67,32 @@ STATS
 SKILLS
 ------
 
-	Skill                       Total    Rnk      Stat     Msc
-	Acrobatics                   0        0.0      0        0
-	Acrobatics (Jump)            -4       0.0      0        -4
-	Appraise                     7        2.0      2        3
-	Bluff                        10       1.0      6        3
-	Climb                        -1       0.0      -1       0
-	Craft (Untrained)            2        0.0      2        0
-	Diplomacy                    7        0.0      6        0
-	Disguise                     6        0.0      6        0
-	Escape Artist                0        0.0      0        0
-	Fly                          2        0.0      0        2
-	Heal                         0        0.0      0        0
-	Intimidate                   10       1.0      6        3
-	Knowledge (Arcana)           14       9.0      2        3
-	Knowledge (Dungeoneering)    4        1.0      2        0
-	Knowledge (Local)            3        1.0      2        0
-	Perception                   10       8.0      0        2
-	Perform (Untrained)          6        0.0      6        0
-	Ride                         0        0.0      0        0
-	Sense Motive                 1        1.0      0        0
-	Spellcraft                   19       9.0      2        8
-	Stealth                      4        0.0      0        4
-	Survival                     5        1.0      0        4
-	Swim                         -1       0.0      -1       0
-	Use Magic Device             17       5.0      6        6
+	Skill                       Total    Rnk    Stat     Msc
+	Acrobatics                   0        0      0        0
+	Acrobatics (Jump)            -4       0      0        -4
+	Appraise                     7        2      2        3
+	Bluff                        10       1      6        3
+	Climb                        -1       0      -1       0
+	Craft (Untrained)            2        0      2        0
+	Diplomacy                    7        0      6        0
+	Disguise                     6        0      6        0
+	Escape Artist                0        0      0        0
+	Fly                          2        0      0        2
+	Heal                         0        0      0        0
+	Intimidate                   10       1      6        3
+	Knowledge (Arcana)           15       9      2        3
+	Knowledge (Dungeoneering)    4        1      2        0
+	Knowledge (Local)            3        1      2        0
+	Knowledge (Plains)			 6        1      2        3
+	Perception                   12       8      0        2
+	Perform (Untrained)          6        0      6        0
+	Ride                         0        0      0        0
+	Sense Motive                 1        1      0        0
+	Spellcraft                   25       9      2        8
+	Stealth                      4        0      0        4
+	Survival                     5        1      0        4
+	Swim                         -1       0      -1       0
+	Use Magic Device             17       5      6        6
                                                     
 
 
@@ -105,6 +106,10 @@ FEATS
   
 	Empower Spell
 		All variable, numeric effects of an empowered spell are increased by half including bonuses to those dice rolls. Saving throws and opposed rolls are not affected, nor are spells without random variables. An empowered spell uses up a spell slot two levels higher than the spell's actual level.
+
+
+	Eschew Materials 
+		You can cast any spell with a material component costing 1 gp or less without needing that component. The casting of the spell still provokes attacks of opportunity as normal. If the spell requires a material component that costs more than 1 gp, you must have the material component on hand to cast the spell, as normal. 
   
 	Improved Initiative
 		You get a +4 bonus on initiative checks.
@@ -125,18 +130,22 @@ MAGIC
 -----
 	Special
 	-------
-		Elemental Ray (Sp)  - 8 per day
+		Elemental Ray (Spell)  - 8 per day
 			Saves: None
 			DC:
 			Casting: 1 standard action
 			Duration: immediate
 			Range: Close (30 ft.)
-			Effect: You can unleash an elemental ray as a standard action, targeting any foe within 30 feet as a ranged touch attack. This ray deals 1d6+4 points of fire damage You can use this ability 8 times per day. 
+			Effect: 
+				You can unleash an elemental ray as a standard action, targeting any foe within 30 feet as a ranged touch attack. This ray deals 1d6+4 points of fire damage You can use this ability 8 times per day. 
 
-		Elemental Blast (Sp) - 1 per day
+		Elemental Blast (Supernatural) - 1 per day
 			Saves: Reflex half
-			DC: 20
-			You can unleash a blast of elemental power 1/day. This burst deals 9d6 points of fire damage. Those caught in the area receive a Reflex save for half damage (DC 20). Creatures that fail their save gain Vulnerability to Fire for 1 round. This power has a range of 60 feet. 
+			DC: 21
+			Duration: immediate
+			Range: Close (20 ft.)
+			Effect:
+				You can unleash a blast of elemental power 1/day. This burst deals 9d6 points of fire damage. Those caught in the area receive a Reflex save for half damage (DC 20). Creatures that fail their save gain Vulnerability to Fire for 1 round. This power has a range of 60 feet. 
 
 	Innate Spells
 	-------------
@@ -161,16 +170,6 @@ MAGIC
 			SR: No
 			Effect: Ghost sound allows you to create a volume of sound that rises, recedes, approaches, or remains at a fixed place.
 			Target:	Illusory sounds
-
-		Message (Transmutation [Language-Dependent])
-			Components: V, S, F 
-			Cast Time: 1 standard action 
-			Duration: 60 minutes 
-			Range: Medium (160 ft.)   
-			Saving Throw: None   
-			Spell Resistance: No  
-			Description: You can whisper messages and receive whispered replies.
-			Target: 7 creatures 
 
 		Prestidigitation (Universal) - 1 per day
 			Saves: See text
@@ -264,18 +263,8 @@ MAGIC
 			Range: 10 ft.
 			Components: V, S
 			SR: Yes (harmless, object)
-			Effect: This spell repairs damaged objects, restoring 1d4 hit points 
-				to the object. If the object has the broken condition, this 
-				condition is removed if the object is restored to at least half 
-				its original hit points. All of the pieces of an object must be 
-				present	for this spell to function. Magic items can be repaired 
-				by this	spell, but you must have a caster level equal to or 
-				higher than that of the object. Magic items that are destroyed 
-				(at 0 hit points or less) can be repaired with this spell, but 
-				this spell does not restore their magic abilities. This spell 
-				does not affect creatures (including constructs). This spell has 
-				no effect on objects that have been warped or otherwise 
-				transmuted, but it can still repair damage done to such items.
+			Effect: 
+				This spell repairs damaged objects, restoring 1d4 hit points to the object. If the object has the broken condition, this condition is removed if the object is restored to at least half its original hit points. All of the pieces of an object must be present for this spell to function. Magic items can be repaired by this spell, but you must have a caster level equal to or higher than that of the object. Magic items that are destroyed (at 0 hit points or less) can be repaired with this spell, but this spell does not restore their magic abilities. This spell does not affect creatures (including constructs). This spell has no effect on objects that have been warped or otherwise transmuted, but it can still repair damage done to such items.
 			Target: One object of up to 8 lb.
 
 		Message (Transmutation)
@@ -286,7 +275,8 @@ MAGIC
 			Range: Medium (170 ft.)	
 			Components: V, S, F
 			SR: No	
-			Effect: You can whisper messages and receive whispered replies.	
+			Effect: 
+				You can whisper messages and receive whispered replies.
 			Target: 9 creatures
 
 		Read Magic (Divination)
@@ -297,9 +287,22 @@ MAGIC
 			Range: Personal	
 			Components: V, S, F
 			SR: 	
-			Effect: You can decipher magical inscriptions on objects--books, scrolls,
-				weapons, and the like--that would otherwise be unintelligible.	
+			Effect: 
+				You can decipher magical inscriptions on objects--books, scrolls, weapons, and the like--that would otherwise be unintelligible.	
 			Target: You
+
+			Spark (Evocation, Fire)
+				Save: Fortitude negates (object)
+				DC: 16
+				Time: 1 standard action
+				Duration: Instantaneous
+				Range: Close (50 ft.)
+ 				Components: V or S
+				SR: Yes (object)
+				Effect:  
+					Ignites flammable objects.
+ 				Target:   one Fine object 
+
 			
 	Sorcerer Spells - Level 1
 	-------------------------
@@ -311,8 +314,8 @@ MAGIC
 			Range: 15 ft.	
 			Components: V, S
 			SR: Yes	
-			Effect: A cone of searing flame shoots from your fingertips dealing 
-				5d4 points of fire damage to any creature in the effect area.	
+			Effect: 
+				A cone of searing flame shoots from your fingertips dealing 5d4 points of fire damage to any creature in the effect area.	
 			Target: Cone-shaped burst
 
 		Feather Fall (Transmutation)
@@ -323,21 +326,21 @@ MAGIC
 			Range: Close (40 ft.)	
 			Components: V
 			SR: Yes (object)	
-			Effect: The affected creatures or objects fall slowly.	
-			Target: 9 Medium or smaller freefalling objects or creatures, no two 
-			of which may be more than 20 ft. apart
+			Effect: 
+				The affected creatures or objects fall slowly.	
+			Target: 
+				9 Medium or smaller freefalling objects or creatures, no two of which may be more than 20 ft. apart
 
 		Magic Missile (Evocation)
 			Saves: None	
 			DC: 	
 			Casting: 1 standard action
 			Duration: Instantaneous	
-			Range: Medium (140 ft.)	
+			Range: Medium (200 ft.)	
 			Components: V, S
 			SR: Yes	
 			Effect: 5 missiles that do 1d4+1 damage each.	
-			Target: Up to five creatures, no two of which can be more than 15 ft.
-				apart
+			Target: Up to five creatures, no two of which can be more than 15 ft. apart
 
 		Obscuring Mist (Conjuration)
 			Saves: None	
@@ -347,8 +350,8 @@ MAGIC
 			Range: 20ft					
 			Components: V, S
 			SR: no
-			Effect: A misty, stationary vapour arises around you obscuring all 
-				sight, including darkvision, beyond 5 feet.
+			Effect: 
+				A misty, stationary vapour arises around you obscuring all sight, including darkvision, beyond 5 feet.
 			Target: None
 		
 		Protection from Evil (Abjuration)
@@ -359,43 +362,14 @@ MAGIC
 			Range: Touch	
 			Components: V, S, M/DF
 			SR: No; see text	
-			Effect: This spell wards a creature from attacks by evil creatures, 
-				from mental control, and from summoned creatures.	It creates a 
-				magical barrier around the subject at a distance of 1 foot. The 
-				barrier moves with the subject and has three major effects.
+			Effect: 
+				This spell wards a creature from attacks by evil creatures, from mental control, and from summoned creatures.	It creates a magical barrier around the subject at a distance of 1 foot. The barrier moves with the subject and has three major effects.
 
-				First, the subject gains a +2 deflection bonus to AC and a +2 
-				resistance bonus on saves. Both these bonuses apply against 
-				attacks made or effects created by evil creatures.
+				First, the subject gains a +2 deflection bonus to AC and a +2 resistance bonus on saves. Both these bonuses apply against attacks made or effects created by evil creatures.
 
-				Second, the subject immediately receives another saving throw 
-				(if one was allowed to begin with) against any spells or 
-				effects that possess or exercise mental control over the 
-				creature (including enchantment [charm] effects and 
-				enchantment [compulsion] effects, such as charm person,
-				command, and dominate person. This saving throw is made with 
-				a +2 morale bonus, using the same DC as the original effect. 
-				If successful, such effects are suppressed for the duration 
-				of this spell. The effects resume when the duration of this 
-				spell expires. While under the effects of this spell, the 
-				target is immune to any new attempts to possess or exercise 
-				mental control over the target. This spell does not expel a 
-				controlling life force (such as a ghost or spellcaster using 
-				magic jar), but it does prevent them from controlling the 
-				target. This second effect only functions against spells and 
-				effects created by evil creatures or objects, subject to GM 
-				discretion.
+				Second, the subject immediately receives another saving throw (if one was allowed to begin with) against any spells or effects that possess or exercise mental control over the creature (including enchantment [charm] effects and enchantment [compulsion] effects, such as charm person, command, and dominate person. This saving throw is made with a +2 morale bonus, using the same DC as the original effect. If successful, such effects are suppressed for the duration of this spell. The effects resume when the duration of this spell expires. While under the effects of this spell, the target is immune to any new attempts to possess or exercise mental control over the target. This spell does not expel a controlling life force (such as a ghost or spellcaster using magic jar), but it does prevent them from controlling the target. This second effect only functions against spells and effects created by evil creatures or objects, subject to GM discretion.
 
-				Third, the spell prevents bodily contact by evil summoned 
-				creatures. This causes the natural weapon attacks of such 
-				creatures to fail and the creatures to recoil if such
-				attacks require touching the warded creature. Summoned 
-				creatures that are not evil are immune to this effect. The 
-				protection against contact by summoned creatures ends if the 
-				warded creature makes an attack against or tries to force 
-				the barrier against the blocked creature. Spell resistance
-				can allow a creature to overcome this protection and touch 
-				the warded creature.
+				Third, the spell prevents bodily contact by evil summoned creatures. This causes the natural weapon attacks of such creatures to fail and the creatures to recoil if such attacks require touching the warded creature. Summoned creatures that are not evil are immune to this effect. The protection against contact by summoned creatures ends if the warded creature makes an attack against or tries to force the barrier against the blocked creature. Spell resistance can allow a creature to overcome this protection and touch the warded creature.
 			Target: Creature touched
 
 		Shield (Abjuration)
@@ -406,10 +380,8 @@ MAGIC
 			Range: Personal	
 			Components: V, S
 			SR: 	
-			Effect: Shield creates an invisible shield of force that hovers in 
-				front of you. It negates magic missile attacks directed at you. 
-				The	disk also provides a +4 shield bonus to AC. This bonus 
-				applies against incorporeal touch attacks, since it is a force effect. The shield has no armor	check penalty or arcane spell failure chance.
+			Effect: 
+				Shield creates an invisible shield of force that hovers in front of you. It negates magic missile attacks directed at you. The disk also provides a +4 shield bonus to AC. This bonus applies against incorporeal touch attacks, since it is a force effect. The shield has no armor check penalty or arcane spell failure chance.
 			Target: You
 
   
@@ -423,8 +395,8 @@ MAGIC
 			Range: Object Touched	
 			Components: V, S, M
 			SR: no
-			Effect: A flame, equivalent in brightness to a torch, springs forth 
-				from an object that you touch.
+			Effect: 
+				A flame, equivalent in brightness to a torch, springs forth from an object that you touch.
 
 		False Life (Necromancy)
 			Saves: 	DC: 	
@@ -433,10 +405,8 @@ MAGIC
 			Range: Personal	
 			Components: V, S, M
 			SR: 	
-			Effect: You harness the power of unlife to grant yourself a limited 
-				ability to avoid death. While this spell is in effect, you gain 
-				temporary hit points equal to 1d10 + 1 per caster level (maximum 
-				+10).
+			Effect: 
+				You harness the power of unlife to grant yourself a limited ability to avoid death. While this spell is in effect, you gain temporary hit points equal to 1d10 + 1 per caster level (maximum +10).
 			Target: You
 
 		Flaming Sphere (Evocation)
@@ -447,24 +417,10 @@ MAGIC
 			Range: Med (190')	
 			Components: V, S, M
 			SR: no
-			Effect: A burning globe of fire rolls in whichever direction you 
-				point and burns those it strikes. It moves 30 feet per round. As 
-				part of this movement, it can ascend or jump up to 30 feet to 
-				strike a target. If it enters a space with a creature, it stops 
-				moving for the round and deals 3d6 points of fire damage to that 
-				creature, though a successful Reflex save negates that damage. A 
-				flaming sphere rolls over barriers less than 4 feet tall. It 
-				ignites flammable substances it touches and illuminates 
-				the same area as a torch would.
+			Effect: 
+				A burning globe of fire rolls in whichever direction you point and burns those it strikes. It moves 30 feet per round. As part of this movement, it can ascend or jump up to 30 feet to strike a target. If it enters a space with a creature, it stops moving for the round and deals 3d6 points of fire damage to that creature, though a successful Reflex save negates that damage. A flaming sphere rolls over barriers less than 4 feet tall. It ignites flammable substances it touches and illuminates the same area as a torch would.
 
-				The sphere moves as long as you actively direct it (a move 
-				action for you); otherwise, it merely stays at rest and burns. 
-				It can be extinguished by any means that would put out a normal 
-				fire of its size. The surface of the sphere has a spongy, 
-				yielding consistency and so does not cause damage except by its 
-				flame. It cannot push aside unwilling creatures or batter down 
-				large obstacles. A flaming sphere winks out if it exceeds the 
-				spell's range.
+				The sphere moves as long as you actively direct it (a move action for you); otherwise, it merely stays at rest and burns. It can be extinguished by any means that would put out a normal fire of its size. The surface of the sphere has a spongy, yielding consistency and so does not cause damage except by its flame. It cannot push aside unwilling creatures or batter down large obstacles. A flaming sphere winks out if it exceeds the spell's range.
 
 		Pyrotechnics (Transmutation, Fire)
 			Saves: Will negates or Fortitude negates; see text; 
@@ -474,20 +430,12 @@ MAGIC
 			Range: Long (760 ft.)	
 			Components: V, S, M
 			SR: Yes or No; see text	
-			Effect: Pyrotechnics turns a fire into a burst of blinding fireworks or a thick cloud of 
-				choking smoke, depending on your choice.
+			Effect: 
+				Pyrotechnics turns a fire into a burst of blinding fireworks or a thick cloud of choking smoke, depending on your choice.
 
-				Fireworks: The fireworks are a flashing, fiery, momentary burst of glowing, colored 
-				aerial lights. This effect causes creatures within 120 feet of the fire source to 
-				become blinded for 1d4+1 rounds (Will negates). These creatures must have line of 
-				sight to the fire to be affected. Spell resistance can prevent blindness.
+				Fireworks: The fireworks are a flashing, fiery, momentary burst of glowing, colored aerial lights. This effect causes creatures within 120 feet of the fire source to become blinded for 1d4+1 rounds (Will negates). These creatures must have line of sight to the fire to be affected. Spell resistance can prevent blindness.
 
-				Smoke Cloud: A stream of smoke billows out from the fire, forming a choking cloud that 
-				spreads 20 feet in all directions and lasts for 1 round per caster level. All sight, 
-				even darkvision, is ineffective in or through the cloud. All within the cloud take –4 
-				penalties to Strength and Dexterity (Fortitude negates). These effects last for 1d4+1 
-				rounds after the cloud dissipates or after the creature leaves the area of the cloud. 
-				Spell resistance does not apply.
+				Smoke Cloud: A stream of smoke billows out from the fire, forming a choking cloud that spreads 20 feet in all directions and lasts for 1 round per caster level. All sight, even darkvision, is ineffective in or through the cloud. All within the cloud take –4 penalties to Strength and Dexterity (Fortitude negates). These effects last for 1d4+1 rounds after the cloud dissipates or after the creature leaves the area of the cloud. Spell resistance does not apply.
 			Target: One fire source, up to a 20-ft. cube
 
 		Scorching Ray (Evocation)
@@ -498,8 +446,8 @@ MAGIC
 			Range: Close (35 ft.)	
 			Components: V, S
 			SR: Yes	
-			Effect: You blast your enemies with up to 2 searing beams of fire 
-				each dealing 4d6 points of fire damage.	
+			Effect: 
+				You blast your enemies with up to 2 searing beams of fire each dealing 4d6 points of fire damage.	
 			Target: One or more rays
 
 	Sorcerer Spells - Level 3
@@ -509,13 +457,12 @@ MAGIC
 			DC: 19
 			Cast Time: 1 standard action
 			Duration: Instantaneous
-			Range: Long (720 ft.) 
+			Range: Long (800 ft.) 
 			Components: V, S, M     
 			Target: 20-ft.-radius spread    
 			Spell Resistance: Yes  
-			Effect: A fireball spell generates a searing explosion of flame that 
-				detonates with a low roar and deals 8d6 points of fire damage to every 
-				creature within the area.
+			Effect: 
+				A fireball spell generates a searing explosion of flame that detonates with a low roar and deals 10d6 points of fire damage to every creature within the area.
 
 		Protection from Energy (Abjuration)
 			Saves: Fortitude negates (harmless)	
@@ -525,8 +472,8 @@ MAGIC
 			Range: Touch	
 			Components: V, S, DF
 			SR: Yes (harmless)	
-			Effect: Protection from energy grants temporary immunity to the type of energy 
-				you specify when you cast it.	
+			Effect: 
+				Protection from energy grants temporary immunity to the type of energy you specify when you cast it.	
 			Target: Creature touched
 
 		Slow (Transmutation)
@@ -537,7 +484,8 @@ MAGIC
 			Range: Close (40 ft.)	
 			Components: V, S, M
 			SR: Yes	
-			Effect: An affected creature moves and attacks at a drastically slowed rate.	
+			Effect: 
+				An affected creature moves and attacks at a drastically slowed rate.	
 			Target: 8 creatures, no two of which can be more than 30 ft. apart
 
 		Tiny Hut (Evocation)
@@ -549,17 +497,16 @@ MAGIC
 			Components: V, S, M
 			SR: No	
 			Effect: 
-			You create an unmoving, opaque sphere of force of any color you 	desire around yourself.	
+				You create an unmoving, opaque sphere of force of any color you desire around yourself.	
 
-			The temperature inside the hut is 70° F if the exterior temperature is between 0° and 100° F. An exterior temperature below 0° or above 100° lowers or raises the interior temperature on a 1-degree-for-1 basis. 
+				The temperature inside the hut is 70° F if the exterior temperature is between 0° and 100° F. An exterior temperature below 0° or above 100° lowers or raises the interior temperature on a 1-degree-for-1 basis. 
 
-			The hut also provides protection against the elements, such as rain, dust, and sandstorms. The hut withstands any wind of less than hurricane force, but a hurricane (75+ mph wind speed) or greater force destroys it.
+				The hut also provides protection against the elements, such as rain, dust, and sandstorms. The hut withstands any wind of less than hurricane force, but a hurricane (75+ mph wind speed) or greater force destroys it.
 
 			Target: 20-ft.-radius sphere centered on your location
 			
 	Sorcerer Spells - Level 4
 	-------------------------
-
 		Elemental Body I (Transmutation, Fire, Air, Earth, Water)
 			Saves: 	
 			DC: 	
@@ -568,15 +515,16 @@ MAGIC
 			Range: Personal	
 			Components: V, S, M
 			SR: 	
-			Effect: When you cast this spell, you can assume the form of a Small air, earth, fire, or water elemental.	
+			Effect: 
+				When you cast this spell, you can assume the form of a Small air, earth, fire, or water elemental.	
 
-			Air elemental: If the form you take is that of a Small air elemental, you gain a +2 size bonus to your Dexterity and a +2 natural armor bonus. You also gain fly 60 feet (perfect), darkvision 60 feet, and the ability to create a whirlwind.
+				Air elemental: If the form you take is that of a Small air elemental, you gain a +2 size bonus to your Dexterity and a +2 natural armor bonus. You also gain fly 60 feet (perfect), darkvision 60 feet, and the ability to create a whirlwind.
 
-			Earth elemental: If the form you take is that of a Small earth elemental, you gain a +2 size bonus to your Strength and a +4 natural armor bonus. You also gain darkvision 60 feet, and the ability to earth glide.
+				Earth elemental: If the form you take is that of a Small earth elemental, you gain a +2 size bonus to your Strength and a +4 natural armor bonus. You also gain darkvision 60 feet, and the ability to earth glide.
 
-			Fire elemental: If the form you take is that of a Small fire elemental, you gain a +2 size bonus to your Dexterity and a +2 natural armor bonus. You gain darkvision 60 feet, resist fire 20, vulnerability to cold, and the burn ability.
+				Fire elemental: If the form you take is that of a Small fire elemental, you gain a +2 size bonus to your Dexterity and a +2 natural armor bonus. You gain darkvision 60 feet, resist fire 20, vulnerability to cold, and the burn ability.
 
-			Water elemental: If the form you take is that of a Small water elemental, you gain a +2 size bonus to your Constitution and a +4 natural armor bonus. You also gain swim 60 feet, darkvision 60 feet, the ability to create a vortex, and the ability to breathe water
+				Water elemental: If the form you take is that of a Small water elemental, you gain a +2 size bonus to your Constitution and a +4 natural armor bonus. You also gain swim 60 feet, darkvision 60 feet, the ability to create a vortex, and the ability to breathe water
 
 			Target: You
 
@@ -588,26 +536,12 @@ MAGIC
 			Range: Personal
 			Componends: V, S, M
 			SR: 
-			Effect: This spell wreathes you in flame and causes damage to each
-			 	creature that attacks you in melee. The flames also protect you 
-			 	from either cold-based or fire-based attacks, depending on if 
-			 	you choose cool or warm flames for your fire shield.
+			Effect: 
+				This spell wreathes you in flame and causes damage to each creature that attacks you in melee. The flames also protect you from either cold-based or fire-based attacks, depending on if you choose cool or warm flames for your fire shield.
 
-				Any creature striking you with its body or a hand-held weapon 
-				deals normal damage, but at the same time the attacker takes 1d6 
-				points of damage + 1 point per caster level (maximum +15). This 
-				damage is either cold damage (if you choose a chill shield) or 
-				fire damage (if you choose a warm shield). If the attacker has 
-				spell resistance, it applies to this effect. Creatures wielding 
-				melee weapons with reach are not subject to this damage if they 
-				attack you.
+				Any creature striking you with its body or a hand-held weapon deals normal damage, but at the same time the attacker takes 1d6 points of damage + 1 point per caster level (maximum +15). This damage is either cold damage (if you choose a chill shield) or fire damage (if you choose a warm shield). If the attacker has spell resistance, it applies to this effect. Creatures wielding melee weapons with reach are not subject to this damage if they attack you.
 
-				When casting this spell, you appear to immolate yourself, but 
-				the flames are thin and wispy, increasing the light level within 
-				10 feet by one step, up to normal light. The color of the flames 
-				is blue or green if the chill shield is cast, violet or red if 
-				the warm shield is employed. The special powers of each version 
-				are as follows.
+				When casting this spell, you appear to immolate yourself, but the flames are thin and wispy, increasing the light level within 10 feet by one step, up to normal light. The color of the flames is blue or green if the chill shield is cast, violet or red if the warm shield is employed. The special powers of each version are as follows.
 
 		Wall of Fire (Evocation, Fire)
 			Saves: None	
@@ -617,25 +551,30 @@ MAGIC
 			Range: Medium (190 ft.)	
 			Components: V, S, M/DF
 			SR: Yes	
-			Effect: An immobile, blazing curtain of shimmering violet fire springs into 
-				existence. One side of the wall, selected by you, sends forth waves of heat, 
-				dealing 2d4 points of fire damage to creatures within 10 feet and 1d4 points 
-				of fire damage to those past 10 feet but within 20 feet. The wall deals this 
-				damage when it appears, and to all creatures in the area on your turn each 
-				round. In addition, the wall deals 2d6 points of fire damage + 1 point of 
-				fire damage per caster level (maximum +20) to any creature passing through it.
-				The wall deals double damage to undead creatures.
+			Effect: 
+				An immobile, blazing curtain of shimmering violet fire springs into existence. One side of the wall, selected by you, sends forth waves of heat, dealing 2d4 points of fire damage to creatures within 10 feet and 1d4 points of fire damage to those past 10 feet but within 20 feet. The wall deals this damage when it appears, and to all creatures in the area on your turn each round. In addition, the wall deals 2d6 points of fire damage + 1 point of fire damage per caster level (maximum +20) to any creature passing through it. The wall deals double damage to undead creatures.
 
-				If you evoke the wall so that it appears where creatures are, each creature 
-				takes damage as if passing through the wall. If any 5-foot length of wall 
-				takes 20 points or more of cold damage in 1 round, that length goes away. (Do 
-				not divide cold damage by 2, as normal for objects.)
+				If you evoke the wall so that it appears where creatures are, each creature takes damage as if passing through the wall. If any 5-foot length of wall takes 20 points or more of cold damage in 1 round, that length goes away. (Do not divide cold damage by 2, as normal for objects.)
 
-				Wall of fire can be made permanent with a permanency spell. A permanent wall 
-				of fire that is extinguished by cold damage becomes inactive for 10 minutes, 
-				then reforms at normal strength.	
+				Wall of fire can be made permanent with a permanency spell. A permanent wall of fire that is extinguished by cold damage becomes inactive for 10 minutes, then reforms at normal strength.	
 			
-			Target: Opaque sheet of flame up to 180 ft. long or a ring of fire with a radius of up to 22 ft.; either form 20 ft. high
+			Target: 
+				Opaque sheet of flame up to 180 ft. long or a ring of fire with a radius of up to 22 ft.; either form 20 ft. high
+
+
+	Sorcerer Spells - Level 4
+	-------------------------
+		Fire Snake (Evocation, Fire)
+			Save: Reflex half 
+			DC: 21
+			Time: 1 standard action
+			Duration: Instantaneous
+			Range: 60 ft.
+			Comp: V, S, M (a snake scale)
+			SR: Yes
+			Effect:  
+				You create a sinuous line of flames that you may shape as desired. The fire snake affects one 5-foot square per caster level, and each square must be adjacent to the previous square, starting with you. The fire snake may not extend beyond its maximum range. Creatures in the path of the fire snake take 1d6 points of fire damage per caster level (maximum 15d6).
+			Target Area:   see text 
 
 
 EQUIPMENT
@@ -718,3 +657,8 @@ DESCRIPTION
 		Currently, a lawyer in Magnamar has a 1,000 gp retainer to pay a footman to maintain the 
 		houses, and pay for any repairs.
 
+
+NOTES
+-----
+Headband of Mental Prowess
+Robe of Arcane Heritage
