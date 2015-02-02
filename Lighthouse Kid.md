@@ -8,18 +8,18 @@ COMBAT
 	    14    / 12    / 14			
 
 	Hit Points: 	71		xxxxx xxxxx xxxxx xxxxx
-	                        xxx.. ..... ..... .....
+	                        xxxx. ..... ..... .....
 	                        ..... ..... ..... .....
 	                        ..... ..... .
 
 	Elemental Ray:	9 		..... ....
 	Elemental Blast	1		x
 	Level 0:		.		∞
-	Level 1:		8 		x.... ...
+	Level 1:		8 		..... ...
 	Level 2:		8		..... ...
-	Level 3:		7		xxxxx ..
+	Level 3:		7		..... ..
 	Level 4:        6       ..... .
-	Level 5:		4		xx..
+	Level 5:		4		....
 
 	Conditions:
 
@@ -83,7 +83,7 @@ SKILLS
 	Knowledge (Arcana)           15       9      2        3
 	Knowledge (Dungeoneering)    4        1      2        0
 	Knowledge (Local)            3        1      2        0
-	Knowledge (Plains)			 6        1      2        3
+	Knowledge (Planes)			 6        1      2        3
 	Perception                   12       8      0        2
 	Perform (Untrained)          6        0      6        0
 	Ride                         0        0      0        0
@@ -543,23 +543,24 @@ MAGIC
 
 				When casting this spell, you appear to immolate yourself, but the flames are thin and wispy, increasing the light level within 10 feet by one step, up to normal light. The color of the flames is blue or green if the chill shield is cast, violet or red if the warm shield is employed. The special powers of each version are as follows.
 
-		Wall of Fire (Evocation, Fire)
-			Saves: None	
-			DC: 	
-			Casting: 1 standard action
-			Duration: Concentration + 9 rounds	
-			Range: Medium (190 ft.)	
-			Components: V, S, M/DF
-			SR: Yes	
+		Dragon's Breath (Evocation, Fire/Acide/Cold/Electricity)
+			Save: Reflex half
+			DC: 20
+			Time: 1 standard action
+			Duration: Instantaneous
+			Range: 30 / 60 ft.
+			Comp: V, S, M (a dragon scale)
+			SR: yes
 			Effect: 
-				An immobile, blazing curtain of shimmering violet fire springs into existence. One side of the wall, selected by you, sends forth waves of heat, dealing 2d4 points of fire damage to creatures within 10 feet and 1d4 points of fire damage to those past 10 feet but within 20 feet. The wall deals this damage when it appears, and to all creatures in the area on your turn each round. In addition, the wall deals 2d6 points of fire damage + 1 point of fire damage per caster level (maximum +20) to any creature passing through it. The wall deals double damage to undead creatures.
-
-				If you evoke the wall so that it appears where creatures are, each creature takes damage as if passing through the wall. If any 5-foot length of wall takes 20 points or more of cold damage in 1 round, that length goes away. (Do not divide cold damage by 2, as normal for objects.)
-
-				Wall of fire can be made permanent with a permanency spell. A permanent wall of fire that is extinguished by cold damage becomes inactive for 10 minutes, then reforms at normal strength.	
-			
+				You breathe out a blast of energy. Creatures in the affected area take 1d6 points of energy damage per caster level (maximum of 12d6). A successful Reflex save results in half damage. The spell's effect and energy type depend on the type of dragon scale used:
 			Target: 
-				Opaque sheet of flame up to 180 ft. long or a ring of fire with a radius of up to 22 ft.; either form 20 ft. high
+    			- Black dragon: 60-foot line of acid.
+    			- Blue or bronze dragon: 60-foot line of electricity.
+    			- Green dragon: 30-foot cone of acid.
+    			- Gold or red dragon: 30-foot cone of fire.
+    			- Silver or white dragon: 30-foot cone of cold.
+    			- Brass dragon: 60-foot line of fire.
+    			- Copper dragon: 60-foot line of acid.
 
 
 	Sorcerer Spells - Level 4

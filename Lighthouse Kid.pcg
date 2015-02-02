@@ -73,7 +73,7 @@ CLASSABILITIESLEVEL:Sorcerer=9|HITPOINTS:3|SKILLSGAINED:4|SKILLSREMAINING:0
 CLASSABILITIESLEVEL:Sorcerer=10|HITPOINTS:5|SKILLSGAINED:4|SKILLSREMAINING:0
 
 # Character Experience
-EXPERIENCE:105000
+EXPERIENCE:117800
 EXPERIENCETABLE:Medium
 
 # Character Templates
@@ -110,7 +110,7 @@ SKILL:Knowledge (Dungeoneering)|OUTPUTORDER:14|CLASSBOUGHT:[CLASS:Sorcerer|RANKS
 SKILL:Knowledge (Planes)|OUTPUTORDER:16|CLASSBOUGHT:[CLASS:Sorcerer|RANKS:1.0|COST:1|CLASSSKILL:Y]
 
 # Character Languages
-LANGUAGE:Orc|LANGUAGE:Gnome|LANGUAGE:Dwarven|LANGUAGE:Common|LANGUAGE:Sylvan
+LANGUAGE:Sylvan|LANGUAGE:Common|LANGUAGE:Dwarven|LANGUAGE:Orc|LANGUAGE:Gnome
 
 # Character Feats
 FEATPOOL:-5.0
@@ -126,8 +126,8 @@ USERPOOL:Favored Class Bonus|POOLPOINTS:0.0
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Combat Casting|TYPE:General.AberrantBloodline.ArcaneBloodline.UndeadBloodline.SerpentineBloodline|DESC:You are adept at spellcasting when threatened or distracted.
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Craft Magic Arms and Armor|TYPE:ItemCreation|DESC:You can create magic armor, shields, or weapons.
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Magical Aptitude|TYPE:General|DESC:You are skilled at spellcasting and using magic items.
-ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Improved Initiative|TYPE:Combat.AberrantBloodline.ArcaneBloodline.DraconicBloodline.ElementalBloodline.FeyBloodline|DESC:Your quick reflexes allow you to react quickly to danger.
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Skill Focus|APPLIEDTO:Spellcraft|TYPE:General.SkillFocus|DESC:You are particularly adept at your chosen skill.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Improved Initiative|TYPE:Combat.AberrantBloodline.ArcaneBloodline.DraconicBloodline.ElementalBloodline.FeyBloodline|DESC:Your quick reflexes allow you to react quickly to danger.
 USERPOOL:FEAT|POOLPOINTS:1.0
 ABILITY:Obsessive Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Obsessive Craft Bonus|APPLIEDTO:Craft (Alchemy)|TYPE:Internal.ObsessiveBonus|DESC:Gnomes receive a +2 racial bonus on a Craft skill of their choice.
 USERPOOL:Obsessive Bonus|POOLPOINTS:0.0
@@ -146,25 +146,25 @@ WEAPONPROF:[WEAPON:Shortspear|WEAPON:Sickle|WEAPON:Sling|WEAPON:Spear|WEAPON:Spe
 
 # Character Equipment
 MONEY:87162.50
-EQUIPNAME:Holy Water (Flask)|OUTPUTORDER:0|COST:25|WT:1.0|QUANTITY:2.0
 EQUIPNAME:Necklace of Fireballs I|OUTPUTORDER:10|COST:1650|WT:1.0|QUANTITY:2.0
+EQUIPNAME:Rations (Trail/Per Day) (Small)|OUTPUTORDER:0|COST:0.5|WT:0.25|QUANTITY:4.0|CUSTOMIZATION:[BASEITEM:Rations (Trail/Per Day)|DATA:NAME=Rations (Trail/Per Day) (Small)$KEY=AUTOSIZESRations (Trail/Per Day)$SIZE=S]
+EQUIPNAME:Holy Water (Flask)|OUTPUTORDER:0|COST:25|WT:1.0|QUANTITY:2.0
+EQUIPNAME:Quarterstaff (Small)|OUTPUTORDER:1|COST:0.0|WT:2.0|QUANTITY:1.0|CUSTOMIZATION:[BASEITEM:Quarterstaff|DATA:NAME=Quarterstaff (Small)$KEY=AUTOSIZESQuarterstaff$SIZE=S$EQMOD=WOOD$ALTEQMOD=WOOD]
 EQUIPNAME:Snakeskin Tunic|OUTPUTORDER:6|COST:8000.0|WT:0.0|QUANTITY:1.0|CUSTOMIZATION:[BASEITEM:Shirt|DATA:NAME=Snakeskin Tunic$EQMOD=BNS_ENHC_AC&pipe;+1.BNS_ENHC_AB&pipe;DEX=+2$SPROP=(Shirt ( Ability Bonus (Enhancement)DEX +2/ Armor Bonus (Enhancement) (+1)))$COSTMOD=2000.0]
-EQUIPNAME:Outfit (Peasant's/Small)|OUTPUTORDER:0|COST:0.0|WT:0.5|QUANTITY:1.0|CUSTOMIZATION:[BASEITEM:Outfit (Peasant's)|DATA:NAME=Outfit (Peasant's/Small)$SIZE=S$COSTMOD=-0.1]
+EQUIPNAME:Potion of Cure Light Wounds|OUTPUTORDER:12|COST:50|WT:0.0|QUANTITY:3.0
 EQUIPNAME:Impaler of Thorns|OUTPUTORDER:5|COST:40131.0|WT:1.5|QUANTITY:1.0|CUSTOMIZATION:[BASEITEM:Shortspear|DATA:NAME=Impaler of Thorns$EQMOD=PLUS1W.DARK.SPL_CMD&pipe;SPELLNAME&lbracket;Crushing Despair&rbracket; CASTER&lbracket;Bard&rbracket; SPELLTYPE&lbracket;Arcane&rbracket; SPELLLEVEL&lbracket;3&rbracket; CASTERLEVEL&lbracket;7&rbracket; $SPROP=(Shortspear +1 (Crushing Despair/Bard/7th))]
 EQUIPNAME:Horse (Heavy)|OUTPUTORDER:8|COST:200|WT:0.0|QUANTITY:1.0
-EQUIPNAME:Wand of Magic Missile|OUTPUTORDER:9|COST:750.0|WT:0.0625|QUANTITY:1.0|CUSTOMIZATION:[BASEITEM:Wand|DATA:NAME=Wand of Magic Missile$EQMOD=SPL_CHRG&pipe;SPELLNAME&lbracket;Magic Missile&rbracket;SPELLLEVEL&lbracket;1&rbracket;CASTERLEVEL&lbracket;1&rbracket;CHARGES&lbracket;50&rbracket;]
-EQUIPNAME:Cloak of Resistance +2|OUTPUTORDER:7|COST:4000|WT:1.0|QUANTITY:1.0
-EQUIPNAME:Potion of Cure Moderate Wounds|OUTPUTORDER:11|COST:300|WT:0.0|QUANTITY:1.0
-EQUIPNAME:Wand of Knock|OUTPUTORDER:0|COST:4500.0|WT:0.0625|QUANTITY:1.0|CUSTOMIZATION:[BASEITEM:Wand|DATA:NAME=Wand of Knock$EQMOD=SPL_CHRG&pipe;SPELLNAME&lbracket;Knock&rbracket;SPELLLEVEL&lbracket;2&rbracket;CASTERLEVEL&lbracket;3&rbracket;CHARGES&lbracket;50&rbracket;]
-EQUIPNAME:Cloak of Resistance +1|OUTPUTORDER:6|COST:1000|WT:1.0|QUANTITY:1.0
-EQUIPNAME:Amulet of Natural Armor +1|OUTPUTORDER:1|COST:2000|WT:0.02|QUANTITY:1.0
-EQUIPNAME:Quarterstaff (Small)|OUTPUTORDER:1|COST:0.0|WT:2.0|QUANTITY:1.0|CUSTOMIZATION:[BASEITEM:Quarterstaff|DATA:NAME=Quarterstaff (Small)$KEY=AUTOSIZESQuarterstaff$SIZE=S$EQMOD=WOOD$ALTEQMOD=WOOD]
-EQUIPNAME:Headband of Alluring Charisma +2|OUTPUTORDER:2|COST:4000|WT:1.0|QUANTITY:1.0
-EQUIPNAME:Ring of Spell Storing|OUTPUTORDER:4|COST:50000|WT:0.0|QUANTITY:1.0
 EQUIPNAME:Wand of Produce Flame|OUTPUTORDER:0|COST:750.0|WT:0.0625|QUANTITY:1.0|CUSTOMIZATION:[BASEITEM:Wand|DATA:NAME=Wand of Produce Flame$EQMOD=SPL_CHRG&pipe;SPELLNAME&lbracket;Produce Flame&rbracket;SPELLLEVEL&lbracket;1&rbracket;CASTERLEVEL&lbracket;1&rbracket;CHARGES&lbracket;50&rbracket;]
-EQUIPNAME:Potion of Cure Light Wounds|OUTPUTORDER:12|COST:50|WT:0.0|QUANTITY:3.0
-EQUIPNAME:Rations (Trail/Per Day) (Small)|OUTPUTORDER:0|COST:0.5|WT:0.25|QUANTITY:4.0|CUSTOMIZATION:[BASEITEM:Rations (Trail/Per Day)|DATA:NAME=Rations (Trail/Per Day) (Small)$KEY=AUTOSIZESRations (Trail/Per Day)$SIZE=S]
 EQUIPNAME:Ring of Protection +1|OUTPUTORDER:3|COST:2000|WT:0.0|QUANTITY:1.0
+EQUIPNAME:Outfit (Peasant's/Small)|OUTPUTORDER:0|COST:0.0|WT:0.5|QUANTITY:1.0|CUSTOMIZATION:[BASEITEM:Outfit (Peasant's)|DATA:NAME=Outfit (Peasant's/Small)$SIZE=S$COSTMOD=-0.1]
+EQUIPNAME:Ring of Spell Storing|OUTPUTORDER:4|COST:50000|WT:0.0|QUANTITY:1.0
+EQUIPNAME:Wand of Knock|OUTPUTORDER:0|COST:4500.0|WT:0.0625|QUANTITY:1.0|CUSTOMIZATION:[BASEITEM:Wand|DATA:NAME=Wand of Knock$EQMOD=SPL_CHRG&pipe;SPELLNAME&lbracket;Knock&rbracket;SPELLLEVEL&lbracket;2&rbracket;CASTERLEVEL&lbracket;3&rbracket;CHARGES&lbracket;50&rbracket;]
+EQUIPNAME:Amulet of Natural Armor +1|OUTPUTORDER:1|COST:2000|WT:0.02|QUANTITY:1.0
+EQUIPNAME:Wand of Magic Missile|OUTPUTORDER:9|COST:750.0|WT:0.0625|QUANTITY:1.0|CUSTOMIZATION:[BASEITEM:Wand|DATA:NAME=Wand of Magic Missile$EQMOD=SPL_CHRG&pipe;SPELLNAME&lbracket;Magic Missile&rbracket;SPELLLEVEL&lbracket;1&rbracket;CASTERLEVEL&lbracket;1&rbracket;CHARGES&lbracket;50&rbracket;]
+EQUIPNAME:Potion of Cure Moderate Wounds|OUTPUTORDER:11|COST:300|WT:0.0|QUANTITY:1.0
+EQUIPNAME:Headband of Alluring Charisma +2|OUTPUTORDER:2|COST:4000|WT:1.0|QUANTITY:1.0
+EQUIPNAME:Cloak of Resistance +1|OUTPUTORDER:6|COST:1000|WT:1.0|QUANTITY:1.0
+EQUIPNAME:Cloak of Resistance +2|OUTPUTORDER:7|COST:4000|WT:1.0|QUANTITY:1.0
 EQUIPSET:Default Set|ID:0.1|USETEMPMODS:Y
 EQUIPSET:Neck|ID:0.1.01|VALUE:Amulet of Natural Armor +1|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Ring|ID:0.1.03|VALUE:Ring of Protection +1|QUANTITY:1.0|USETEMPMODS:Y
@@ -193,6 +193,7 @@ SPELLNAME:Arcane Mark|TIMES:1|CLASS:Sorcerer|BOOK:Known Spells|SPELLLEVEL:0|SOUR
 SPELLNAME:Continual Flame|TIMES:1|CLASS:Sorcerer|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Sorcerer]
 SPELLNAME:Detect Magic|TIMES:1|CLASS:Sorcerer|BOOK:Known Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Sorcerer]
 SPELLNAME:Detect Poison|TIMES:1|CLASS:Sorcerer|BOOK:Known Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Sorcerer]
+SPELLNAME:Dragon's Breath|TIMES:1|CLASS:Sorcerer|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Sorcerer]
 SPELLNAME:False Life|TIMES:1|CLASS:Sorcerer|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Sorcerer]
 SPELLNAME:Feather Fall|TIMES:1|CLASS:Sorcerer|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Sorcerer]
 SPELLNAME:Fire Shield|TIMES:1|CLASS:Sorcerer|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Sorcerer]
@@ -211,7 +212,6 @@ SPELLNAME:Shield|TIMES:1|CLASS:Sorcerer|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[T
 SPELLNAME:Slow|TIMES:1|CLASS:Sorcerer|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Sorcerer]
 SPELLNAME:Spark|TIMES:1|CLASS:Sorcerer|BOOK:Known Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Sorcerer]
 SPELLNAME:Tiny Hut|TIMES:1|CLASS:Sorcerer|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Sorcerer]
-SPELLNAME:Wall of Fire|TIMES:1|CLASS:Sorcerer|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Sorcerer]
 
 # Character Description/Bio/History
 CHARACTERBIO:Lighthouse is a gnomish sorcerer, about 29 years old. He doesn't remember much before his 21st year, though. hHis first real memory is of a half-Orc woman hauling him away from the ruins of the old lighthouse, and pain in his shattered hips.&nl;&nl;He spent the majority of the next year healing, hiding in the same ruins and surviving on the berries and hunted meat that the half-Orc brought him from the surrounding forest. he eventually gained some mobility back, and was able to hobble slowly around town leaning heavily on a walking stick. His magical abilities manifested early, starting with the ability to set small fires to keep him and the half-Orc warm in the winter.&nl;&nl;The half-Orc became his constant companion. Carting him on her back, she was not only his best means of transportation, but his protector. When with him, the half-Orc was generally pacifist, unless the gnome was threatened. Then the spiked gauntlet that she wore would rarely miss.&nl;&nl;Together, they became known as "the Lighthouse Kid and his Thug". Since he couldn't remember his name, and she couldn't communicate beyond a handful of grunts and half-words, the names stuck.&nl;&nl;Lately, Lighthouse has been bitten by a bug to adventure. He's talked with other sorcerers passing through, when they would give him the time of day, and has given himself a runic tattoo. With the little bit of coin that they've managed to scrape together, they've purchased some basic adventuring gear, and they're ready to make a name for themselves.&nl;&nl;Lighthouse currently has been buying up property in towns around the countryside.  He currently owns a small house in Sandpoint, just by the old lighthouse, and a townhouse, appropriated from Judge Ironside, in Magnamar.  &nl;&nl;Currently, a lawyer in Magnamar has a 1,000 gp retainer to pay a footman to maintain the houses, and pay for any repairs.
