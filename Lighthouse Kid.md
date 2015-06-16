@@ -1,23 +1,23 @@
 Lighthouse Kid 
 ==============
-9th Level Neutral-Good Gnome Sorcerer
+10th Level Neutral-Good Gnome Sorcerer
 
 COMBAT
 ------
     AC: Total / Touch / Flat Footed
 	    14    / 12    / 14			
 
-	Hit Points: 	71		xxxxx xxxxx xxxxx xxxxx
-	                        xxxx. ..... ..... .....
+	Hit Points: 	71		xxxxx xxxxx xxxxx xx...
+	                        ..... ..... ..... .....
 	                        ..... ..... ..... .....
 	                        ..... ..... .
 
 	Elemental Ray:	9 		..... ....
 	Elemental Blast	1		x
 	Level 0:		.		∞
-	Level 1:		8 		..... ...
-	Level 2:		8		..... ...
-	Level 3:		7		..... ..
+	Level 1:		8 		xx... ...
+	Level 2:		8		x.... ...
+	Level 3:		7		x.... ..
 	Level 4:        6       ..... .
 	Level 5:		4		....
 
@@ -50,14 +50,14 @@ COMBAT
 
 	Fortitude:        +7
 	Reflex:           +5
-	Will:             +8
+	Will:             +9
 
 
 STATS
 -----
 	Stat    Score   Mod		Curr	
 	STR      8       (-1)	 8		-1
-	DEX      10      (0)	 10		+0
+	DEX      8	     (-1)	 10		+0
 	CON      14      (+2)	 14		+2
 	INT      14      (+2)	 14		+2
 	WIS      10      (+0)	 10		+0
@@ -145,10 +145,9 @@ MAGIC
 			Duration: immediate
 			Range: Close (20 ft.)
 			Effect:
-				You can unleash a blast of elemental power 1/day. This burst deals 9d6 points of fire damage. Those caught in the area receive a Reflex save for half damage (DC 20). Creatures that fail their save gain Vulnerability to Fire for 1 round. This power has a range of 60 feet. 
+				You can unleash a blast of elemental power 1/day. This burst deals 10d6 points of fire damage. Those caught in the area receive a Reflex save for half damage (DC 20). Creatures that fail their save gain Vulnerability to Fire for 1 round. This power has a range of 60 feet. 
 
 	Innate Spells
-	-------------
 		Dancing Lights (Evocation) - 1 per day
 			Saves: None
 			DC: 
@@ -322,14 +321,14 @@ MAGIC
 			Saves: Will negates (harmless) or Will negates (object);	
 			DC: 17	
 			Casting: 1 immediate action
-			Duration: Until landing or 9 rounds	
-			Range: Close (40 ft.)	
+			Duration: Until landing or 10 rounds	
+			Range: Close (50 ft.)	
 			Components: V
 			SR: Yes (object)	
 			Effect: 
 				The affected creatures or objects fall slowly.	
 			Target: 
-				9 Medium or smaller freefalling objects or creatures, no two of which may be more than 20 ft. apart
+				10 Medium or smaller freefalling objects or creatures, no two of which may be more than 20 ft. apart
 
 		Magic Missile (Evocation)
 			Saves: None	
@@ -588,6 +587,8 @@ EQUIPMENT
 	1	Amulet of Natural Armor +1
 	1	Wand of Magic Missile L3 (43)
 	1   Wand of Scorching Ray L3 (22)
+	1	Wand of Enervation L7 (12)
+	1	Wand of Acid Arrow L3 (15)
 	1	Wand of Produce Flame (32)
 	1	Wand of Knock (12)
 	2	Flask of Holy Water

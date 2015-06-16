@@ -103,7 +103,7 @@ SKILL:Knowledge (Nature)|OUTPUTORDER:13|CLASSBOUGHT:[CLASS:Ranger|RANKS:1.0|COST
 SKILL:Survival (Follow or identify tracks)|OUTPUTORDER:20|
 
 # Character Languages
-LANGUAGE:Orc|LANGUAGE:Common
+LANGUAGE:Common|LANGUAGE:Orc
 
 # Character Feats
 FEATPOOL:-2.0
@@ -141,8 +141,8 @@ WEAPONPROF:[WEAPON:Terbutje|WEAPON:Tiger Fork|WEAPON:Tonfa|WEAPON:Trident|WEAPON
 
 # Character Equipment
 MONEY:0
-EQUIPNAME:Outfit (Peasant's)|OUTPUTORDER:0|COST:0.0|WT:2.0|QUANTITY:1.0|CUSTOMIZATION:[BASEITEM:Outfit (Peasant's)|DATA:NAME=Outfit (Peasant's)$COSTMOD=-0.1]
 EQUIPNAME:Gauntlet (Spiked)|OUTPUTORDER:0|COST:5.0|WT:1.0|QUANTITY:1.0|CUSTOMIZATION:[BASEITEM:Gauntlet (Spiked)|DATA:NAME=Gauntlet (Spiked)$EQMOD=STEEL]
+EQUIPNAME:Outfit (Peasant's)|OUTPUTORDER:0|COST:0.0|WT:2.0|QUANTITY:1.0|CUSTOMIZATION:[BASEITEM:Outfit (Peasant's)|DATA:NAME=Outfit (Peasant's)$COSTMOD=-0.1]
 EQUIPSET:Default Set|ID:0.1|USETEMPMODS:Y
 CALCEQUIPSET:0.1
 
@@ -197,6 +197,7 @@ CHARACTERDMNOTES:
 # Character Master/Follower
 
 # Character Notes Tab
+NOTE:Character Sheet Notes|ID:1|PARENTID:-1|VALUE:
 
 # Age Set Selections
 AGESET:1:1:0:0:0:0:0:0:0:0
