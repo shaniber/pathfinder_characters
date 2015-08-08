@@ -7,19 +7,19 @@ COMBAT
     AC: Total / Touch / Flat Footed
 	    14    / 12    / 14			
 
-	Hit Points: 	71		x.... ..... ..... .....
+	Hit Points: 	71		xxxxx xxxxx xxxxx .....
 	                        ..... ..... ..... .....
 	                        ..... ..... ..... .....
 	                        ..... ..... .
 
-	Elemental Ray:	9 		xx... ....
+	Elemental Ray:	9 		xxxx. ....
 	Elemental Blast	1		.
 	Level 0:		.		∞
-	Level 1:		8 		xx... ...
-	Level 2:		8		xx... ...
-	Level 3:		7		..... ..
-	Level 4:        6       ..... .
-	Level 5:		4		....
+	Level 1:		8 		xxxx. ...
+	Level 2:		8		xxx.. ...
+	Level 3:		7		xx... ..
+	Level 4:        6       xx... .
+	Level 5:		4		xx..
 
 	Conditions:
 
@@ -137,7 +137,7 @@ MAGIC
 			Duration: immediate
 			Range: Close (30 ft.)
 			Effect: 
-				You can unleash an elemental ray as a standard action, targeting any foe within 30 feet as a ranged touch attack. This ray deals 1d6+4 points of fire damage You can use this ability 8 times per day. 
+				You can unleash an elemental ray as a standard action, targeting any foe within 30 feet as a ranged touch attack. This ray deals 1d6+5 points of fire damage You can use this ability 9 times per day. 
 
 		Elemental Blast (Supernatural) - 1 per day
 			Saves: Reflex half
@@ -145,7 +145,7 @@ MAGIC
 			Duration: immediate
 			Range: Close (20 ft.)
 			Effect:
-				You can unleash a blast of elemental power 1/day. This burst deals 10d6 points of fire damage. Those caught in the area receive a Reflex save for half damage (DC 20). Creatures that fail their save gain Vulnerability to Fire for 1 round. This power has a range of 60 feet. 
+				You can unleash a blast of elemental power 1/day. This 20-foot radius burst deals 10d6 points of fire damage. Those caught in the area receive a Reflex save for half damage (DC 21). Creatures that fail their save gain Vulnerability to Fire for 1 round. This power has a range of 60 feet. 
 
 	Innate Spells
 		Dancing Lights (Evocation) - 1 per day
@@ -178,8 +178,7 @@ MAGIC
 			Range: 10 ft.
 			Components: V, S
 			SR: No
-			Effect: Prestidigitations are minor tricks that novice spellcasters use for 
-				practice.
+			Effect: Prestidigitations are minor tricks that novice spellcasters use for practice.
 			Target:	See text
 
 		Speak with Animals (Divination) - 1 per day
@@ -204,8 +203,7 @@ MAGIC
 			Range: Close (35 ft.)	
 			Components: V, S
 			SR: No	
-			Effect: You fire a small orb of acid at the target dealing 1d3 points of acid 
-				damage.	
+			Effect: You fire a small orb of acid at the target dealing 1d3 points of acid damage.	
 			Target: One missile of acid
 
 		Arcane Mark (Universal)
