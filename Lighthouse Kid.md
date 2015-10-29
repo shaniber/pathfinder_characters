@@ -1,30 +1,35 @@
 Lighthouse Kid 
 ==============
-10th Level Neutral-Good Gnome Sorcerer
+11th Level Neutral-Good Gnome Sorcerer
 
 COMBAT
 ------
     AC: Total / Touch / Flat Footed
-	    14    / 12    / 14			
+	    16    / 13    / 16			+4
 
-	Hit Points: 	71		xxxxx xxxxx xxxxx .....
+	Hit Points: 	85		xxxxx x.... ..... .....
+							..... ..... ..... .....
 	                        ..... ..... ..... .....
 	                        ..... ..... ..... .....
-	                        ..... ..... .
+	                        ..... 
 
-	Elemental Ray:	9 		xxxx. ....
+    Tmp Hit Points:			
+
+	Elemental Ray	9 		..... ....
 	Elemental Blast	1		.
-	Level 0:		.		∞
-	Level 1:		8 		xxxx. ...
-	Level 2:		8		xxx.. ...
-	Level 3:		7		xx... ..
-	Level 4:        6       xx... .
-	Level 5:		4		xx..
+	Magic Missle	2		..
 
-	Conditions:
+	Level 0:		.		∞
+	Level 1:		8 		..... ...
+	Level 2:		8		..... ...
+	Level 3:		7		..... ..
+	Level 4:        7       ..... ..
+	Level 5:		5		.....
+
+	Conditions:				affected by reduce person (tiny / small)
 
 	Touch Attack (Ray)
-		to hit:       +5
+		to hit:       +6
 		damage:       as spell
 		critical:     20/x2
 		reach:        
@@ -44,13 +49,13 @@ COMBAT
 	CMB:              +3 / +3 / +3 / +3 / +3 / +3
 
 	Initiative:       +4
-	BAB:              +5
-	Melee tohit:      +4
-	Ranged tohit:     +5
+	BAB:              +6/+1
+	Melee tohit:      +6/+1
+	Ranged tohit:     +7/+2
 
-	Fortitude:        +7
-	Reflex:           +5
-	Will:             +9
+	Fortitude:        +8
+	Reflex:           +8
+	Will:             +10
 
 
 STATS
@@ -61,45 +66,45 @@ STATS
 	CON      14      (+2)	 14		+2
 	INT      14      (+2)	 14		+2
 	WIS      10      (+0)	 10		+0
-	CHA      21      (+5)	 23		+6
+	CHA      22      (+6)	 24		+7
 
 
 SKILLS
 ------
-
 	Skill                       Total    Rnk    Stat     Msc
 	Acrobatics                   0        0      0        0
 	Acrobatics (Jump)            -4       0      0        -4
 	Appraise                     7        2      2        3
-	Bluff                        10       1      6        3
+	Bluff                        12       2      7        3
 	Climb                        -1       0      -1       0
 	Craft (Untrained)            2        0      2        0
-	Diplomacy                    7        0      6        0
-	Disguise                     6        0      6        0
+	Diplomacy                    8        1      7        0
+	Disguise                     7        0      7        0
 	Escape Artist                0        0      0        0
-	Fly                          2        0      0        2
+	Fly                          7        2      0        5
 	Heal                         0        0      0        0
-	Intimidate                   10       1      6        3
+	Intimidate                   11       1      7        3
 	Knowledge (Arcana)           15       9      2        3
-	Knowledge (Dungeoneering)    4        1      2        0
+	Knowledge (Dungeoneering)    5        1      2        0
 	Knowledge (Local)            3        1      2        0
 	Knowledge (Planes)			 6        1      2        3
-	Perception                   12       8      0        2
-	Perform (Untrained)          6        0      6        0
+	Perception                   14       12     0        2
+	Perform (Untrained)          7        0      7        0
 	Ride                         0        0      0        0
 	Sense Motive                 1        1      0        0
-	Spellcraft                   25       9      2        8
+	Spellcraft                   27       12     2        13
 	Stealth                      4        0      0        4
 	Survival                     5        1      0        4
 	Swim                         -1       0      -1       0
-	Use Magic Device             17       5      6        6
+	Use Magic Device             19       6      7        6
                                                     
 
 
 FEATS
 -----
+
 	Combat Casting
-	  You get a +4 bonus on concentration checks made to cast a spell or use a spell-like ability when casting on the defensive or while grappled.
+		You get a +4 bonus on concentration checks made to cast a spell or use a spell-like ability when casting on the defensive or while grappled.
   
 	Craft Magic Arms and Armor
 		You can create magic weapons, armor, or shields. Enhancing a weapon, suit of armor, or shield takes 1 day for each 1,000 gp in the price of its magical features. To enhance a weapon, suit of armor, or shield, you must use up raw materials costing half of this total price. See the magic item creation rules in Chapter 15 for more information. The weapon, armor, or shield to be enhanced must be a masterwork item that you provide. Its cost is not included in the above cost. You can also mend a broken magic weapon, suit of armor, or shield if it is one that you could make. Doing so costs half the raw materials and half the time it would take to craft that item in the first place.
@@ -107,23 +112,27 @@ FEATS
 	Empower Spell
 		All variable, numeric effects of an empowered spell are increased by half including bonuses to those dice rolls. Saving throws and opposed rolls are not affected, nor are spells without random variables. An empowered spell uses up a spell slot two levels higher than the spell's actual level.
 
-
 	Eschew Materials 
 		You can cast any spell with a material component costing 1 gp or less without needing that component. The casting of the spell still provokes attacks of opportunity as normal. If the spell requires a material component that costs more than 1 gp, you must have the material component on hand to cast the spell, as normal. 
   
 	Improved Initiative
 		You get a +4 bonus on initiative checks.
 
+	Lightning Reflexes
+		You get a +2 bonus on all Reflex saving throws.
+
 	Magical Aptitude
 		You get a +2 bonus on all Spellcraft checks and Use Magic Device checks. If you have 10 or more ranks in one of these skills, the bonus increases to +4 for that skill.
   
+	Minor Spell Expertise
+		You may cast Magic Missle twice per day as a spell-like ability. The caster level for this spell-like ability is equal to your caster level in the class from whose spell list the spell is taken. The spell-like ability's save DC is Charisma-based. If the spell has an expensive focus or material component, it may not be chosen for this feat. You cannot apply metamagic feats to this spell.
+
 	Skill Focus (Spellcraft)
 	Simple Weapon Proficiency
 	Eschew Materials
 
 	Resistance to Fire
 		You may ignore 20 points of fire damage each time you take fire damage
-
 
 
 MAGIC
@@ -145,9 +154,11 @@ MAGIC
 			Duration: immediate
 			Range: Close (20 ft.)
 			Effect:
-				You can unleash a blast of elemental power 1/day. This 20-foot radius burst deals 10d6 points of fire damage. Those caught in the area receive a Reflex save for half damage (DC 21). Creatures that fail their save gain Vulnerability to Fire for 1 round. This power has a range of 60 feet. 
+				You can unleash a blast of elemental power 1/day. This 20-foot radius burst deals 11d6 points of fire damage. Those caught in the area receive a Reflex save for half damage (DC 21). Creatures that fail their save gain Vulnerability to Fire for 1 round. This power has a range of 60 feet. 
+
 
 	Innate Spells
+	-------------
 		Dancing Lights (Evocation) - 1 per day
 			Saves: None
 			DC: 
@@ -167,7 +178,8 @@ MAGIC
 			Range: Close (35 ft.)
 			Components: V, S, M
 			SR: No
-			Effect: Ghost sound allows you to create a volume of sound that rises, recedes, approaches, or remains at a fixed place.
+			Effect: 
+				Ghost sound allows you to create a volume of sound that rises, recedes, approaches, or remains at a fixed place.
 			Target:	Illusory sounds
 
 		Prestidigitation (Universal) - 1 per day
@@ -178,7 +190,8 @@ MAGIC
 			Range: 10 ft.
 			Components: V, S
 			SR: No
-			Effect: Prestidigitations are minor tricks that novice spellcasters use for practice.
+			Effect: 
+				Prestidigitations are minor tricks that novice spellcasters use for practice.
 			Target:	See text
 
 		Speak with Animals (Divination) - 1 per day
@@ -189,9 +202,11 @@ MAGIC
 			Range: Personal
 			Components: V, S
 			SR: 
-			Effect: You can ask questions of and receive answers from animals, but the 
+			Effect: 
+				You can ask questions of and receive answers from animals, but the 
 				spell doesn't make them any more friendly than normal.
 			Target:	You
+
 
 	Sorcerer Spells - Level 0
 	-------------------------
@@ -203,7 +218,8 @@ MAGIC
 			Range: Close (35 ft.)	
 			Components: V, S
 			SR: No	
-			Effect: You fire a small orb of acid at the target dealing 1d3 points of acid damage.	
+			Effect: 
+				You fire a small orb of acid at the target dealing 1d3 points of acid damage.	
 			Target: One missile of acid
 
 		Arcane Mark (Universal)
@@ -214,7 +230,8 @@ MAGIC
 			Range: Touch	
 			Components: V, S
 			SR: No	
-			Effect: This spell allows you to inscribe your personal rune or mark.	
+			Effect: 
+				This spell allows you to inscribe your personal rune or mark.	
 			Target: One personal rune or mark, all of which must fit within 1 sq. ft.
 			
 		Detect Magic (Divination)
@@ -225,7 +242,8 @@ MAGIC
 			Range: 60 ft.	
 			Components: V, S
 			SR: No	
-			Effect: You detect magical auras.	
+			Effect: 
+				You detect magical auras.	
 			Target: Cone-shaped emanation
 
 		Detect Poison (Divination)
@@ -236,7 +254,8 @@ MAGIC
 			Range: Close (35 ft.)	
 			Components: V, S
 			SR: No	
-			Effect: You determine whether a creature, object, or area has been 
+			Effect: 
+				You determine whether a creature, object, or area has been 
 				poisoned or is poisonous.	
 			Target: Or Area one creature, one object, or a 5-ft. cube
 
@@ -248,20 +267,21 @@ MAGIC
 			Range: Close (35 ft.)	
 			Components: V, S
 			SR: No	
-			Effect: You point your finger at an object and can lift it and move 
+			Effect: 
+				You point your finger at an object and can lift it and move 
 				it at will from a distance.	
 			Target: One nonmagical, unattended object weighing up to 5 lbs.
 
 		Mending (Transmutation)
 			Saves: Will negates (harmless, object)
 			DC: 16
-			Casting: 10 minutes
+			Casting: 11 minutes
 			Duration: Instantaneous
 			Range: 10 ft.
 			Components: V, S
 			SR: Yes (harmless, object)
 			Effect: 
-				This spell repairs damaged objects, restoring 1d4 hit points to the object. If the object has the broken condition, this condition is removed if the object is restored to at least half its original hit points. All of the pieces of an object must be present for this spell to function. Magic items can be repaired by this spell, but you must have a caster level equal to or higher than that of the object. Magic items that are destroyed (at 0 hit points or less) can be repaired with this spell, but this spell does not restore their magic abilities. This spell does not affect creatures (including constructs). This spell has no effect on objects that have been warped or otherwise transmuted, but it can still repair damage done to such items.
+				This spell repairs damaged objects, restoring 1d4 hit points to the object. If the object has the broken condition, this condition is removed if the object is restored to at least half its original hit points. All of the pieces of an object must be present for this spell to function. Magic items can be repaired by this spell, but you must have a caster level equal to or higher than that of the object. Magic items that are destroyed (at 0 hit points or less) can be repaired with this spell, but this spell does not restore their magic abilities.This spell does not affect creatures (including constructs). This spell has no effect on objects that have been warped or otherwise transmuted, but it can still repair damage done to such items.
 			Target: One object of up to 8 lb.
 
 		Message (Transmutation)
@@ -288,17 +308,17 @@ MAGIC
 				You can decipher magical inscriptions on objects--books, scrolls, weapons, and the like--that would otherwise be unintelligible.	
 			Target: You
 
-			Spark (Evocation, Fire)
-				Save: Fortitude negates (object)
-				DC: 16
-				Time: 1 standard action
-				Duration: Instantaneous
-				Range: Close (50 ft.)
- 				Components: V or S
-				SR: Yes (object)
-				Effect:  
-					Ignites flammable objects.
- 				Target:   one Fine object 
+		Spark (Evocation, Fire)
+			Save: Fortitude negates (object)
+			DC: 16
+			Time: 1 standard action
+			Duration: Instantaneous
+			Range: Close (50 ft.)
+			Components: V or S
+			SR: Yes (object)
+			Effect:  
+				You can make an unattended Fine flammable object catch on fire. This works as if you were using flint and steel except that you can use spark in any sort of weather and it takes much less time to actually ignite an object.
+			Target:   one Fine object 
 
 			
 	Sorcerer Spells - Level 1
@@ -319,14 +339,14 @@ MAGIC
 			Saves: Will negates (harmless) or Will negates (object);	
 			DC: 17	
 			Casting: 1 immediate action
-			Duration: Until landing or 10 rounds	
+			Duration: Until landing or 11 rounds	
 			Range: Close (50 ft.)	
 			Components: V
 			SR: Yes (object)	
 			Effect: 
 				The affected creatures or objects fall slowly.	
 			Target: 
-				10 Medium or smaller freefalling objects or creatures, no two of which may be more than 20 ft. apart
+				11 Medium or smaller freefalling objects or creatures, no two of which may be more than 20 ft. apart
 
 		Magic Missile (Evocation)
 			Saves: None	
@@ -336,14 +356,15 @@ MAGIC
 			Range: Medium (200 ft.)	
 			Components: V, S
 			SR: Yes	
-			Effect: 5 missiles that do 1d4+1 damage each.	
+			Effect: 
+				5 missiles that do 1d4+1 damage each.	
 			Target: Up to five creatures, no two of which can be more than 15 ft. apart
 
 		Obscuring Mist (Conjuration)
 			Saves: None	
 			DC:		
 			Casting: 1 standard action
-			Duration: 7 minutes	
+			Duration: 11 minutes	
 			Range: 20ft					
 			Components: V, S
 			SR: no
@@ -355,7 +376,7 @@ MAGIC
 			Saves: Will negates (harmless)	
 			DC: 17	
 			Casting: 1 standard action
-			Duration: 9 minutes [D]
+			Duration: 11 minutes [D]
 			Range: Touch	
 			Components: V, S, M/DF
 			SR: No; see text	
@@ -373,7 +394,7 @@ MAGIC
 			Saves: none
 			DC: 	
 			Casting: 1 standard action
-			Duration: 7 minutes [D]	
+			Duration: 11 minutes [D]	
 			Range: Personal	
 			Components: V, S
 			SR: 	
@@ -398,7 +419,7 @@ MAGIC
 		False Life (Necromancy)
 			Saves: 	DC: 	
 			Casting: 1 standard action
-			Duration: 9 hours or until discharged; see text	
+			Duration: 11 hours or until discharged; see text	
 			Range: Personal	
 			Components: V, S, M
 			SR: 	
@@ -410,7 +431,7 @@ MAGIC
 			Saves: Reflex negates	
 			DC: 18
 			Casting: 1 standard action
-			Duration: 9 rounds	
+			Duration: 11 rounds	
 			Range: Med (190')	
 			Components: V, S, M
 			SR: no
@@ -444,8 +465,21 @@ MAGIC
 			Components: V, S
 			SR: Yes	
 			Effect: 
-				You blast your enemies with up to 2 searing beams of fire each dealing 4d6 points of fire damage.	
+				You blast your enemies with up to 3 searing beams of fire each dealing 4d6 points of fire damage.	
 			Target: One or more rays
+
+		Share Language (Divination)
+			Saves: Will negates (harmless)
+			DC: 18
+			Casting Time: 1 standard action
+			Duration: 24 hours
+			Range: personal
+			Components: V, S, M (page from a dictionary)
+			SR: yes (harmless)
+			Effect:
+				Subject understands chosen language.
+			Target: Creature touched.
+
 
 	Sorcerer Spells - Level 3
 	-------------------------
@@ -461,11 +495,23 @@ MAGIC
 			Effect: 
 				A fireball spell generates a searing explosion of flame that detonates with a low roar and deals 10d6 points of fire damage to every creature within the area.
 
+		Fly (Transmutation, Air)
+			Saving Throw:
+			DC: 19
+			Cast Time: 1 standard action
+			Duration: 11 minutes
+			Range: touch
+			Components: V, S, F
+			Target:Creature touched
+			Spell Resistance: Yes (Harmless)
+			Effect:
+				The subject can fly at a speed of 60 feet (or 40 feet if it wears medium or heavy armor, or if it carries a medium or heavy load). ￼
+
 		Protection from Energy (Abjuration)
 			Saves: Fortitude negates (harmless)	
 			DC: 19	
 			Casting: 1 standard action
-			Duration: 80 minutes or until discharged	
+			Duration: 110 minutes or until discharged	
 			Range: Touch	
 			Components: V, S, DF
 			SR: Yes (harmless)	
@@ -477,7 +523,7 @@ MAGIC
 			Saves: Will negates	
 			DC: 19	
 			Casting: 1 standard action
-			Duration: 8 rounds	
+			Duration: 11 rounds	
 			Range: Close (40 ft.)	
 			Components: V, S, M
 			SR: Yes	
@@ -489,7 +535,7 @@ MAGIC
 			Saves: None	
 			DC: 	
 			Casting: 1 standard action
-			Duration: 18 hours [D]	
+			Duration: 22 hours [D]	
 			Range: 20 ft.	
 			Components: V, S, M
 			SR: No	
@@ -502,45 +548,10 @@ MAGIC
 
 			Target: 20-ft.-radius sphere centered on your location
 			
+
 	Sorcerer Spells - Level 4
 	-------------------------
-		Elemental Body I (Transmutation, Fire, Air, Earth, Water)
-			Saves: 	
-			DC: 	
-			Casting: 1 standard action
-			Duration: 9 minutes [D]	
-			Range: Personal	
-			Components: V, S, M
-			SR: 	
-			Effect: 
-				When you cast this spell, you can assume the form of a Small air, earth, fire, or water elemental.	
-
-				Air elemental: If the form you take is that of a Small air elemental, you gain a +2 size bonus to your Dexterity and a +2 natural armor bonus. You also gain fly 60 feet (perfect), darkvision 60 feet, and the ability to create a whirlwind.
-
-				Earth elemental: If the form you take is that of a Small earth elemental, you gain a +2 size bonus to your Strength and a +4 natural armor bonus. You also gain darkvision 60 feet, and the ability to earth glide.
-
-				Fire elemental: If the form you take is that of a Small fire elemental, you gain a +2 size bonus to your Dexterity and a +2 natural armor bonus. You gain darkvision 60 feet, resist fire 20, vulnerability to cold, and the burn ability.
-
-				Water elemental: If the form you take is that of a Small water elemental, you gain a +2 size bonus to your Constitution and a +4 natural armor bonus. You also gain swim 60 feet, darkvision 60 feet, the ability to create a vortex, and the ability to breathe water
-
-			Target: You
-
-		Fire Shield
-			Saves: None
-			DC: 
-			Casting: 1 standard Action
-			Duration: 8 rounds
-			Range: Personal
-			Componends: V, S, M
-			SR: 
-			Effect: 
-				This spell wreathes you in flame and causes damage to each creature that attacks you in melee. The flames also protect you from either cold-based or fire-based attacks, depending on if you choose cool or warm flames for your fire shield.
-
-				Any creature striking you with its body or a hand-held weapon deals normal damage, but at the same time the attacker takes 1d6 points of damage + 1 point per caster level (maximum +15). This damage is either cold damage (if you choose a chill shield) or fire damage (if you choose a warm shield). If the attacker has spell resistance, it applies to this effect. Creatures wielding melee weapons with reach are not subject to this damage if they attack you.
-
-				When casting this spell, you appear to immolate yourself, but the flames are thin and wispy, increasing the light level within 10 feet by one step, up to normal light. The color of the flames is blue or green if the chill shield is cast, violet or red if the warm shield is employed. The special powers of each version are as follows.
-
-		Dragon's Breath (Evocation, Fire/Acide/Cold/Electricity)
+		Dragon's Breath (Evocation, Fire/Acid/Cold/Electricity)
 			Save: Reflex half
 			DC: 20
 			Time: 1 standard action
@@ -559,9 +570,81 @@ MAGIC
     			- Brass dragon: 60-foot line of fire.
     			- Copper dragon: 60-foot line of acid.
 
+		Elemental Body I (Transmutation, Fire, Air, Earth, Water)
+			Saves: 	
+			DC: 	
+			Casting: 1 standard action
+			Duration: 11 minutes [D]	
+			Range: Personal	
+			Components: V, S, M
+			SR: 	
+			Effect: 
+				When you cast this spell, you can assume the form of a Small air, earth, fire, or water elemental.	
+
+				Air elemental: If the form you take is that of a Small air elemental, you gain a +2 size bonus to your Dexterity and a +2 natural armor bonus. You also gain fly 60 feet (perfect), darkvision 60 feet, and the ability to create a whirlwind.
+
+				Earth elemental: If the form you take is that of a Small earth elemental, you gain a +2 size bonus to your Strength and a +4 natural armor bonus. You also gain darkvision 60 feet, and the ability to earth glide.
+
+				Fire elemental: If the form you take is that of a Small fire elemental, you gain a +2 size bonus to your Dexterity and a +2 natural armor bonus. You gain darkvision 60 feet, resist fire 20, vulnerability to cold, and the burn ability.
+
+				Water elemental: If the form you take is that of a Small water elemental, you gain a +2 size bonus to your Constitution and a +4 natural armor bonus. You also gain swim 60 feet, darkvision 60 feet, the ability to create a vortex, and the ability to breathe water
+			Target: You
+
+		Fire Shield
+			Saves: None
+			DC: 
+			Casting: 1 standard Action
+			Duration: 11 rounds
+			Range: Personal
+			Componends: V, S, M
+			SR: 
+			Effect: 
+				This spell wreathes you in flame and causes damage to each creature that attacks you in melee. The flames also protect you from either cold-based or fire-based attacks, depending on if you choose cool or warm flames for your fire shield.
+
+				Any creature striking you with its body or a hand-held weapon deals normal damage, but at the same time the attacker takes 1d6 points of damage + 1 point per caster level (maximum +15). This damage is either cold damage (if you choose a chill shield) or fire damage (if you choose a warm shield). If the attacker has spell resistance, it applies to this effect. Creatures wielding melee weapons with reach are not subject to this damage if they attack you.
+
+				When casting this spell, you appear to immolate yourself, but the flames are thin and wispy, increasing the light level within 10 feet by one step, up to normal light. The color of the flames is blue or green if the chill shield is cast, violet or red if the warm shield is employed. The special powers of each version are as follows.
+
+		Invisibility, Greater
+			Saves: Will negates
+			DC: 21
+			Casting Time: 1 Standard Action
+			Duration: 11 round	s
+			Range: personal or touch
+			Components: V, S
+			SR: yes (harmless)
+			Effect:
+				This spell functions like invisibility, except that it doesn't end if the subject attacks.
+			Target: you, or creature touched
+
+
 
 	Sorcerer Spells - Level 5
 	-------------------------
+		Break Enchantment (Abjuration)
+			Save: no
+			DC: 21
+			Casting Time: 1 minute
+			Duration: Instantaneous
+			Range: Close (50ft)
+			Components: V, S
+			SR: No
+			Effect: 
+				This spell frees victims from enchantments, transmutations, and curses.
+			Target: Up to one creature per level, all within 30ft of each other
+
+		Elemental Body II
+			Save: no
+			DC: 
+			Casting Time: 1 standard action
+			Duration: 11 minutes
+			Range: Personal
+			Components: V, S, M
+			SR: No
+			Effect: 
+				This spell functions as elemental body I, except that it also allows you to assume the form of a Medium air, earth, fire, or water elemental.			
+			Target: You
+
 		Fire Snake (Evocation, Fire)
 			Save: Reflex half 
 			DC: 21
@@ -575,9 +658,31 @@ MAGIC
 			Target Area:   see text 
 
 
+
+	Sorcerer Spells - Level 5
+	-------------------------
+		Globe of Invulnerability (Abjuration)
+			Saves: None	
+			DC: 	
+			Time: 1 standard action
+			Duration: 12 rounds	
+			Range: 10 ft.	
+			Comp: V, S, M
+			SR: No	
+			Effect: 
+				An immobile, faintly shimmering magical sphere surrounds you and excludes all spell effects of 4rd level or lower. The area or effect of any such spells does not include the area of the lesser globe of invulnerability. Such spells fail to affect any target located within the globe. Excluded effects include spell-like abilities and spells or spell-like effects from items. Any type of spell, however, can be cast through or out of the magical globe. Spells of 5th level and higher are not affected by the globe, nor are spells already in effect when the globe is cast. The globe can be brought down by a dispel magic spell. You can leave and return to the globe without penalty.
+
+				Note that spell effects are not disrupted unless their effects enter the globe, and even then they are merely suppressed, not dispelled.
+
+				If a given spell has more than one level depending on which character class is casting it, use the level appropriate to the caster to determine whether lesser globe of invulnerability stops it.	
+			Target: 10-ft.-radius spherical emanation, centered on you
+
+
+
 EQUIPMENT
 ---------
 	1	Ring of Protection +1
+	1	Pale lavender ellipsoid Ioun Stone
 	1	Ring of Spell Storing
 	1	Cloak of Resistance +1
 	1	Headband of Alluring Charisma +2
@@ -585,10 +690,10 @@ EQUIPMENT
 	1	Amulet of Natural Armor +1
 	1	Wand of Magic Missile L3 (43)
 	1   Wand of Scorching Ray L3 (22)
-	1	Wand of Enervation L7 (12)
+	1	Wand of Enervation L7 (8)
 	1	Wand of Acid Arrow L3 (15)
 	1	Wand of Produce Flame (32)
-	1	Wand of Knock (12)
+	1	Wand of Knock (11)
 	2	Flask of Holy Water
 	3	Potion of Cure Light Wounds
 	1	Potion of Cure Moderate Wounds
@@ -597,6 +702,8 @@ EQUIPMENT
 	1	Impaler of Thorns
 	1 	Necklace of Fireballs (Type I)
 	1   masterwork dagger
+	1	Konnel's urn of ashes
+
 
 	In Spell Storing Ring
 	5	Endure Elements
