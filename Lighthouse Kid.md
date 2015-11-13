@@ -7,7 +7,7 @@ COMBAT
     AC: Total / Touch / Flat Footed
 	    16    / 13    / 16			+4
 
-	Hit Points: 	85		xxxxx x.... ..... .....
+	Hit Points: 	85		..... ..... ..... .....
 							..... ..... ..... .....
 	                        ..... ..... ..... .....
 	                        ..... ..... ..... .....
@@ -17,16 +17,17 @@ COMBAT
 
 	Elemental Ray	9 		..... ....
 	Elemental Blast	1		.
-	Magic Missle	2		..
+	Magic Missle	2		x.
 
 	Level 0:		.		∞
-	Level 1:		8 		..... ...
-	Level 2:		8		..... ...
-	Level 3:		7		..... ..
+	Level 1:		8 		xx... ...
+	Level 2:		8		x.... ...
+	Level 3:		8		x.... ...
 	Level 4:        7       ..... ..
-	Level 5:		5		.....
+	Level 5:		6		x.... .
+	Level 6:		4		....
 
-	Conditions:				affected by reduce person (tiny / small)
+	Conditions:				
 
 	Touch Attack (Ray)
 		to hit:       +6
@@ -325,7 +326,7 @@ MAGIC
 	-------------------------
 		Burning Hands (Evocation)
 			Saves: Reflex half	
-			DC: 17	
+			DC: 18	
 			Casting: 1 standard action
 			Duration: Instantaneous	
 			Range: 15 ft.	
@@ -337,7 +338,7 @@ MAGIC
 
 		Feather Fall (Transmutation)
 			Saves: Will negates (harmless) or Will negates (object);	
-			DC: 17	
+			DC: 18	
 			Casting: 1 immediate action
 			Duration: Until landing or 11 rounds	
 			Range: Close (50 ft.)	
@@ -374,7 +375,7 @@ MAGIC
 		
 		Protection from Evil (Abjuration)
 			Saves: Will negates (harmless)	
-			DC: 17	
+			DC: 18	
 			Casting: 1 standard action
 			Duration: 11 minutes [D]
 			Range: Touch	
@@ -417,7 +418,8 @@ MAGIC
 				A flame, equivalent in brightness to a torch, springs forth from an object that you touch.
 
 		False Life (Necromancy)
-			Saves: 	DC: 	
+			Saves: 	
+			DC: 	
 			Casting: 1 standard action
 			Duration: 11 hours or until discharged; see text	
 			Range: Personal	
@@ -434,7 +436,7 @@ MAGIC
 			Duration: 11 rounds	
 			Range: Med (190')	
 			Components: V, S, M
-			SR: no
+			SR: yes
 			Effect: 
 				A burning globe of fire rolls in whichever direction you point and burns those it strikes. It moves 30 feet per round. As part of this movement, it can ascend or jump up to 30 feet to strike a target. If it enters a space with a creature, it stops moving for the round and deals 3d6 points of fire damage to that creature, though a successful Reflex save negates that damage. A flaming sphere rolls over barriers less than 4 feet tall. It ignites flammable substances it touches and illuminates the same area as a torch would.
 
@@ -502,7 +504,7 @@ MAGIC
 			Duration: 11 minutes
 			Range: touch
 			Components: V, S, F
-			Target:Creature touched
+			Target: Creature touched
 			Spell Resistance: Yes (Harmless)
 			Effect:
 				The subject can fly at a speed of 60 feet (or 40 feet if it wears medium or heavy armor, or if it carries a medium or heavy load). ￼
@@ -609,7 +611,7 @@ MAGIC
 			Saves: Will negates
 			DC: 21
 			Casting Time: 1 Standard Action
-			Duration: 11 round	s
+			Duration: 11 rounds
 			Range: personal or touch
 			Components: V, S
 			SR: yes (harmless)
@@ -693,7 +695,7 @@ EQUIPMENT
 	1	Wand of Enervation L7 (8)
 	1	Wand of Acid Arrow L3 (15)
 	1	Wand of Produce Flame (32)
-	1	Wand of Knock (11)
+	1	Wand of Knock (8)
 	2	Flask of Holy Water
 	3	Potion of Cure Light Wounds
 	1	Potion of Cure Moderate Wounds
@@ -702,16 +704,25 @@ EQUIPMENT
 	1	Impaler of Thorns
 	1 	Necklace of Fireballs (Type I)
 	1   masterwork dagger
-	1	Konnel's urn of ashes
+	1	potion of barkskin +3, 
+	1	potion of heroism, 
+	4	scroll of lesser restoration, 
+	4	holy water
+	1	scroll of Contact Other Plane
+	1	Fogcutting Lenses
 
 
-	In Spell Storing Ring
-	5	Endure Elements
+
+
+	In Spell Storing Ring (max 5)
+	4	Endure Elements
 
 	At Home:
 	1	Monkey Head door ringer
 	1	book on Varisan history	
 	1	silver goblet with inlaid opals
+	1	Konnel's urn of ashes
+
 
 	1965 gp
 
@@ -721,8 +732,8 @@ DESCRIPTION
 	Vision:     Low-Light
 	Speed:      Walk 5 ft. (due to injury)
 	Languages:  Common, Dwarven, Gnome, Orc, Sylvan
-	Levels:		Sorcerer (9)
-	XP:			75000 / 75000
+	Levels:		Sorcerer (11)
+	XP:			220000 / 220000
 
 	Height:			3' 5"		Weight:	37 lbs.				Gender: Male	
 	Eyes:			Blue		Hair:	Blue,Shaggy			Skin: Orange
@@ -733,36 +744,19 @@ DESCRIPTION
 	Full Description
 
 	Background
-		Lighthouse is a gnomish sorcerer, about 29 years old. He doesn't remember much before his 
-		21st year, though. His first real memory is of a half-Orc woman hauling him away from the 
-		ruins of the old lighthouse, and pain in his shattered hips.
+		Lighthouse is a gnomish sorcerer, about 29 years old. He doesn't remember much before his 21st year, though. His first real memory is of a half-Orc woman hauling him away from the ruins of the old lighthouse, and pain in his shattered hips.
 
-		He spent the majority of the next year healing, hiding in the same ruins and surviving on the 
-		berries and hunted meat that the half-Orc brought him from the surrounding forest. he 
-		eventually gained some mobility back, and was able to hobble slowly around town leaning 
-		heavily on a walking stick. His magical abilities manifested early, starting with the ability 
-		to set small fires to keep him and the half-Orc warm in the winter.
+		He spent the majority of the next year healing, hiding in the same ruins and surviving on the berries and hunted meat that the half-Orc brought him from the surrounding forest. he eventually gained some mobility back, and was able to hobble slowly around town leaning heavily on a walking stick. His magical abilities manifested early, starting with the ability to set small fires to keep him and the half-Orc warm in the winter.
 
-		The half-Orc became his constant companion. Carting him on her back, she was not only his best 
-		means of transportation, but his protector. When with him, the half-Orc was generally 
-		pacifist, unless the gnome was threatened. Then the spiked gauntlet that she wore would rarely 
-		miss.
+		The half-Orc became his constant companion. Carting him on her back, she was not only his best means of transportation, but his protector. When with him, the half-Orc was generally pacifist, unless the gnome was threatened. Then the spiked gauntlet that she wore would rarely miss.
 
-		Together, they became known as "the Lighthouse Kid and his Thug". Since he couldn't remember 
-		his name, and she couldn't communicate beyond a handful of grunts and half-words, the names 
-		stuck.
+		Together, they became known as "the Lighthouse Kid and his Thug". Since he couldn't remember his name, and she couldn't communicate beyond a handful of grunts and half-words, the names stuck.
 
-		Lately, Lighthouse has been bitten by a bug to adventure. He's talked with other sorcerers 
-		passing through, when they would give him the time of day, and has given himself a runic 
-		tattoo. With the little bit of coin that they've managed to scrape together, they've purchased 
-		some basic adventuring gear, and they're ready to make a name for themselves.
+		Lately, Lighthouse has been bitten by a bug to adventure. He's talked with other sorcerers passing through, when they would give him the time of day, and has given himself a runic tattoo. With the little bit of coin that they've managed to scrape together, they've purchased some basic adventuring gear, and they're ready to make a name for themselves.
 
-		Lighthouse currently has been buying up property in towns around the countryside.  He 
-		currently owns a small house in Sandpoint, just by the old lighthouse, and a townhouse, 
-		appropriated from Judge Ironside, in Magnamar.  
+		Lighthouse currently has been buying up property in towns around the countryside.  He currently owns a small house in Sandpoint, just by the old lighthouse, and a townhouse, appropriated from Judge Ironside, in Magnamar.  
 
-		Currently, a lawyer in Magnamar has a 1,000 gp retainer to pay a footman to maintain the 
-		houses, and pay for any repairs.
+		Currently, a lawyer in Magnamar has a 1,000 gp retainer to pay a footman to maintain the houses, and pay for any repairs.
 
 
 NOTES
