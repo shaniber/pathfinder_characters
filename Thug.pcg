@@ -106,7 +106,7 @@ SKILL:Disguise (Perform (Act))|OUTPUTORDER:18|
 SKILL:Escape Artist|OUTPUTORDER:19|
 SKILL:Fly|OUTPUTORDER:20|
 SKILL:Fly (Perform (Dance))|OUTPUTORDER:21|
-SKILL:Handle Animal|OUTPUTORDER:23|CLASSBOUGHT:[CLASS:Ranger|RANKS:3.0|COST:1|CLASSSKILL:Y]
+SKILL:Handle Animal|OUTPUTORDER:22|CLASSBOUGHT:[CLASS:Ranger|RANKS:3.0|COST:1|CLASSSKILL:Y]
 SKILL:Handle Animal (Perform (Percussion Instruments))|OUTPUTORDER:24|
 SKILL:Handle Animal (Perform (Wind Instruments))|OUTPUTORDER:25|
 SKILL:Heal|OUTPUTORDER:26|
@@ -133,7 +133,7 @@ SKILL:Untrained Intelligence|OUTPUTORDER:49|
 SKILL:Untrained Strength|OUTPUTORDER:50|
 SKILL:Untrained Wisdom|OUTPUTORDER:51|
 SKILL:Untrained ~ Disable Device|OUTPUTORDER:16|
-SKILL:Untrained ~ Handle Animal|OUTPUTORDER:22|
+SKILL:Untrained ~ Handle Animal|OUTPUTORDER:23|
 SKILL:Untrained ~ Linguistics|OUTPUTORDER:33|
 SKILL:Untrained ~ Sleight of Hand|OUTPUTORDER:42|
 SKILL:Untrained ~ Spellcraft|OUTPUTORDER:43|
