@@ -6,6 +6,17 @@ Lighthouse Kid
 
 COMBAT
 ------
+	Summary
+	-------
+		Initiative:		+4
+		Speed:			5
+
+		BAB:			+6/+1
+		CMD:			16
+		CMB:			+4 
+		Melee tohit:	+6/+1
+		Ranged tohit:	+7/+2
+
 	Defense
 	-------
 	    AC: Total / Touch / Flat Footed
@@ -28,7 +39,7 @@ COMBAT
 	    	-
 
 	    Saving Throws
-	 		Fortitude:	+8
+	 		Fortitude:	+10
 			Reflex:		+8
 			Will:		+10
 
@@ -36,16 +47,6 @@ COMBAT
 
 	Offense
 	-------
-		Summary
-			Initiative:		+4
-			Speed:			5
-
-			BAB:			+6/+1
-			CMD:			14
-			CMB:			+3 
-			Melee tohit:      +6/+1
-			Ranged tohit:     +7/+2
-
 		Touch Attack (Ray)
 			to hit:       +6
 			damage:       as spell
@@ -53,13 +54,13 @@ COMBAT
 			reach:     
 
 		Unarmed attack:
-			to hit:       +5
+			to hit:       +6/+1
 			damage:       1d2-1
 			critical:     20/x2
 			reach:        5ft.
 
 		Impaler of Thorns
-			to hit:		  +4
+			to hit:		  +6/+1
 			damage:		  1d6
 			critical:     20/x2
 			reach:        5ft.
@@ -113,7 +114,6 @@ STATS
 		WIS      10      (+0)	 10		+0
 		CHA      22      (+6)	 26		+8
 
-
 	Skills
 	------
 		Skill                       Total    Rnk    Stat     Msc
@@ -126,18 +126,19 @@ STATS
 		Diplomacy                    9        1      8        0
 		Disguise                     8        0      8        0
 		Escape Artist                0        0      0        0
-		Fly                          7        2      0        5
+		Fly                          8        2      0        5
 		Heal                         0        0      0        0
 		Intimidate                   12       1      8        3
-		Knowledge (Arcana)           15       10     2        3
+		Knowledge (Arcana)           16       10     2        3
 		Knowledge (Dungeoneering)    5        3      2        0
+		Knowledge (Engineering)      3        1      2        0
 		Knowledge (Local)            3        1      2        0
 		Knowledge (Planes)			 6        1      2        3
-		Perception                   14       12     0        2
+		Perception                   15       13     0        2
 		Perform (Untrained)          8        0      8        0
 		Ride                         0        0      0        0
 		Sense Motive                 1        1      0        0
-		Spellcraft                   27       12     2        13
+		Spellcraft                   28       13     2        13
 		Stealth                      4        0      0        4
 		Survival                     5        1      0        4
 		Swim                         -1       0      -1       0
@@ -157,6 +158,9 @@ STATS
 		Eschew Materials 
 			You can cast any spell with a material component costing 1 gp or less without needing that component. The casting of the spell still provokes attacks of opportunity as normal. If the spell requires a material component that costs more than 1 gp, you must have the material component on hand to cast the spell, as normal. 
 	  
+		Great Fortitude
+			You get a +2 bonus on all Fortitude saving throws.
+
 		Improved Initiative
 			You get a +4 bonus on initiative checks.
 
@@ -169,14 +173,57 @@ STATS
 		Minor Spell Expertise
 			You may cast Magic Missle twice per day as a spell-like ability. The caster level for this spell-like ability is equal to your caster level in the class from whose spell list the spell is taken. The spell-like ability's save DC is Charisma-based. If the spell has an expensive focus or material component, it may not be chosen for this feat. You cannot apply metamagic feats to this spell.
 
+		Selective Spell
+			When casting a selective spell with an area effect and a duration of instantaneous, you can choose a number of targets in the area equal to the ability score modifier used to determine bonus spells of the same type (Charisma for bards, oracles, paladins, sorcerers, and summoners; Intelligence for witches and wizards; Wisdom for clerics, druids, inquisitors, and rangers). These targets are excluded from the effects of your spell. A selective spell uses up a spell slot one level higher than the spell's actual level. Spells that do not have an area of effect do not benefit from this feat.
+		
 		Skill Focus (Spellcraft)
+			You get a +3 bonus on all checks involving Spellcraft. If you have 10 or more ranks in Spellcraft, this bonus increases to +6.
 		
-		Simple Weapon Proficiency
-		
-		Eschew Materials
+	Special Qualities
+	-----------------
+		Bloodline Arcana
+			Whenever you cast a spell that deals energy damage, you can change the type of damage to fire. This also changes the spell's type to Fire.
 
-		Resistance to Fire
-			You may ignore 20 points of fire damage each time you take fire damage
+		Cantrips
+			You learn a number of cantrips, or 0-level spells. These spells are cast like any other spells, but they do not consume any slots and may be used again.
+
+		Defensive Training (Ex)
+			Gnomes get a +4 dodge bonus to AC against monsters of the giant type.
+
+		Elemental Bloodline (Fire)
+			The power of the elements resides in you, and at times you can hardly control its fury.	This influence comes from an elemental outsider in your family history or a time when you or your relatives were exposed to a powerful elemental force.
+
+		Gnome Magic (Sp)
+			Gnomes add +1 to the DC of any saving throws against illusion spells that they cast. Gnomes with a Charisma of 11 or higher also gain spell-like abilities.
+
+		Hatred (Ex)
+			Gnomes receive a +1 bonus on attack rolls against humanoid creatures of the reptilian and goblinoid subtypes due to special training against these hated foes.
+
+		Illusion Resistance (Ex)
+			Gnomes get a +2 racial saving throw bonus against illusion spells or effects.
+
+		Keen Senses (Ex)
+			Gnomes receive a +2 bonus on Perception skill checks.
+
+		Low-Light Vision (Ex)
+			You can see x2 as far as humans in low illumination. Characters with low-light vision have eyes that are so sensitive to light that they can see twice as far as normal in dim light. Low-Light Vision is color vision. A spellcaster with low-light vision can read a scroll as long as even the tiniest candle flame is next to her as a source of light. Characters with low-light vision can see outdoors on a moonlit night as well as they can during the day.
+
+		Obsessive (Ex)
+			Gnomes receive a +2 racial bonus on a Craft or Profession skill of their choice.
+
+		Resistance to Fire (Ex)
+			You may ignore 20 points of Fire damage each time you take fire damage.
+
+		Weapon Familiarity (Ex)
+			Gnomes treat any weapon with the word "gnome" in its name as a martial weapon.
+
+	Traits
+	------
+		Dangerously Curious
+			You have always been intrigued by magic, possibly because you were the child of a magician or priest. You often snuck into your parent's laboratory or shrine to tinker with spell components and magic devices, and often caused quite a bit of damage and headaches for your parent as a result. You gain a +1 trait bonus on Use Magic Device checks, and Use Magic Device is always a class skill for you.
+
+		Poverty-Stricken
+			Your childhood was tough, and your parents had to make every copper piece count. Hunger was your constant companion, and you often had to live off the land or sleep in the wild. You gain a +1 trait bonus on Survival checks, and Survival is always a class skill for you.
 
 
 EQUIPMENT

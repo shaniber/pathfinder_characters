@@ -394,6 +394,169 @@ DESCRIPTION
 
 SPELLS AVAILABLE
 ----------------
+
+	Domain Spells
+	-------------
+		Level 1
+			cause fear (Death)
+				Saves: Will partial	
+				DC: 14	
+				Casting: 1 standard action
+				Duration: 1d4 rounds or 1 round; see text	
+				Range: Close (55 ft.)	
+				Components: V, S
+				SR: Yes	
+				Effect: The affected creature becomes frightened.	
+				Target: One living creature with 5 or fewer HD
+
+			deathwatch (Repose) 
+				Saves: None	DC: 	
+				Casting: 1 standard action
+				Duration: 130 minutes	
+				Range: 30 ft.	
+				Components: V, S
+				SR: No	
+				Effect: Using the powers of necromancy, you can determine the condition of creatures near death within the spell's range.
+				Target: Cone-shaped emanation
+
+		Level 2
+			death knell (Death)
+				Saving: Will negates
+				DC:
+				Casting: 1 standard action
+				Duration: instantaneous/10 minutes per HD of subject; see text 
+				Range: Touch
+				Components: V, S
+				SR: yes
+				Effect: You draw forth the ebbing life force of a creature and use it to fuel your own power. Upon casting this spell, you touch a living creature that has –1 or fewer hit points. If the subject fails its saving throw, it dies, and you gain 1d8 temporary hit points and a +2 enhancement bonus to Strength. Additionally, your effective caster level goes up by +1, improving spell e ects dependent on caster level. This increase in e ective caster level does not grant you access to more spells. These e ects last for 10 minutes per HD of the subject creature.
+				Target :iving creature touched
+
+			gentle repose (Repose)
+				Saves: Will negates (object)	
+				DC: 15	
+				Casting: 1 standard action
+				Duration: 13 days	
+				Range: Touch	
+				Components: V, S, M/DF
+				SR: Yes (object)	
+				Effect: You preserve the remains of a dead creature so that they do not decay.	
+				Target: Corpse touched
+
+		Level 3
+			animate dead (Death, Souls)
+				Saves: none
+				DC: 
+				Casting: 1 standard action
+				Duration: instantaneous
+				Range: touch
+				Components V, S, M (an onyx gem worth at least 25 gp per Hit Die of the undead)
+				SR: no	
+				Effect: This spell turns corpses into undead skeletons or zombies that obey your spoken commands.
+				Target: one or more corpses touched
+
+		Level 4
+			death ward (Death, Repose)
+				Saves: Will negates (harmless)	
+				DC: 17	
+				Casting: 1 standard action
+				Duration: 13 minutes	
+				Range: Touch	
+				Components: V, S, DF
+				SR: Yes (harmless)	
+				Effect: The subject gains a +4 morale bonus on saves against all death spells and magical death effects.	
+				Target: Living creature touched
+
+		Level 5 
+			slay living (Death, Repose)
+				Saves: Fortitude partial	
+				DC: 18	
+				Casting: 1 standard action
+				Duration: Instantaneous	
+				Range: Touch	
+				Components: V, S
+				SR: Yes	
+				Effect: You can attempt to slay any one living creature.	
+				Target: Living creature touched
+
+		Level 6
+			create undead (Death)
+				Saves: None
+				DC:
+				Casting: 1 hour
+				Duration: instantaneous
+				range: close (25ft + 5ft/2 levels)
+				Components: V, S, M (a clay pot filled with grave dirt and an onyx
+				SR: No
+				Effect: A much more potent spell than animate dead, this evil spell allows you to infuse a dead body with negative energy to create more powerful sorts of undead: ghouls, ghasts, mummies, and mohrgs. The type or types of undead you can create are based on your caster level.
+				Target one corpse
+
+			antilife shield (Souls)
+				Components V, S, DF
+				Casting Time 1 round
+				Range 10 ft.
+				Duration 1 min./level (D)
+				Saving Throw none
+				Spell Resistance yes 
+				Effect: You bring into being a mobile, hemispherical energy field that prevents the entrance of most types of living creatures. The effect hedges out animals, aberrations, dragons, fey, giants, humanoids, magical beasts, monstrous humanoids, oozes, plants, and vermin, but not constructs, elementals, outsiders, or undead. This spell may be used only defensively, not aggressively. Forcing an abjuration barrier against creatures that the spell keeps at bay collapses the barrier.
+				Target: 10-ft.-radius emanation, centered on you
+
+
+
+		Level 7
+			destruction (Death, Repose)
+				Saves: Fortitude partial	
+				DC: 20	
+				Casting: 1 standard action
+				Duration: Instantaneous	
+				Range: Close (55 ft.)	
+				Components: V, S, F
+				SR: Yes	
+				Effect: This spell instantly delivers 130 points of damage.	
+				Target: One creature
+
+		Level 8
+			create greater undead (Death)
+				Saves: None
+				DC:
+				Casting: 1 hour
+				Duration: instantaneous
+				range: close (25ft + 5ft/2 levels)
+				Components: V, S, M (a clay pot filled with grave dirt and an onyx
+				SR: No
+				Effect: A much more potent spell than animate dead, this evil spell allows you to infuse a dead body with negative energy to create more powerful sorts of undead: ghouls, ghasts, mummies, and mohrgs. The type or types of undead you can create are based on your caster level.
+				Target one corpse
+
+			waves of exhaustion (Repose) 
+				Casting Time 1 standard action
+				Components V, S
+				Range 60 ft.
+				Area cone-shaped burst
+				Duration instantaneous
+				Saving Throw no
+				Spell Resistance yes
+				Effect: Waves of negative energy cause all living creatures in the spell's area to become exhausted. This spell has no effect on a creature that is already exhausted.
+
+		Level 9
+			wail of the banshee (Death)
+				Casting Time 1 standard action
+				Components V
+				Range close (25 ft. + 5 ft./2 levels)
+				Target one living creature/level within a 40-ft.-radius spread
+				Duration instantaneous
+				Saving Throw Fortitude negates
+				Spell Resistance yes
+				Effect: When you cast this spell, you emit a terrible, soul-chilling scream that possibly kills creatures that hear it (except for yourself). The spell affects up to one creature per caster level, inflicting 10 points of damage per caster level. Creatures closest to the point of origin are affected first.
+
+			trap the soul (Souls)
+				Casting Time 1 standard action or see text
+				Components V, S, M (gem worth 1,000 gp per HD of the trapped creature)
+				Range close (25 ft. + 5 ft./2 levels)
+				Target one creature
+				Duration permanent; see text
+				Saving Throw see text
+				Spell Resistance yes; see text
+				Effect: Trap the soul forces a creature's life force (and its material body) into a gem. The gem holds the trapped entity indefinitely or until the gem is broken and the life force is released, which allows the material body to reform. If the trapped creature is a powerful creature from another plane, it can be required to perform a service immediately upon being freed. Otherwise, the creature can go free once the gem imprisoning it is broken.
+
 	Cleric Spells
 	-------------
 		Level 0
@@ -1027,15 +1190,7 @@ SPELLS AVAILABLE
 				Target: You
 				
 			Gentle Repose (Necromancy)
-				Saves: Will negates (object)	
-				DC: 15	
-				Casting: 1 standard action
-				Duration: 13 days	
-				Range: Touch	
-				Components: V, S, M/DF
-				SR: Yes (object)	
-				Effect: You preserve the remains of a dead creature so that they do not decay.	
-				Target: Corpse touched
+				
 				
 			Ghostbane Dirge (Transmutation)
 				Saves: Will negates	

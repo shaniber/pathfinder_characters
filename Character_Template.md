@@ -7,6 +7,16 @@
 
 COMBAT
 ------
+	Summary
+		Initiative:		+##
+		Speed:			##
+
+		BAB:			+##/+##
+		CMB:			+##/+##
+		CMD:			##
+		Melee To hit:	+##
+		Ranged To hit:	+##
+
 	Defense
 	-------
 		Armour Class
@@ -36,17 +46,7 @@ COMBAT
 			[SAVING_THROW_SPECIAL_MODIFIERS]
 
 	Offense
-	-------
-		Summary
-			Initiative:		+##
-			Speed:			##
-
-			BAB:			+##/+##
-			CMB:			+##/+##
-			CMD:			##
-			Melee To hit:	+##
-			Ranged To hit:	+##
-		
+	-------		
 		Unarmed attack
 			to hit:			+##/+##
 			damage:			1d#+[STR_MODIFIER]
