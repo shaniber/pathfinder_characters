@@ -22,8 +22,8 @@
             Total / Touch / Flat Footed
               28  /  18   /  25
 
-              BASE | ARMOR | SHIELD | STAT | SIZE | NATURAL | DEFLECTION | DODGE | Morale | Insight | Sacred | Profane | Misc
-               10     3       4        3      0      3         3            0       0        0         2        0         2
+            BASE | Armr | Shld | Stat | Size | Nat | Defl | Dodge | Mor | Ins | Sac | Prof | Misc
+             10     3      4      3      0      3     3      0       0     0     2     0      2
 
 
         Hit Points
