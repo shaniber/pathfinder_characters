@@ -2,7 +2,7 @@ PCGVERSION:2.0
 
 # System Information
 CAMPAIGN:Core Rulebook|CAMPAIGN:Advanced Player's Guide
-VERSION:6.04.01
+VERSION:6.06.01
 ROLLMETHOD:2|EXPRESSION:High Fantasy
 PURCHASEPOINTS:Y|TYPE:High Fantasy
 CHARACTERTYPE:PC
@@ -76,7 +76,7 @@ CLASSABILITIESLEVEL:Cleric=12|HITPOINTS:5|PRESTAT:WIS=1|SKILLSGAINED:5|SKILLSREM
 CLASSABILITIESLEVEL:Cleric=13|HITPOINTS:4|SKILLSGAINED:5|SKILLSREMAINING:0
 
 # Character Experience
-EXPERIENCE:315000
+EXPERIENCE:429320
 EXPERIENCETABLE:Medium
 
 # Character Templates
@@ -146,8 +146,8 @@ SKILL:Untrained ~ Handle Animal|OUTPUTORDER:22|
 SKILL:Untrained ~ Linguistics|OUTPUTORDER:38|
 SKILL:Untrained ~ Sleight of Hand|OUTPUTORDER:48|
 SKILL:Untrained ~ Spellcraft|OUTPUTORDER:49|
-SKILL:Untrained ~ Use Magic Device|OUTPUTORDER:59|
-SKILL:Use Magic Device|OUTPUTORDER:60|CLASSBOUGHT:[CLASS:Cleric|RANKS:1.0|COST:1|CLASSSKILL:N]
+SKILL:Untrained ~ Use Magic Device|OUTPUTORDER:60|
+SKILL:Use Magic Device|OUTPUTORDER:59|CLASSBOUGHT:[CLASS:Cleric|RANKS:1.0|COST:1|CLASSSKILL:N]
 
 # Character Languages
 LANGUAGE:Common|LANGUAGE:Cyclops|LANGUAGE:Daemon|LANGUAGE:Dwarven|LANGUAGE:Elven|LANGUAGE:Giant|LANGUAGE:Halfling|LANGUAGE:Read Lips
@@ -167,7 +167,7 @@ ABILITY:Adaptability Bonus Feat|TYPE:NORMAL|CATEGORY:FEAT|KEY:Skill Focus|APPLIE
 USERPOOL:Adaptability Bonus Feat|POOLPOINTS:0.0
 ABILITY:Adoptive Race|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Adoptive Race ~ Halfling|TYPE:AdoptiveRace
 USERPOOL:Adoptive Race|POOLPOINTS:0.0
-ABILITY:Channel Energy|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Cleric ~ Channel Positive Energy|TYPE:ClericClassFeatures.Supernatural.SpecialAttack.ChannelEnergy.Channel Energy.Channel Energy Positive.Channel Positive Energy|DESC:You can unleash a wave of positive energy. You must choose to deal %1d%2 points of positive energy damage to undead creatures or to heal living creatures of %1d%2 points of damage. Creatures that take damage from channeled energy receive a DC %3 Will save to halve the damage. You can use this ability %4 times per day.&pipe;ClericChannelPositiveEnergyDice&pipe;ClericChannelPositiveEnergyDieSize&pipe;ClericChannelPositiveEnergyDC&pipe;ClericChannelEnergyTimes
+ABILITY:Channel Energy|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Cleric ~ Channel Positive Energy|TYPE:ClericClassFeatures.Supernatural.SpecialAttack.ChannelEnergySelection.ChannelEnergy.Channel Energy.Channel Energy Positive.Channel Positive Energy|DESC:You can unleash a wave of positive energy. You must choose to deal %1d%2 points of positive energy damage to undead creatures or to heal living creatures of %1d%2 points of damage. Creatures that take damage from channeled energy receive a DC %3 Will save to halve the damage. You can use this ability %4 times per day.&pipe;ClericChannelPositiveEnergyDice&pipe;ClericChannelPositiveEnergyDieSize&pipe;ClericChannelPositiveEnergyDC&pipe;ClericChannelEnergyTimes
 USERPOOL:Channel Energy|POOLPOINTS:0.0
 ABILITY:Extra Channel|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Cleric Extra Channel|TYPE:ExtraChannel
 USERPOOL:Extra Channel|POOLPOINTS:0.0
@@ -205,7 +205,7 @@ EQUIPNAME:Amulet of Natural Armor +2|OUTPUTORDER:2|COST:8000|WT:0.02|QUANTITY:1.
 EQUIPNAME:Assisting Glove|OUTPUTORDER:3|COST:180|WT:1.0|QUANTITY:1.0|NOTE:
 EQUIPNAME:Belt of Giant Strength +2|OUTPUTORDER:9|COST:4000|WT:1.0|QUANTITY:1.0|NOTE:
 EQUIPNAME:Boots of Elvenkind|OUTPUTORDER:10|COST:2500|WT:1.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Bracers of Armor +2|OUTPUTORDER:5|COST:4000|WT:1.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Bracers of Armor +2|OUTPUTORDER:6|COST:4000|WT:1.0|QUANTITY:1.0|NOTE:
 EQUIPNAME:Celestial Armor|OUTPUTORDER:7|COST:22400.0|WT:20.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Celestial Armor|DATA:NAME=Celestial Armor$EQMOD=MAGIC_COST&pipe;13100.PLUS3A.STEEL]
 EQUIPNAME:Cloak of Resistance +3|OUTPUTORDER:8|COST:9000|WT:1.0|QUANTITY:1.0|NOTE:
 EQUIPNAME:Dagger (Silver/Masterwork)|OUTPUTORDER:14|COST:322.0|WT:1.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Dagger (Silver/Masterwork)|DATA:NAME=Dagger (Silver/Masterwork)$EQMOD=ALCHM.MWORKW]
@@ -214,7 +214,7 @@ EQUIPNAME:Mace of Smiting|OUTPUTORDER:4|COST:75312.0|WT:12.0|QUANTITY:1.0|NOTE:|
 EQUIPNAME:Outfit (Explorer's)|OUTPUTORDER:8|COST:0|WT:8.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Outfit (Explorer's)|DATA:NAME=Outfit (Explorer's)$COSTMOD=-10]
 EQUIPNAME:Potion of Cure Moderate Wounds|OUTPUTORDER:12|COST:300|WT:0.0|QUANTITY:1.0|NOTE:
 EQUIPNAME:Potion of Owl's Wisdom|OUTPUTORDER:13|COST:300|WT:0.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Ring of Protection +2|OUTPUTORDER:6|COST:8000|WT:0.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Ring of Protection +2|OUTPUTORDER:5|COST:8000|WT:0.0|QUANTITY:1.0|NOTE:
 EQUIPNAME:Waterskin (Filled)|OUTPUTORDER:11|COST:1|WT:4.0|QUANTITY:1.0|NOTE:
 EQUIPSET:Default Set|ID:0.1|USETEMPMODS:Y
 EQUIPSET:Hands|ID:0.1.01|VALUE:Assisting Glove|QUANTITY:1.0|USETEMPMODS:Y
@@ -223,7 +223,6 @@ EQUIPSET:Headband|ID:0.1.03|VALUE:Headband of Mental Prowess (INT/WIS) +2|QUANTI
 EQUIPSET:Both Hands|ID:0.1.04|VALUE:Mace of Smiting|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Neck|ID:0.1.06|VALUE:Amulet of Natural Armor +2|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Feet|ID:0.1.07|VALUE:Boots of Elvenkind|QUANTITY:1.0|USETEMPMODS:Y
-EQUIPSET:Wrist|ID:0.1.08|VALUE:Bracers of Armor +2|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Shoulders|ID:0.1.09|VALUE:Cloak of Resistance +3|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Ring|ID:0.1.10|VALUE:Ring of Protection +2|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Equipped|ID:0.1.11|VALUE:Waterskin (Filled)|QUANTITY:1.0|USETEMPMODS:Y
@@ -238,9 +237,9 @@ CALCEQUIPSET:0.1
 # EquipSet Temp Bonuses
 
 # Character Deity/Domain
-DEITY:Pharasma|DEITYDOMAINS:[DOMAIN:Death (Pharasma)|DOMAIN:Healing|DOMAIN:Knowledge|DOMAIN:Repose|DOMAIN:Water|DOMAIN:Ancestors Subdomain|DOMAIN:Ice Subdomain|DOMAIN:Memory Subdomain|DOMAIN:Resurrection Subdomain|DOMAIN:Souls (Pharasma) Subdomain|DOMAIN:Thought Subdomain]|ALIGNALLOW:|DESC:Goddess of fate, death, prophecy, birth|HOLYITEM:|DEITYFAVWEAP:[WEAPON:Dagger]|DEITYALIGN:TN
-DOMAIN:Souls (Pharasma) Subdomain|SOURCE:[TYPE:PCClass|NAME:Cleric|LEVEL:1]
+DEITY:Pharasma|DEITYDOMAINS:[DOMAIN:Death (Pharasma)|DOMAIN:Healing|DOMAIN:Knowledge|DOMAIN:Repose|DOMAIN:Water|DOMAIN:Ancestors Subdomain|DOMAIN:Ice Subdomain|DOMAIN:Memory Subdomain|DOMAIN:Resurrection Subdomain|DOMAIN:Souls (Pharasma) Subdomain|DOMAIN:Thought Subdomain]|ALIGNALLOW:|DESC:Goddess of fate, death, prophecy, birth|DEITYFAVWEAP:[WEAPON:Dagger]|DEITYALIGN:TN
 DOMAIN:Death (Pharasma)|DOMAINGRANTS:You can cause the living to bleed at a touch, and find comfort in the presence of the dead.|SOURCE:[TYPE:PCClass|NAME:Cleric|LEVEL:1]
+DOMAIN:Souls (Pharasma) Subdomain|SOURCE:[TYPE:PCClass|NAME:Cleric|LEVEL:1]
 
 # Character Spells Information
 SPELLBOOK:Magic Item|TYPE:4

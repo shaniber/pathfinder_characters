@@ -3,6 +3,7 @@ Carobadanten
 	Neutral Good Neuter Half-Elf
 	13th Level Sorcerer
 
+
 COMBAT
 ------
 	Defense
@@ -13,7 +14,7 @@ COMBAT
 
 
 	    Hit Points
-			Total: 96
+			Total: 96 
 			..... ..... ..... .....
 			..... ..... ..... .....
 			..... ..... ..... .....
@@ -24,10 +25,10 @@ COMBAT
 			-
 
 		Conditions
-			-
+			- 
 
 		Effects
-			- 
+			-
 
 		Saving Throws
 			Fortitude:	+12
@@ -92,11 +93,20 @@ COMBAT
 		Special Attacks
 			Bleeding Touch (Sp)
 				..... .
-				As a melee touch attack, you can cause a living creature to take 1d6 points of damage per round. This effect persists for 6 rounds or until stopped with a DC 15 Heal check or any spell or effect that heals damage. You can use this ability 6 times per day. 
+				As a melee touch attack, you can cause a living creature to 
+				take 1d6 points of damage per round. This effect persists for 
+				6 rounds or until stopped with a DC 15 Heal check or any 
+				spell or effect that heals damage. You can use this ability 
+				6 times per day. 
 
 			Channel Positive Energy (Su)
-				..... ..
-				You can unleash a wave of positive energy. You must choose to deal 7d6 points of positive energy damage to undead creatures or to heal living creatures of 7d6 points of damage. Creatures that take damage from channeled energy receive a DC 20 Will save to halve the damage. You can use this ability 7 times per day. 
+				x.... ..
+				You can unleash a wave of positive energy. You must choose to 
+				deal 7d6 points of positive energy damage to undead creatures 
+				or to heal living creatures of 7d6 points of damage. Creatures 
+				that take damage from channeled energy receive a DC 20 Will 
+				save to halve the damage. You can use this ability 7 times per 
+				day. 
 
 
 STATS
@@ -149,13 +159,25 @@ STATS
 			Description:
 				You can channel your divine energy through your weapon.
 			Benefit:
-				Before you make a melee attack roll, you can choose to spend one use of your channel energy ability as a swift action. If you channel positive energy and you hit an undead creature, that creature takes an amount of additional damage equal to the damage dealt by your channel positive energy ability. If you channel negative energy and you hit a living creature, that creature takes an amount of additional damage equal to the damage dealt by your channel negative energy ability. Your target can make a Will save, as normal, to halve this additional damage. If your attack misses, the channel energy ability is still expended with no effect.
+				Before you make a melee attack roll, you can choose to spend 
+				one use of your channel energy ability as a swift action. If 
+				you channel positive energy and you hit an undead creature, 
+				that creature takes an amount of additional damage equal to 
+				the damage dealt by your channel positive energy ability. If 
+				you channel negative energy and you hit a living creature, 
+				that creature takes an amount of additional damage equal to 
+				the damage dealt by your channel negative energy ability. Your 
+				target can make a Will save, as normal, to halve this 
+				additional damage. If your attack misses, the channel energy 
+				ability is still expended with no effect.
 		  
 		Combat Casting
 			Description:
 				You are adept at spellcasting when threatened or distracted.
 			Benefit:
-				You get a +4 bonus on concentration checks made to cast a spell or use a spell-like ability when casting on the defensive or while grappled.
+				You get a +4 bonus on concentration checks made to cast a 
+				spell or use a spell-like ability when casting on the defensive 
+				or while grappled.
 		  
 		Extra Channel
 			Description:
@@ -167,7 +189,8 @@ STATS
 			Description:
 				Your channeled energy is harder to resist.
 			Benefit:
-				Add 2 to the DC of saving throws made to resist the effects of your channel energy ability. 
+				Add 2 to the DC of saving throws made to resist the effects of 
+				your channel energy ability. 
 
 		Improved Initiative
 			Description:
@@ -185,29 +208,47 @@ STATS
 			Description:
 				You are particularly adept at your chosen skill.
 			Benefit:
-				You get a +3 bonus on all checks involving Perception. If you have 10 or more ranks in Perception, this bonus increases to +6.
+				You get a +3 bonus on all checks involving Perception. If you 
+				have 10 or more ranks in Perception, this bonus increases 
+				to +6.
 
 		Turn Undead
 			Description:
-				Calling upon higher powers, you cause undead to flee from the might of your unleashed divine energy.
+				Calling upon higher powers, you cause undead to flee from the 
+				might of your unleashed divine energy.
 			Benefit:
-				You can, as a standard action, use one of your uses of channel positive energy to cause all undead within 30 feet of you to flee, as if panicked. Undead receive a Will save to negate the effect. The DC for this Will save is equal to 10 + 1/2 your cleric level + your Charisma modifier. Undead that fail their save flee for 1 minute. Intelligent undead receive a new saving throw each round to end the effect. If you use channel energy in this way, it has no other effect (it does not heal or harm nearby creatures).
+				You can, as a standard action, use one of your uses of channel 
+				positive energy to cause all undead within 30 feet of you to 
+				flee, as if panicked. Undead receive a Will save to negate the 
+				effect. The DC for this Will save is equal to 10 + 1/2 your 
+				cleric level + your Charisma modifier. Undead that fail their 
+				save flee for 1 minute. Intelligent undead receive a new saving 
+				throw each round to end the effect. If you use channel energy 
+				in this way, it has no other effect (it does not heal or harm 
+				nearby creatures).
 
 	Traits
 	------
 		Adopted
 			Description:
-				You were adopted and raised by someone not of your race, and raised in a society not your own.
+				You were adopted and raised by someone not of your race, and 
+				raised in a society not your own.
 			Benefit:
-				As a result, you picked up a race trait from your adoptive parents and society, and may immediately select a race trait from your adoptive parents' race.
+				As a result, you picked up a race trait from your adoptive 
+				parents and society, and may immediately select a race trait 
+				from your adoptive parents' race.
 		Freedom Fighter
 			Description:
-				You’ve dedicated your life to fighting against oppression, tyranny, and slavery.
+				You’ve dedicated your life to fighting against oppression, 
+				tyranny, and slavery.
 			Benefit:
-				You gain a +1 trait bonus on attack and damage rolls against slavers or any creature holding someone against their will.
+				You gain a +1 trait bonus on attack and damage rolls against 
+				slavers or any creature holding someone against their will.
 		Undead Slayer (Pharasma)
 			Description:
-				Instructed at a young age in the tenets of the faith of the Goddess of Souls, you view the undead as abominations that must be destroyed so their souls can journey beyond to be judged.
+				Instructed at a young age in the tenets of the faith of the 
+				Goddess of Souls, you view the undead as abominations that must 
+				be destroyed so their souls can journey beyond to be judged.
 			Benefit:
 				You gain a +1 trait bonus on weapon damage rolls against undead.
 
@@ -217,40 +258,68 @@ STATS
 			Half-elves receive Skill Focus as a bonus feat at 1st level.
 
 		Aura
-			Has as a particularly powerful Neutral (which is to say, no aura).
+			Has as a particularly powerful Neutral (which is to say, no) aura.
 
 		Bonus Spell Penetration (Outsiders) (2x)
-			Add +1 on caster level checks made to overcome the spell resistance of outsiders.
+			Add +1 on caster level checks made to overcome the spell resistance 
+			of outsiders.
 
 		Death's Embrace
-			You heal damage instead of taking damage from channeled negative energy. If the channeled negative energy targets undead, you heal hit points just like undead in the area. 
+			You heal damage instead of taking damage from channeled negative 
+			energy. If the channeled negative energy targets undead, you heal 
+			hit points just like undead in the area. 
 
 		Elf Blood
-			Half-elves count as both elves and humans for any effect related to race. 
+			Half-elves count as both elves and humans for any effect related 
+			to race. 
 
 		Elven Immunities
-			Half-elves are immune to magic sleep effects and get a +2 racial saving throw bonus against enchantment spells and effects. 
+			Half-elves are immune to magic sleep effects and get a +2 racial 
+			saving throw bonus against enchantment spells and effects. 
 
 		Keen Senses
 			Half-elves receive a +2 racial bonus on Perception checks.
 
 		Low-Light Vision
-			You can see x2 as far as humans in low illumination. Characters with low-light vision have eyes that are so sensitive to light that they can see twice as far as normal in dim light. Low-Light Vision is color vision. A spellcaster with low-light vision can read a scroll as long as even the tiniest candle flame is next to her as a source of light. Characters with low-light vision can see outdoors on a moonlit night as well as they can during the day. 
+			You can see x2 as far as humans in low illumination. Characters 
+			with low-light vision have eyes that are so sensitive to light 
+			that they can see twice as far as normal in dim light. Low-Light 
+			Vision is color vision. A spellcaster with low-light vision can 
+			read a scroll as long as even the tiniest candle flame is next 
+			to her as a source of light. Characters with low-light vision can 
+			see outdoors on a moonlit night as well as they can during the day. 
 
 		Multitalented
-			Half-elves choose two favored classes at first level and gain +1 hit point or +1 skill point whenever they take a level in either one of those classes. 
+			Half-elves choose two favored classes at first level and gain +1 
+			hit point or +1 skill point whenever they take a level in either 
+			one of those classes. 
 
 		Orisons
-			You can prepare a number of orisons, or 0-level spells. These spells are cast like any other spells, but they are not expended when used and may be used again. 
+			You can prepare a number of orisons, or 0-level spells. These 
+			spells are cast like any other spells, but they are not expended 
+			when used and may be used again. 
 
 		Spontaneous Casting
-			You can channel stored spell energy into healing spells that you did not prepare ahead of time. You can "lose" any prepared spell that is not an orison or domain spell in order to cast any cure spell of the same spell level or lower (a cure spell is any spell with "Cure" in its name). 
+			You can channel stored spell energy into healing spells that you 
+			did not prepare ahead of time. You can "lose" any prepared spell 
+			that is not an orison or domain spell in order to cast any cure 
+			spell of the same spell level or lower (a cure spell is any spell 
+			with "Cure" in its name). 
 
 		Touch the Spirit World
-			With a touch, you can empower a weapon to affect incorporeal creatures. The weapon touched deals half damage to incorporeal creatures, or full damage if it is a magic weapon. This benefit lasts for 13 rounds. You can use this ability 6 times per day. 
+			..... .
+			With a touch, you can empower a weapon to affect incorporeal 
+			creatures. The weapon touched deals half damage to incorporeal 
+			creatures, or full damage if it is a magic weapon. This benefit 
+			lasts for 13 rounds. You can use this ability 6 times per day. 
 
 		Ward Against Death
-			You can emit a 30-foot aura that wards against death for 13 rounds per day. Living creatures in this area are immune to death effects, energy drain, and effects that cause negative levels. This ward does not remove negative levels that a creature has already gained, but the negative levels have no effect while the creature is inside the warded area. These rounds do not need to be consecutive. 
+			You can emit a 30-foot aura that wards against death for 13 rounds 
+			per day. Living creatures in this area are immune to death effects, 
+			energy drain, and effects that cause negative levels. This ward 
+			does not remove negative levels that a creature has already gained, 
+			but the negative levels have no effect while the creature is 
+			inside the warded area. These rounds do not need to be consecutive. 
 
 
 MAGIC
@@ -263,57 +332,57 @@ MAGIC
 		DC:			14		15		16		17		18		19		20		21		22		23
 
 		Level 0
-			. 1: 
-			. 2: 
-			. 3: 
-			. 4: 
+			. 1: Guidance
+			. 2: Guidance
+			. 3: Resistance
+			. 4: Stabilize
 
 		Level 1
-			. D: 
-			. 1: 
-			. 2: 
-			. 3: 
-			. 4: 
-			. 5: 
+			. D: cause fear
+			. 1: Bless
+			. 2: Divine Favor
+			. 3: Divine Favor
+			. 4: Doom
+			. 5: Magic Weapon
 
 		Level 2
-			. D: 
-			. 1: 
-			. 2: 
-			. 3: 
-			. 4: 
-			. 5: 
+			. D: death knell
+			. 1: Calm Emotions 
+			. 2: Hold Person
+			. 3: Hold Person
+			. 4: Restoration (Lesser)
+			. 5: Weapon of Awe
 
 		Level 3
-			. D: 
-			. 1: 
-			. 2: 
-			. 3: 
-			. 4: 
+			. D: animate dead
+			. 1: Dispel Magic
+			. 2: Inflict Serious Wounds
+			. 3: Prayer
+			. 4: Wrathful Mantle
 			. 5: 
 
 		Level 4
-			. D: 
-			. 1: 
-			. 2: 
-			. 3: 
-			. 4: 
-			. 5:
+			. D: death ward
+			x 1: Blessing of Fervor
+			. 2: Spiritual Ally
+			. 3: Divine Power 
+			. 4: Dismissal
+			. 5: 
 
 		Level 5
-			. D: 
-			. 1: 
-			. 2: 
-			. 3: 
+			. D: Slay Living
+			. 1: Slay Living
+			. 1: Breath of Life
+			. 2: Flame Strike
 
 		Level 6
-			. D: 
-			. 1: 
-			. 2: 
+			. D: antilife shield
+			. 1: Harm
+			. 2: Harm
 
 		Level 7
-			. D: 
-			. 1: 
+			x D: destruction
+			. 1: Inflict Serious Wounds (Mass)
 
 
 EQUIPMENT
@@ -332,13 +401,13 @@ EQUIPMENT
 		Cloak of Resistance +3					Equipped      1         1
 		Boots of Elvenkind						Equipped      1         1
 		Silver Masterwork Dagger				Boot          1         1
-		Waterskin								Waist         1         4
+		Waterskin with pure magic water			BoH           1         4
 		Potion of Owl's Wisdom					Belt          1         0
 		Potion of Cure Moderate Wounds			Belt          1         0
 
 	Details
 	-------
-		Mace of Smiting
+		Domineering Mace of Smiting
 			adamantine
 			+5 against constructs, critical destroys construct
 			critical X4 against outsiders
@@ -347,7 +416,7 @@ EQUIPMENT
 		Celestial Armour
 			use Fly 1/day
 
-		Potion of Cure Light Wounds
+		Potion of Cure Moderate Wounds
 			Cures 2d8+3
 
 		Potion of Owl's Wisdom
@@ -385,11 +454,30 @@ DESCRIPTION
 	Quotes:
 
 	Background:
-	A half-elf cleric of Pharasma. As a child, their family was part of a commune of elves, humans, and half-elves that worshiped Pharasma. The commune was over-run by orcs when they were travelling through the mountains, their parent's were killed, and they were neutered by an axe blow and left for dead. They spent several weeks living amongst the dead of their commune, until they were rescued by a band of halfling rangers that had been tracking the orcs.  The band took Carobadanten, and together the group rescued the remains of the commune, while slaughtering who the orcs. The band adopted Carobadanten, and the remainder of the commune, and they continued their family's work with the halflings.
+	A half-elf cleric of Pharasma. As a child, their family was part of a 
+	commune of elves, humans, and half-elves that worshiped Pharasma. The 
+	commune was over-run by orcs when they were travelling through the 
+	mountains, their parents were killed, and they were neutered by an axe 
+	blow and left for dead. They spent several weeks living amongst the dead 
+	of their commune, until they were rescued by a band of halfling rangers 
+	that had been tracking the orcs.  The band took Carobadanten, and together 
+	the group rescued the remains of the commune, while slaughtering the orcs. 
+	The band adopted Carobadanten, and the remainder of the commune, and they 
+	continued their family's work with the halflings.
 
-	After travelling with the band of halflings for many years, the group settled, starting a small village in the hills near Magnamar. Carobadanten left, still feeling the urge to travel and adventure.  They still attempted to travel back to the village regularly to visit their adopted clan and the remainder of the clerics from the original commune.
+	After travelling with the band of halflings for many years, the group 
+	settled, starting a small village in the hills near Magnamar. It was here that 
+	Carobadanten believed that he learned to speak with poultry (they cannot).
+	
+	After a few years, Carobadanten left, still feeling the urge to travel and 
+	adventure.  They still attempted to travel back to the village regularly to 
+	visit their adopted clan and the remainder of the clerics from the original 
+	commune.
 
-	During one expedition, Carobadanten stumbled upon the entrance to the Runeforge completely by chance, after accidentally creating a small crack in the fabric of time and space. Very quickly, they walked through a patch of green fog, which caused a terrible transformation into a large goldfish.  
+	During one expedition, Carobadanten stumbled upon the entrance to the 
+	Runeforge completely by chance, after accidentally creating a small crack 
+	in the fabric of time and space. Very quickly, they walked through a patch 
+	of green fog, which caused a terrible transformation into a large goldfish.  
 
 
 SPELLS AVAILABLE
@@ -416,7 +504,8 @@ SPELLS AVAILABLE
 				Range: 30 ft.	
 				Components: V, S
 				SR: No	
-				Effect: Using the powers of necromancy, you can determine the condition of creatures near death within the spell's range.
+				Effect: Using the powers of necromancy, you can determine the 
+				condition of creatures near death within the spell's range.
 				Target: Cone-shaped emanation
 
 		Level 2
@@ -428,8 +517,17 @@ SPELLS AVAILABLE
 				Range: Touch
 				Components: V, S
 				SR: yes
-				Effect: You draw forth the ebbing life force of a creature and use it to fuel your own power. Upon casting this spell, you touch a living creature that has –1 or fewer hit points. If the subject fails its saving throw, it dies, and you gain 1d8 temporary hit points and a +2 enhancement bonus to Strength. Additionally, your effective caster level goes up by +1, improving spell e ects dependent on caster level. This increase in e ective caster level does not grant you access to more spells. These e ects last for 10 minutes per HD of the subject creature.
-				Target :iving creature touched
+				Effect: You draw forth the ebbing life force of a creature and 
+				use it to fuel your own power. Upon casting this spell, you 
+				touch a living creature that has –1 or fewer hit points. If 
+				the subject fails its saving throw, it dies, and you gain 1d8 
+				temporary hit points and a +2 enhancement bonus to Strength. 
+				Additionally, your effective caster level goes up by +1, 
+				improving spell e ects dependent on caster level. This 
+				increase in effective caster level does not grant you access 
+				to more spells. These effects last for 10 minutes per HD of 
+				the subject creature.
+				Target: Living creature touched
 
 			gentle repose (Repose)
 				Saves: Will negates (object)	
@@ -439,7 +537,8 @@ SPELLS AVAILABLE
 				Range: Touch	
 				Components: V, S, M/DF
 				SR: Yes (object)	
-				Effect: You preserve the remains of a dead creature so that they do not decay.	
+				Effect: You preserve the remains of a dead creature so that they 
+				do not decay.	
 				Target: Corpse touched
 
 		Level 3
@@ -449,7 +548,7 @@ SPELLS AVAILABLE
 				Casting: 1 standard action
 				Duration: instantaneous
 				Range: touch
-				Components V, S, M (an onyx gem worth at least 25 gp per Hit Die of the undead)
+				Components V, S, M (an onyx gem worth at least 25 gp per HD of the undead)
 				SR: no	
 				Effect: This spell turns corpses into undead skeletons or zombies that obey your spoken commands.
 				Target: one or more corpses touched
@@ -499,8 +598,6 @@ SPELLS AVAILABLE
 				Spell Resistance yes 
 				Effect: You bring into being a mobile, hemispherical energy field that prevents the entrance of most types of living creatures. The effect hedges out animals, aberrations, dragons, fey, giants, humanoids, magical beasts, monstrous humanoids, oozes, plants, and vermin, but not constructs, elementals, outsiders, or undead. This spell may be used only defensively, not aggressively. Forcing an abjuration barrier against creatures that the spell keeps at bay collapses the barrier.
 				Target: 10-ft.-radius emanation, centered on you
-
-
 
 		Level 7
 			destruction (Death, Repose)
